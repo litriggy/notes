@@ -55,13 +55,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Discrete Staking Rewards",
+      "fontFamily": 2,
+      "text": "이산 스테이킹 보상",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Discrete Staking Rewards"
+      "originalText": "이산 스테이킹 보상"
     },
     {
       "type": "line",
@@ -1233,14 +1233,14 @@
       "updated": 1667913535609,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Staked",
+      "fontSize": 22.658972670875542,
+      "fontFamily": 2,
+      "text": "스테이킹됨",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Staked"
+      "originalText": "스테이킹됨"
     },
     {
       "type": "text",
@@ -1268,13 +1268,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "time",
+      "fontFamily": 2,
+      "text": "시간",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "time"
+      "originalText": "시간"
     },
     {
       "type": "line",
@@ -1944,13 +1944,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "time",
+      "fontFamily": 2,
+      "text": "시간",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "time"
+      "originalText": "시간"
     },
     {
       "type": "rectangle",
@@ -2328,13 +2328,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Rewards",
+      "fontFamily": 2,
+      "text": "보상",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Rewards"
+      "originalText": "보상"
     },
     {
       "type": "text",
@@ -2362,13 +2362,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How many rewards did Alice earn?\nHow many rewards did Bob earn?",
+      "fontFamily": 2,
+      "text": "Alice가 얻은 보상은?\nBob이 얻은 보상은?",
       "baseline": 60,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How many rewards did Alice earn?\nHow many rewards did Bob earn?"
+      "originalText": "Alice가 얻은 보상은?\nBob이 얻은 보상은?"
     },
     {
       "type": "text",
@@ -2396,13 +2396,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Rewards are distributed proportional to amount staked",
+      "fontFamily": 2,
+      "text": "스테이킹 수량에 비례해 보상 분배",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Rewards are distributed proportional to amount staked"
+      "originalText": "스테이킹 수량에 비례해 보상 분배"
     },
     {
       "type": "text",
@@ -4468,13 +4468,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "reward index",
+      "fontFamily": 2,
+      "text": "보상 인덱스",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "reward index"
+      "originalText": "보상 인덱스"
     },
     {
       "type": "text",
@@ -4502,13 +4502,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "reward index of user",
+      "fontFamily": 2,
+      "text": "사용자의 보상 인덱스",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "reward index of user"
+      "originalText": "사용자의 보상 인덱스"
     },
     {
       "type": "text",
@@ -4706,13 +4706,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Reward given at time",
+      "fontFamily": 2,
+      "text": "보상 지급 시점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Reward given at time"
+      "originalText": "보상 지급 시점:"
     },
     {
       "type": "text",
@@ -4909,14 +4909,14 @@
       "updated": 1667913535611,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Total staked at time",
+      "fontSize": 26.170105033724923,
+      "fontFamily": 2,
+      "text": "다음 시점의 총 스테이킹 수량:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Total staked at time"
+      "originalText": "다음 시점의 총 스테이킹 수량:"
     },
     {
       "type": "text",
@@ -5114,13 +5114,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= rewards earned by user u from time",
+      "fontFamily": 2,
+      "text": "= 사용자 u가 다음 시점부터 얻은 보상:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= rewards earned by user u from time"
+      "originalText": "= 사용자 u가 다음 시점부터 얻은 보상:"
     },
     {
       "type": "text",
@@ -5217,12 +5217,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -5508,13 +5508,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "staked amount by user u",
+      "fontFamily": 2,
+      "text": "사용자 u의 스테이킹 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "staked amount by user u"
+      "originalText": "사용자 u의 스테이킹 수량"
     },
     {
       "type": "line",
@@ -5617,13 +5617,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "is constant for time",
+      "fontFamily": 2,
+      "text": "다음 시간 동안 일정:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "is constant for time"
+      "originalText": "다음 시간 동안 일정:"
     },
     {
       "type": "text",
@@ -5720,12 +5720,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -7571,13 +7571,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "time",
+      "fontFamily": 2,
+      "text": "시간",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "time"
+      "originalText": "시간"
     },
     {
       "type": "text",
@@ -7605,13 +7605,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Rewards",
+      "fontFamily": 2,
+      "text": "보상",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Rewards"
+      "originalText": "보상"
     },
     {
       "type": "text",
@@ -7707,13 +7707,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -7782,13 +7782,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "reward index",
+      "fontFamily": 2,
+      "text": "보상 인덱스",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "reward index"
+      "originalText": "보상 인덱스"
     },
     {
       "type": "text",
@@ -8189,14 +8189,14 @@
       "updated": 1667913535613,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Staked",
+      "fontSize": 22.658972670875542,
+      "fontFamily": 2,
+      "text": "스테이킹됨",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Staked"
+      "originalText": "스테이킹됨"
     },
     {
       "type": "line",
@@ -8866,13 +8866,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "time",
+      "fontFamily": 2,
+      "text": "시간",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "time"
+      "originalText": "시간"
     },
     {
       "type": "rectangle",
@@ -10875,14 +10875,14 @@
       "updated": 1667913535614,
       "link": null,
       "locked": false,
-      "text": "for",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "구간",
+      "fontSize": 24.855505735909396,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "for"
+      "originalText": "구간"
     },
     {
       "type": "text",
@@ -10977,14 +10977,14 @@
       "updated": 1667913535614,
       "link": null,
       "locked": false,
-      "text": "to",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -11215,14 +11215,14 @@
       "updated": 1667913535614,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for",
+      "fontSize": 24.855505735909396,
+      "fontFamily": 2,
+      "text": "구간",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for"
+      "originalText": "구간"
     },
     {
       "type": "text",
@@ -11319,12 +11319,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -13128,14 +13128,14 @@
       "updated": 1667913535615,
       "link": null,
       "locked": false,
-      "text": "Rewards earned by Alice from",
+      "text": "Alice의 보상 획득 시작점:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Rewards earned by Alice from"
+      "originalText": "Alice의 보상 획득 시작점:"
     },
     {
       "type": "text",
@@ -13232,12 +13232,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -13374,13 +13374,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Rewards earned by Bob from",
+      "fontFamily": 2,
+      "text": "Bob의 보상 획득 시작점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Rewards earned by Bob from"
+      "originalText": "Bob의 보상 획득 시작점:"
     },
     {
       "type": "line",
@@ -13518,12 +13518,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -13754,14 +13754,14 @@
       "updated": 1667913535615,
       "link": null,
       "locked": false,
-      "text": "reward index of user",
+      "text": "사용자의 보상 인덱스",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "reward index of user"
+      "originalText": "사용자의 보상 인덱스"
     },
     {
       "id": "_IUVnXXqvBU90qheErevL",
@@ -15514,14 +15514,14 @@
       "updated": 1667914375090,
       "link": null,
       "locked": false,
-      "text": "Similar to Synthetix staking rewards except   ",
+      "text": "Synthetix 스테이킹 보상과 비슷하지만 다음 차이가 있음:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Similar to Synthetix staking rewards except   "
+      "originalText": "Synthetix 스테이킹 보상과 비슷하지만 다음 차이가 있음:"
     },
     {
       "id": "sOeqZTp-5xCUho2QkdxYy",
@@ -15548,14 +15548,14 @@
       "updated": 1667914375090,
       "link": null,
       "locked": false,
-      "text": "amount of rewards may differ every second",
+      "text": "보상 수량은 매초 달라질 수 있음",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "amount of rewards may differ every second"
+      "originalText": "보상 수량은 매초 달라질 수 있음"
     }
   ],
   "appState": {

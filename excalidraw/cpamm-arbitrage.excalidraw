@@ -232,14 +232,14 @@
       "updated": 1673760813133,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "so set",
+      "fontSize": 18.849903635005287,
+      "fontFamily": 2,
+      "text": "따라서 설정:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so set"
+      "originalText": "따라서 설정:"
     },
     {
       "type": "text",
@@ -749,13 +749,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Arbitrage Profit for Constant Product AMM",
+      "fontFamily": 2,
+      "text": "상수곱 AMM의 차익거래 수익",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Arbitrage Profit for Constant Product AMM"
+      "originalText": "상수곱 AMM의 차익거래 수익"
     },
     {
       "type": "line",
@@ -1816,14 +1816,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "AMM price is",
+      "text": "AMM 가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "AMM price is"
+      "originalText": "AMM 가격:"
     },
     {
       "type": "text",
@@ -1884,14 +1884,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "CEX price is",
+      "text": "CEX 가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "CEX price is"
+      "originalText": "CEX 가격:"
     },
     {
       "type": "text",
@@ -2054,14 +2054,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "for",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "for"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -2122,14 +2122,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "from",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "시작점:",
+      "fontSize": 20.885325268079338,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "from"
+      "originalText": "시작점:"
     },
     {
       "id": "y1qzYRYL33EvAvaQL-SEN",
@@ -2190,14 +2190,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "Swap",
+      "text": "스왑",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swap"
+      "originalText": "스왑"
     },
     {
       "type": "text",
@@ -2326,14 +2326,14 @@
       "updated": 1673760749189,
       "link": null,
       "locked": false,
-      "text": "Swap",
+      "text": "스왑",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swap"
+      "originalText": "스왑"
     },
     {
       "type": "text",
@@ -2394,14 +2394,14 @@
       "updated": 1673760749190,
       "link": null,
       "locked": false,
-      "text": "from AMM",
+      "text": "AMM에서",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "from AMM"
+      "originalText": "AMM에서"
     },
     {
       "id": "FUu1LB2DKMZhaCvHPj_hn",
@@ -2428,14 +2428,14 @@
       "updated": 1673760749190,
       "link": null,
       "locked": false,
-      "text": "for",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "for"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -2598,14 +2598,14 @@
       "updated": 1673760749190,
       "link": null,
       "locked": false,
-      "text": "Arbitrage profit",
+      "text": "차익거래 수익",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Arbitrage profit"
+      "originalText": "차익거래 수익"
     },
     {
       "type": "text",
@@ -5193,14 +5193,14 @@
       "updated": 1673760749193,
       "link": null,
       "locked": false,
-      "text": "Solve for",
+      "text": "구할 값:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Solve for"
+      "originalText": "구할 값:"
     },
     {
       "type": "text",
@@ -5957,14 +5957,14 @@
       "updated": 1673760749194,
       "link": null,
       "locked": false,
-      "text": "Define",
+      "text": "정의",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Define"
+      "originalText": "정의"
     },
     {
       "type": "text",
@@ -6093,14 +6093,14 @@
       "updated": 1673760749195,
       "link": null,
       "locked": false,
-      "text": "Execution price",
+      "text": "체결 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Execution price"
+      "originalText": "체결 가격"
     },
     {
       "id": "z6sbkslBbI6LwYMduGgKA",
@@ -7539,14 +7539,14 @@
       "updated": 1673760749196,
       "link": null,
       "locked": false,
-      "text": "Assume CEX has infinity liquidity",
+      "text": "CEX의 유동성은 무한하다고 가정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Assume CEX has infinity liquidity"
+      "originalText": "CEX의 유동성은 무한하다고 가정"
     },
     {
       "type": "text",
@@ -7607,14 +7607,14 @@
       "updated": 1673760749196,
       "link": null,
       "locked": false,
-      "text": "Simple approximation for",
+      "text": "다음의 간단한 근사:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Simple approximation for"
+      "originalText": "다음의 간단한 근사:"
     },
     {
       "id": "BaFLWOA8N5G3Z2S_oJVIR",

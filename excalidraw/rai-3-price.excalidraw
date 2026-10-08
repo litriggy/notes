@@ -445,14 +445,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "How Price of",
-      "fontSize": 36,
-      "fontFamily": 1,
+      "text": "다음 가격의 변화 방식:",
+      "fontSize": 24.9541147888768,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "How Price of"
+      "originalText": "다음 가격의 변화 방식:"
     },
     {
       "id": "gsbRodfiEhX2RY-xUWGBU",
@@ -479,14 +479,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "is Stabilized",
+      "text": "안정화됨",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "is Stabilized"
+      "originalText": "안정화됨"
     },
     {
       "id": "0sFDePq0wDDqcu_xUsCHu",
@@ -513,14 +513,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Market price",
+      "text": "시장 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Market price"
+      "originalText": "시장 가격"
     },
     {
       "id": "x5ZsxanY8LTNz8VUW8Kt-",
@@ -547,14 +547,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Redemption price",
+      "text": "상환 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "_j18sarte0lPUY5Uho2RW",
@@ -581,14 +581,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Redemption rate",
+      "text": "상환율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Redemption rate"
+      "originalText": "상환율"
     },
     {
       "type": "text",
@@ -616,13 +616,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How is",
+      "fontFamily": 2,
+      "text": "어떻게",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How is"
+      "originalText": "어떻게"
     },
     {
       "type": "text",
@@ -650,13 +650,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "PID controller",
+      "fontFamily": 2,
+      "text": "PID 제어기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "PID controller"
+      "originalText": "PID 제어기"
     },
     {
       "id": "TwRPXLGJKrq-FCtLSSE0F",
@@ -717,14 +717,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Price of",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음의 가격:",
+      "fontSize": 22.742818516147683,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of"
+      "originalText": "다음의 가격:"
     },
     {
       "type": "text",
@@ -785,14 +785,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "on the market",
+      "text": "시장에서",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "on the market"
+      "originalText": "시장에서"
     },
     {
       "id": "ulSdL8Ufg4MHZ6Rpe28RI",
@@ -885,14 +885,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Target price of",
+      "text": "다음의 목표 가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Target price of"
+      "originalText": "다음의 목표 가격:"
     },
     {
       "type": "text",
@@ -953,14 +953,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "set by the protocol",
+      "text": "프로토콜에서 설정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "set by the protocol"
+      "originalText": "프로토콜에서 설정"
     },
     {
       "type": "text",
@@ -1021,14 +1021,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Rate at which",
+      "text": "다음의 비율:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Rate at which"
+      "originalText": "다음의 비율:"
     },
     {
       "type": "text",
@@ -1056,13 +1056,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "redemption price",
+      "fontFamily": 2,
+      "text": "상환 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "a-LUbMh0-XtevMwWd1Ara",
@@ -1089,14 +1089,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "is changed ",
+      "text": "변경됨",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "is changed "
+      "originalText": "변경됨"
     },
     {
       "id": "kXWS1jIpXvpBU1aWzp0y_",
@@ -1149,14 +1149,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Definitions",
+      "text": "정의",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Definitions"
+      "originalText": "정의"
     },
     {
       "id": "PmWlR-RP6Qe0WkGiXf7Xk",
@@ -1183,14 +1183,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "by the protocol",
+      "text": "프로토콜이 설정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "by the protocol"
+      "originalText": "프로토콜이 설정"
     },
     {
       "id": "VsmPXHjsfItwhfYOPHzjo",
@@ -1273,13 +1273,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "redemption price",
+      "fontFamily": 2,
+      "text": "상환 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "H0z9564LajBUo81pCIzAD",
@@ -1392,14 +1392,14 @@
       "updated": 1676637763199,
       "link": null,
       "locked": false,
-      "text": "Time",
+      "text": "시간",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Time"
+      "originalText": "시간"
     },
     {
       "id": "nExIMMDCVFliclgTvnGUt",
@@ -1426,14 +1426,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "market price",
+      "text": "시장 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "market price"
+      "originalText": "시장 가격"
     },
     {
       "id": "gLIcdKqc30HNnedlwA1E5",
@@ -3280,14 +3280,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "redemption rate",
+      "text": "상환 비율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "redemption rate"
+      "originalText": "상환 비율"
     },
     {
       "id": "VCuv820cEZxvTp7YVidqU",
@@ -3355,14 +3355,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "Algorithmic",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "알고리즘 기반",
+      "fontSize": 26.152975778167363,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Algorithmic"
+      "originalText": "알고리즘 기반"
     },
     {
       "id": "poZhdBdA-0DyY3XWQOZu2",
@@ -3424,13 +3424,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "redemption rate",
+      "fontFamily": 2,
+      "text": "상환 비율",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "redemption rate"
+      "originalText": "상환 비율"
     },
     {
       "id": "M_y_8HA0tK9Pkl83MQxvL",
@@ -3457,14 +3457,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "set?",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "설정?",
+      "fontSize": 26.682398013304073,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "set?"
+      "originalText": "설정?"
     },
     {
       "id": "E8BEIdU3kLRtkDibxZAWs",
@@ -3491,14 +3491,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "(Control theory)",
+      "text": "(제어 이론)",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "(Control theory)"
+      "originalText": "(제어 이론)"
     },
     {
       "id": "OpXRevilvXup_J_708gvM",
@@ -4430,14 +4430,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "It's like taking a shower",
+      "text": "샤워할 때와 비슷함",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "It's like taking a shower"
+      "originalText": "샤워할 때와 비슷함"
     },
     {
       "id": "ANNl8kZZ81KKuobZW6g8a",
@@ -4464,14 +4464,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "- Turn knob until temperature is right",
+      "text": "- 온도가 맞을 때까지 손잡이 돌리기",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "- Turn knob until temperature is right"
+      "originalText": "- 온도가 맞을 때까지 손잡이 돌리기"
     },
     {
       "id": "ArQk9MMDZ7S1qvyzAXfYt",
@@ -4498,14 +4498,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "Too cold",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "너무 차가움",
+      "fontSize": 26.505435265844675,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Too cold"
+      "originalText": "너무 차가움"
     },
     {
       "id": "BW4PqS8YN9RAXd5jZGrxN",
@@ -4532,14 +4532,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "hot",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "뜨거움",
+      "fontSize": 18.111763869577388,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "hot"
+      "originalText": "뜨거움"
     },
     {
       "id": "JHxSqD8d0NiLmntrDQ9tN",
@@ -4566,14 +4566,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "text": "cold",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "차가움",
+      "fontSize": 21.194617294186305,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "cold"
+      "originalText": "차가움"
     },
     {
       "id": "5PYzExWCQTWT6YkOy6Wwc",
@@ -6091,14 +6091,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Too hot",
+      "fontSize": 24.98463160305031,
+      "fontFamily": 2,
+      "text": "너무 뜨거움",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Too hot"
+      "originalText": "너무 뜨거움"
     },
     {
       "type": "text",
@@ -6125,14 +6125,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hot",
+      "fontSize": 18.111763869577388,
+      "fontFamily": 2,
+      "text": "뜨거움",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hot"
+      "originalText": "뜨거움"
     },
     {
       "type": "text",
@@ -6159,14 +6159,14 @@
       "updated": 1676637763200,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "cold",
+      "fontSize": 21.194617294186305,
+      "fontFamily": 2,
+      "text": "차가움",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "cold"
+      "originalText": "차가움"
     },
     {
       "id": "zuyhtIeYP0s9uokpuP4HL",
@@ -7696,14 +7696,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hot",
+      "fontSize": 18.111763869577388,
+      "fontFamily": 2,
+      "text": "뜨거움",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hot"
+      "originalText": "뜨거움"
     },
     {
       "type": "text",
@@ -7730,14 +7730,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "cold",
+      "fontSize": 21.194617294186305,
+      "fontFamily": 2,
+      "text": "차가움",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "cold"
+      "originalText": "차가움"
     },
     {
       "type": "line",
@@ -8199,14 +8199,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Right",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "오른쪽",
+      "fontSize": 27.360324143404142,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Right"
+      "originalText": "오른쪽"
     },
     {
       "id": "JSIZyuKGCDPJKR9zqlMGQ",
@@ -8233,14 +8233,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "temperature",
+      "text": "온도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "temperature"
+      "originalText": "온도"
     },
     {
       "type": "text",
@@ -8268,13 +8268,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "PID controller",
+      "fontFamily": 2,
+      "text": "PID 제어기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "PID controller"
+      "originalText": "PID 제어기"
     },
     {
       "id": "YnSq-ppiZhMNjIG78qGZc",
@@ -8301,14 +8301,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "- Adjust",
+      "text": "- 조절",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "- Adjust"
+      "originalText": "- 조절"
     },
     {
       "id": "H1ya7ZiqhknJL6ZkylxWI",
@@ -8361,14 +8361,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Market price",
+      "text": "시장 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Market price"
+      "originalText": "시장 가격"
     },
     {
       "id": "fTMkZ2S6MOuizNsjfSLJ0",
@@ -8395,14 +8395,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Redemption price",
+      "text": "상환 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "FgLUXYLzqH_bATEQgGHxj",
@@ -8470,14 +8470,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "market price",
+      "text": "시장 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "market price"
+      "originalText": "시장 가격"
     },
     {
       "id": "tJfJ8j_2obgY1Dp1CJjFY",
@@ -8538,14 +8538,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "redemption price",
+      "text": "상환 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "-qeV3SARfPF5JsKRalYbp",
@@ -8572,14 +8572,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "redemption rate",
+      "text": "상환 비율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "redemption rate"
+      "originalText": "상환 비율"
     },
     {
       "id": "HD-Q870UNJjd6npGxqeuH",
@@ -8606,14 +8606,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "until",
+      "text": "까지",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "until"
+      "originalText": "까지"
     },
     {
       "id": "GcmgN_1s7A0NSQwtY7KUV",
@@ -8640,14 +8640,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "redemption rate",
+      "text": "상환 비율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "redemption rate"
+      "originalText": "상환 비율"
     },
     {
       "id": "Z8AjoEXGUfbuEXO5gmxae",
@@ -8708,14 +8708,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Decrease",
+      "text": "감소",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Decrease"
+      "originalText": "감소"
     },
     {
       "id": "mvz821K2eVL8nJ0LyKqyA",
@@ -8742,14 +8742,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Create sell demand",
+      "text": "매도 수요 생성",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Create sell demand"
+      "originalText": "매도 수요 생성"
     },
     {
       "id": "C3MTsxoQpqL4BJAnOCweH",
@@ -8899,14 +8899,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "redemption price",
+      "text": "상환 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "redemption price"
+      "originalText": "상환 가격"
     },
     {
       "id": "7IhjvxLlQBYGEJKO-u7-R",
@@ -9768,14 +9768,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "holder",
+      "text": "보유자",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "holder"
+      "originalText": "보유자"
     },
     {
       "id": "w1PS0BXT6r5RIV9aPX6i5",
@@ -9836,14 +9836,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "Future price of",
+      "text": "다음의 미래 가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Future price of"
+      "originalText": "다음의 미래 가격:"
     },
     {
       "type": "text",
@@ -9904,14 +9904,14 @@
       "updated": 1676637763201,
       "link": null,
       "locked": false,
-      "text": "might go ",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음으로 갈 수 있음:",
+      "fontSize": 15.81308364541609,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "might go "
+      "originalText": "다음으로 갈 수 있음:"
     },
     {
       "id": "glxZaoDBPeOpQ0ekPyURJ",
@@ -9938,14 +9938,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "down",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "아래로",
+      "fontSize": 24.66282739687134,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "down"
+      "originalText": "아래로"
     },
     {
       "id": "utHh5Y15KcD95E19hxHJy",
@@ -10284,14 +10284,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Sell now",
+      "text": "지금 매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Sell now"
+      "originalText": "지금 매도"
     },
     {
       "type": "text",
@@ -10352,14 +10352,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "borrower",
+      "text": "차입자",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "borrower"
+      "originalText": "차입자"
     },
     {
       "id": "nClkPmIoxoEpVXToQKXkN",
@@ -10420,14 +10420,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Future",
+      "text": "미래",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Future"
+      "originalText": "미래"
     },
     {
       "type": "text",
@@ -10488,14 +10488,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "debt is ",
+      "text": "부채:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "debt is "
+      "originalText": "부채:"
     },
     {
       "id": "XhsIz2JWGZ6nklpKxy_Gi",
@@ -10522,14 +10522,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "cheaper",
+      "text": "더 저렴함",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "cheaper"
+      "originalText": "더 저렴함"
     },
     {
       "id": "1b07f-Di_NlZmh_F83anI",
@@ -10556,14 +10556,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Borrow more",
+      "text": "추가 차입",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Borrow more"
+      "originalText": "추가 차입"
     },
     {
       "type": "text",
@@ -10624,14 +10624,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Sell",
+      "text": "매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Sell"
+      "originalText": "매도"
     },
     {
       "type": "text",
@@ -11032,14 +11032,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Buy and repay",
+      "text": "매수 후 상환",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Buy and repay"
+      "originalText": "매수 후 상환"
     },
     {
       "type": "text",
@@ -11434,14 +11434,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "29UTWAvLhs06iJ34opRoF",
@@ -11611,14 +11611,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "today",
+      "text": "오늘",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "today"
+      "originalText": "오늘"
     },
     {
       "id": "7PfpOI2y55AuvNFC2ivI7",
@@ -11679,14 +11679,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "1 year from today",
+      "text": "오늘부터 1년 후",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "1 year from today"
+      "originalText": "오늘부터 1년 후"
     },
     {
       "id": "nnIDhPobhjOyoZ4tXK76a",
@@ -11713,14 +11713,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Redemption rate",
+      "text": "상환율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Redemption rate"
+      "originalText": "상환율"
     },
     {
       "id": "drRb_Ir-woYwexnu9xTCr",
@@ -11747,14 +11747,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "is",
+      "text": "=",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "is"
+      "originalText": "="
     },
     {
       "id": "7avmsmHJbpYYKaiegNQEf",
@@ -11781,14 +11781,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Borrow",
+      "text": "차입",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Borrow"
+      "originalText": "차입"
     },
     {
       "type": "text",
@@ -11924,14 +11924,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Debt",
+      "text": "부채",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Debt"
+      "originalText": "부채"
     },
     {
       "id": "rqs63dpSmcIWj9IeLnD7H",
@@ -11992,14 +11992,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Sell",
+      "text": "매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Sell"
+      "originalText": "매도"
     },
     {
       "type": "text",
@@ -12169,14 +12169,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Today",
+      "text": "오늘",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Today"
+      "originalText": "오늘"
     },
     {
       "id": "fICA88j-RBb_5ae1Nqccw",
@@ -12203,14 +12203,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "1 year later",
+      "text": "1년 후",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "1 year later"
+      "originalText": "1년 후"
     },
     {
       "id": "DtL3HyUnIizf3DV7jsIBV",
@@ -12237,14 +12237,14 @@
       "updated": 1676637778805,
       "link": null,
       "locked": false,
-      "text": "-10% annualized",
+      "text": "연환산 -10%",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "-10% annualized"
+      "originalText": "연환산 -10%"
     },
     {
       "id": "JYIlR1GpapDboUTLtEpcQ",
@@ -12271,14 +12271,14 @@
       "updated": 1676637763202,
       "link": null,
       "locked": false,
-      "text": "Cash",
+      "text": "현금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Cash"
+      "originalText": "현금"
     },
     {
       "id": "bRgcUp9sjRPGAyyYa0lNh",
@@ -12374,13 +12374,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Buy",
+      "fontFamily": 2,
+      "text": "매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Buy"
+      "originalText": "매수"
     },
     {
       "type": "text",
@@ -12544,13 +12544,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Repay",
+      "fontFamily": 2,
+      "text": "상환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Repay"
+      "originalText": "상환"
     },
     {
       "type": "text",
@@ -12821,14 +12821,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "text": "profit",
+      "text": "이익",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "profit"
+      "originalText": "이익"
     },
     {
       "type": "text",
@@ -12856,13 +12856,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Market price",
+      "fontFamily": 2,
+      "text": "시장 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Market price"
+      "originalText": "시장 가격"
     },
     {
       "type": "text",
@@ -12890,13 +12890,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Redemption price",
+      "fontFamily": 2,
+      "text": "상환 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Redemption price"
+      "originalText": "상환 가격"
     },
     {
       "type": "line",
@@ -12999,13 +12999,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "redemption rate",
+      "fontFamily": 2,
+      "text": "상환 비율",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "redemption rate"
+      "originalText": "상환 비율"
     },
     {
       "type": "text",
@@ -13033,13 +13033,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Increase",
+      "fontFamily": 2,
+      "text": "증가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Increase"
+      "originalText": "증가"
     },
     {
       "type": "text",
@@ -13067,13 +13067,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Create buy demand",
+      "fontFamily": 2,
+      "text": "매수 수요 생성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Create buy demand"
+      "originalText": "매수 수요 생성"
     },
     {
       "type": "line",
@@ -13224,13 +13224,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "redemption price",
+      "fontFamily": 2,
+      "text": "상환 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "redemption price"
+      "originalText": "상환 가격"
     },
     {
       "type": "line",
@@ -14119,13 +14119,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "holder",
+      "fontFamily": 2,
+      "text": "보유자",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "holder"
+      "originalText": "보유자"
     },
     {
       "type": "text",
@@ -14187,13 +14187,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Future price of",
+      "fontFamily": 2,
+      "text": "다음의 미래 가격:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Future price of"
+      "originalText": "다음의 미래 가격:"
     },
     {
       "type": "text",
@@ -14254,14 +14254,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "might go ",
+      "fontSize": 15.81308364541609,
+      "fontFamily": 2,
+      "text": "다음으로 갈 수 있음:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "might go "
+      "originalText": "다음으로 갈 수 있음:"
     },
     {
       "type": "text",
@@ -14288,14 +14288,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "up",
+      "fontSize": 18.497120547653502,
+      "fontFamily": 2,
+      "text": "위로",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "up"
+      "originalText": "위로"
     },
     {
       "type": "freedraw",
@@ -14629,13 +14629,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -14697,13 +14697,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "borrower",
+      "fontFamily": 2,
+      "text": "차입자",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "borrower"
+      "originalText": "차입자"
     },
     {
       "type": "text",
@@ -14765,13 +14765,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Future",
+      "fontFamily": 2,
+      "text": "미래",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Future"
+      "originalText": "미래"
     },
     {
       "type": "text",
@@ -14833,13 +14833,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "debt is ",
+      "fontFamily": 2,
+      "text": "부채:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "debt is "
+      "originalText": "부채:"
     },
     {
       "type": "text",
@@ -14867,13 +14867,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "more expensive",
+      "fontFamily": 2,
+      "text": "비용이 더 큼",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "more expensive"
+      "originalText": "비용이 더 큼"
     },
     {
       "type": "text",
@@ -14901,13 +14901,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Repay",
+      "fontFamily": 2,
+      "text": "상환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Repay"
+      "originalText": "상환"
     },
     {
       "type": "text",
@@ -14968,14 +14968,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "text": "now",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "현재",
+      "fontSize": 27.745680821480256,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "now"
+      "originalText": "현재"
     },
     {
       "type": "freedraw",
@@ -15370,14 +15370,14 @@
       "updated": 1676637859858,
       "link": null,
       "locked": false,
-      "text": "Sell later",
+      "text": "나중에 매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Sell later"
+      "originalText": "나중에 매도"
     },
     {
       "id": "vdPkT0hdrICYzePJOj4hj",
@@ -15404,14 +15404,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "text": "Assuming market price",
+      "text": "시장 가격 가정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Assuming market price"
+      "originalText": "시장 가격 가정"
     },
     {
       "id": "aPjXyAqVmK0fOMSf_pvKB",
@@ -15438,14 +15438,14 @@
       "updated": 1676637763203,
       "link": null,
       "locked": false,
-      "text": "at $2.70",
+      "text": "$2.70에",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "at $2.70"
+      "originalText": "$2.70에"
     },
     {
       "id": "c-I_dAsTR3Kjb99w_dR2h",

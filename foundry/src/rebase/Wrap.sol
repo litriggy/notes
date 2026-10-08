@@ -22,18 +22,18 @@ contract Wrap {
         re = IRebase(_re);
     }
 
-    // Underlying and rebase
-    // U = underlying balance
-    // R = rebase balance
+    // 기초 토큰과 리베이스 토큰
+    // U = 기초 토큰 잔액
+    // R = 리베이스 토큰 잔액
     // R = U
 
-    // Rebase shares
-    // S = rebase internal shares
-    // X = rebase rate multiplier
+    // 리베이스 지분
+    // S = 리베이스 내부 지분
+    // X = 리베이스 비율 배수
     // R = S * X
 
-    // Rebase and wrap
-    // W = wrap shares
+    // 리베이스와 래핑
+    // W = 래핑 지분
     // W = S = R / X
 
     function wrap(uint256 r) external {

@@ -429,13 +429,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 - Liquidity Price Graph Example",
+      "fontFamily": 2,
+      "text": "Uniswap V3 - 유동성·가격 그래프 예시",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 - Liquidity Price Graph Example"
+      "originalText": "Uniswap V3 - 유동성·가격 그래프 예시"
     },
     {
       "type": "line",
@@ -503,14 +503,14 @@
       "updated": 1668689130036,
       "link": null,
       "locked": false,
-      "text": "USDC / ETH pool",
+      "text": "USDC / ETH 풀",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "USDC / ETH pool"
+      "originalText": "USDC / ETH 풀"
     },
     {
       "type": "rectangle",
@@ -2245,14 +2245,14 @@
       "updated": 1668689130037,
       "link": null,
       "locked": false,
-      "text": "price of ",
+      "text": "가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price of "
+      "originalText": "가격:"
     },
     {
       "type": "text",
@@ -2313,14 +2313,14 @@
       "updated": 1668689130037,
       "link": null,
       "locked": false,
-      "text": "in terms of",
+      "text": "다음 기준:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "in terms of"
+      "originalText": "다음 기준:"
     },
     {
       "type": "text",
@@ -2381,14 +2381,14 @@
       "updated": 1668689130037,
       "link": null,
       "locked": false,
-      "text": "price of ",
+      "text": "가격:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price of "
+      "originalText": "가격:"
     },
     {
       "id": "mYMLpUyh13ME9ccyC_wg_",
@@ -2449,14 +2449,14 @@
       "updated": 1668689130037,
       "link": null,
       "locked": false,
-      "text": "in terms of",
+      "text": "다음 기준:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "in terms of"
+      "originalText": "다음 기준:"
     },
     {
       "id": "45sx2EOgD0DfQ32w8FKzH",
@@ -2804,13 +2804,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "price of ",
+      "fontFamily": 2,
+      "text": "가격:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "price of "
+      "originalText": "가격:"
     },
     {
       "type": "text",
@@ -2872,13 +2872,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "in terms of",
+      "fontFamily": 2,
+      "text": "다음 기준:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "in terms of"
+      "originalText": "다음 기준:"
     },
     {
       "type": "text",
@@ -3694,14 +3694,14 @@
       "updated": 1668689146032,
       "link": null,
       "locked": false,
-      "text": "increases",
+      "text": "증가",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "increases"
+      "originalText": "증가"
     },
     {
       "id": "MohyVNBev5VfOcgGRoGrQ",
@@ -4324,13 +4324,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "increases",
+      "fontFamily": 2,
+      "text": "증가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "increases"
+      "originalText": "증가"
     },
     {
       "type": "freedraw",

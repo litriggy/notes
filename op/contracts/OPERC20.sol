@@ -9,7 +9,7 @@ interface IERC165 {
 
 interface IOptimismMintableERC20 is IERC165 {
     function remoteToken() external view returns (address);
-    // Local bridge
+    // 로컬 브리지
     function bridge() external view returns (address);
     function mint(address dst, uint256 amount) external;
     function burn(address src, uint256 amount) external;
@@ -34,9 +34,9 @@ contract OPERC20 is ERC20, IOptimismMintableERC20 {
 
     function supportsInterface(bytes4 _interfaceId) external pure returns (bool) {
         bytes4 iface1 = type(IERC165).interfaceId;
-        // Interface corresponding to the legacy L3StandardERC20.
+        // 기존 L3StandardERC20에 해당하는 인터페이스.
         // bytes4 iface2 = type(ILegacyMintableERC20).interfaceId;
-        // Interface corresponding to the updated OptimismMintableERC20 (this contract).
+        // 갱신된 OptimismMintableERC20(이 컨트랙트)에 해당하는 인터페이스.
         bytes4 iface3 = type(IOptimismMintableERC20).interfaceId;
         return _interfaceId == iface1 || _interfaceId == iface3;
     }

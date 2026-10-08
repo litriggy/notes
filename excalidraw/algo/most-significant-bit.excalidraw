@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Find Most Significant Bit with Binary Search",
+      "fontFamily": 2,
+      "text": "이진 탐색으로 최상위 비트 찾기",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find Most Significant Bit with Binary Search"
+      "originalText": "이진 탐색으로 최상위 비트 찾기"
     },
     {
       "type": "line",
@@ -740,13 +740,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit is 6",
+      "fontFamily": 2,
+      "text": "최상위 비트는 6",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit is 6"
+      "originalText": "최상위 비트는 6"
     },
     {
       "type": "text",
@@ -1046,13 +1046,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Slow way",
+      "fontFamily": 2,
+      "text": "느린 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Slow way"
+      "originalText": "느린 방법"
     },
     {
       "type": "line",
@@ -2348,12 +2348,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >",
+      "text": "x >",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >"
+      "originalText": "x >"
     },
     {
       "type": "text",
@@ -2484,12 +2484,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >",
+      "text": "x >",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >"
+      "originalText": "x >"
     },
     {
       "type": "text",
@@ -3090,12 +3090,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >",
+      "text": "x >",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >"
+      "originalText": "x >"
     },
     {
       "type": "text",
@@ -3880,13 +3880,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Continue",
+      "fontFamily": 2,
+      "text": "계속",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Continue"
+      "originalText": "계속"
     },
     {
       "type": "text",
@@ -3915,12 +3915,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >",
+      "text": "x >",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >"
+      "originalText": "x >"
     },
     {
       "type": "text",
@@ -4165,13 +4165,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Check every bit starting from right",
+      "fontFamily": 2,
+      "text": "오른쪽부터 각 비트 확인",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Check every bit starting from right"
+      "originalText": "오른쪽부터 각 비트 확인"
     },
     {
       "type": "text",
@@ -4199,13 +4199,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fast way",
+      "fontFamily": 2,
+      "text": "빠른 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fast way"
+      "originalText": "빠른 방법"
     },
     {
       "type": "line",
@@ -4274,13 +4274,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Binary search",
+      "fontFamily": 2,
+      "text": "이진 탐색",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Binary search"
+      "originalText": "이진 탐색"
     },
     {
       "type": "rectangle",
@@ -5322,12 +5322,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >=",
+      "text": "x ≥",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >="
+      "originalText": "x ≥"
     },
     {
       "type": "text",
@@ -5499,12 +5499,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >=",
+      "text": "x ≥",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >="
+      "originalText": "x ≥"
     },
     {
       "type": "text",
@@ -5676,12 +5676,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >=",
+      "text": "x ≥",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >="
+      "originalText": "x ≥"
     },
     {
       "type": "text",
@@ -6169,13 +6169,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -6561,13 +6561,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -6952,14 +6952,14 @@
       "updated": 1661160737809,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "no",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "no"
+      "originalText": "아님"
     },
     {
       "type": "freedraw",
@@ -7257,13 +7257,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -7561,13 +7561,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -7865,13 +7865,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -8168,14 +8168,14 @@
       "updated": 1661160737810,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "no",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "no"
+      "originalText": "아님"
     },
     {
       "type": "text",
@@ -8203,13 +8203,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "8 checks",
+      "fontFamily": 2,
+      "text": "검사 8회",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "8 checks"
+      "originalText": "검사 8회"
     },
     {
       "type": "text",
@@ -8237,13 +8237,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "3 checks",
+      "fontFamily": 2,
+      "text": "검사 3회",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "3 checks"
+      "originalText": "검사 3회"
     },
     {
       "type": "text",
@@ -8271,13 +8271,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm",
+      "fontFamily": 2,
+      "text": "알고리즘",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm"
+      "originalText": "알고리즘"
     },
     {
       "type": "line",
@@ -8347,12 +8347,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "Is x >=",
+      "text": "x ≥",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Is x >="
+      "originalText": "x ≥"
     },
     {
       "type": "text",
@@ -8482,13 +8482,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Bit shift x by i",
+      "fontFamily": 2,
+      "text": "x를 i비트 이동",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Bit shift x by i"
+      "originalText": "x를 i비트 이동"
     },
     {
       "type": "text",
@@ -8550,13 +8550,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "x = some number",
+      "fontFamily": 2,
+      "text": "x = 어떤 수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "x = some number"
+      "originalText": "x = 어떤 수"
     },
     {
       "type": "text",
@@ -8928,13 +8928,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -9925,14 +9925,14 @@
       "updated": 1661160737811,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "No",
+      "fontSize": 20.23122559899602,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "No"
+      "originalText": "아님"
     },
     {
       "type": "text",
@@ -9960,13 +9960,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "return total shift",
+      "fontFamily": 2,
+      "text": "총 이동량 반환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "return total shift"
+      "originalText": "총 이동량 반환"
     },
     {
       "type": "text",
@@ -10490,13 +10490,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "(for example",
+      "fontFamily": 2,
+      "text": "(예:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "(for example"
+      "originalText": "(예:"
     },
     {
       "type": "text",
@@ -10960,13 +10960,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Examples",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Examples"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -11801,14 +11801,14 @@
       "updated": 1661160737811,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "no",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "no"
+      "originalText": "아님"
     },
     {
       "type": "freedraw",
@@ -12090,13 +12090,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit = 0",
+      "fontFamily": 2,
+      "text": "최상위 비트 = 0",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit = 0"
+      "originalText": "최상위 비트 = 0"
     },
     {
       "type": "rectangle",
@@ -12898,14 +12898,14 @@
       "updated": 1661160737812,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "no",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "no"
+      "originalText": "아님"
     },
     {
       "type": "freedraw",
@@ -13187,13 +13187,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit = 0",
+      "fontFamily": 2,
+      "text": "최상위 비트 = 0",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit = 0"
+      "originalText": "최상위 비트 = 0"
     },
     {
       "type": "rectangle",
@@ -14004,13 +14004,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -14292,13 +14292,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit = 1",
+      "fontFamily": 2,
+      "text": "최상위 비트 = 1",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit = 1"
+      "originalText": "최상위 비트 = 1"
     },
     {
       "type": "line",
@@ -16685,13 +16685,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total",
+      "fontFamily": 2,
+      "text": "총합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total"
+      "originalText": "총합"
     },
     {
       "type": "text",
@@ -17041,13 +17041,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "line",
@@ -17472,13 +17472,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "rectangle",
@@ -18399,13 +18399,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total",
+      "fontFamily": 2,
+      "text": "총합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total"
+      "originalText": "총합"
     },
     {
       "type": "text",
@@ -18898,13 +18898,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -19220,13 +19220,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total",
+      "fontFamily": 2,
+      "text": "총합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total"
+      "originalText": "총합"
     },
     {
       "type": "text",
@@ -19322,13 +19322,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit = ",
+      "fontFamily": 2,
+      "text": "최상위 비트 =",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit = "
+      "originalText": "최상위 비트 ="
     },
     {
       "type": "text",
@@ -19356,13 +19356,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total shift",
+      "fontFamily": 2,
+      "text": "총 이동량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total shift"
+      "originalText": "총 이동량"
     },
     {
       "type": "text",
@@ -20857,14 +20857,14 @@
       "updated": 1661160737816,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "no",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "아님",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "no"
+      "originalText": "아님"
     },
     {
       "type": "text",
@@ -21999,13 +21999,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "text",
@@ -23266,13 +23266,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total",
+      "fontFamily": 2,
+      "text": "총합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total"
+      "originalText": "총합"
     },
     {
       "type": "text",
@@ -23781,13 +23781,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "yes",
+      "fontFamily": 2,
+      "text": "예",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "yes"
+      "originalText": "예"
     },
     {
       "type": "freedraw",
@@ -24205,13 +24205,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total",
+      "fontFamily": 2,
+      "text": "총합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total"
+      "originalText": "총합"
     },
     {
       "type": "text",
@@ -24239,13 +24239,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Most significant bit = ",
+      "fontFamily": 2,
+      "text": "최상위 비트 =",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most significant bit = "
+      "originalText": "최상위 비트 ="
     },
     {
       "type": "text",
@@ -24273,13 +24273,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "total shift",
+      "fontFamily": 2,
+      "text": "총 이동량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "total shift"
+      "originalText": "총 이동량"
     },
     {
       "type": "text",

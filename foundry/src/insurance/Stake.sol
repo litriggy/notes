@@ -21,15 +21,15 @@ contract Stake is Auth {
     event Cover(uint256 amt);
     event Exit(address indexed usr, uint256 amt);
 
-    // Rate scale
+    // 비율 스케일
     uint256 private constant R = 1e9;
     IERC20 public immutable token;
-    // Reward duration
+    // 보상 기간
     uint256 public immutable dur;
-    // Minimum amount to deposit and must remain in stake
+    // 최소 예치 수량이자 스테이킹 상태로 유지해야 하는 최소 수량
     uint256 public immutable dust;
-    // Target coverage
-    // Total rewards paid in a duration <= min(total reward allocated in duration, max total staked / cov)
+    // 목표 보장 비율
+    // 기간 내 지급한 총보상 <= min(기간에 배정한 총보상, 총스테이킹 수량의 최댓값 / cov)
     uint256 public immutable cov;
 
     enum State {
@@ -41,35 +41,35 @@ contract Stake is Auth {
 
     State public state;
 
-    // Total staked
+    // 총스테이킹 수량
     uint256 public total;
-    // user => staked amount
+    // 사용자 => 스테이킹 수량
     mapping(address usr => uint256 amt) public shares;
 
-    // Last updated time
+    // 마지막 갱신 시각
     uint256 public last;
-    // Expiration time
+    // 만료 시각
     uint256 public exp;
-    // Rate of token emission per second
+    // 초당 토큰 지급 속도
     uint256 public rate;
-    // Rate accumulator
+    // 비율 누적값
     uint256 public acc;
-    // User => last rate accumulator
+    // 사용자 => 마지막 비율 누적값
     mapping(address usr => uint256 acc) public accs;
     mapping(address usr => uint256 amt) public rewards;
 
-    // Next rate
+    // 다음 비율
     uint256 public nextRate;
-    // Timestamp to apply next rate
+    // 다음 비율을 적용할 타임스탬프
     uint256 public next;
-    // Authorized account to call roll
+    // roll을 호출할 권한이 있는 계정
     address public insuree;
 
-    // Rewards remaining after stop
+    // stop 이후 남은 보상
     uint256 public keep;
-    // Total amount of rewards deposited
+    // 예치한 총보상
     uint256 public topped;
-    // Total amount of rewards claimed (transferred out or restaked)
+    // 청구한 총보상(외부 전송 또는 재스테이킹)
     uint256 public paid;
 
     modifier live() {
@@ -95,11 +95,11 @@ contract Stake is Auth {
         exp = block.timestamp + _dur;
 
         require(cov >= 1 && cov <= 1000, "invalid cov");
-        // Check cap() > 0 when tot > 0
+        // tot > 0일 때 cap() > 0인지 확인
         require(dust * R >= cov * dur, "dust < cov * dur");
 
-        // Insuree can reclaim rewards while no one staked
-        // Some calculations are done with total + 1 to account for this share
+        // 아무도 스테이킹하지 않은 동안 피보험자가 보상을 회수할 수 있음
+        // 이 지분을 반영하기 위해 일부 계산에 total + 1 사용
         shares[address(this)] = 1;
     }
 
@@ -107,7 +107,7 @@ contract Stake is Auth {
         return state != State.Live;
     }
 
-    // Remaining rewards
+    // 남은 보상
     function pot() public view returns (uint256 rem) {
         if (exp <= block.timestamp) {
             return 0;
@@ -126,22 +126,22 @@ contract Stake is Auth {
         }
     }
 
-    // Cap on rate.
-    // a = total reward allocated for the duration
-    // If total staked <= cov * a
-    // then total rewards paid <= total staked / cov
-    // Let c = cap
+    // 비율의 상한
+    // a = 해당 기간에 배정한 총보상
+    // 총스테이킹 수량 <= cov * a이면
+    // 지급한 총보상 <= 총스테이킹 수량 / cov
+    // c = cap으로 둠
     // sum(c * dt) <= sum(r * dt) <= a
-    // if total <= cov * a for the whole duration
-    // total / cov / dur <= a / dur <= rate, since rate always increases after inc()
+    // 전체 기간 동안 total <= cov * a이면
+    // total / cov / dur <= a / dur <= rate, inc() 이후에는 rate가 항상 증가하기 때문
     // sum(c * dt) <= total / cov / dur * sum(dt) = total / cov
     function cap(uint256 r, uint256 tot) private view returns (uint256) {
         return Math.min(r, tot * R / (cov * dur));
     }
 
-    // Calculate claimable rewards of a user
+    // 사용자가 청구할 수 있는 보상 계산
     function calc(address usr) external view returns (uint256) {
-        // Cap timestamp to exp
+        // 타임스탬프의 상한을 exp로 제한
         uint256 t = Math.min(block.timestamp, exp);
         uint256 a = acc;
         uint256 tot = total;
@@ -154,13 +154,13 @@ contract Stake is Auth {
         return rewards[usr] + shares[usr] * (a - accs[usr]) / R;
     }
 
-    // Sync rewards
+    // 보상 동기화
     function sync(address usr) public returns (uint256 amt) {
-        // Cap timestamp to exp
+        // 타임스탬프의 상한을 exp로 제한
         uint256 t = Math.min(block.timestamp, exp);
         uint256 a = acc;
         uint256 tot = total;
-        // Save excess for insuree
+        // 초과분을 피보험자 몫으로 저장
         uint256 saved = 0;
 
         if (next > 0 && next <= t) {
@@ -219,7 +219,7 @@ contract Stake is Auth {
         emit Withdraw(usr, amt);
     }
 
-    // Claim rewards
+    // 보상 청구
     function take() public returns (uint256 amt) {
         sync(msg.sender);
         amt = rewards[msg.sender];
@@ -231,7 +231,7 @@ contract Stake is Auth {
         emit Take(msg.sender, amt);
     }
 
-    // Restake rewards
+    // 보상 재스테이킹
     function restake() external live returns (uint256 amt) {
         sync(msg.sender);
         amt = rewards[msg.sender];
@@ -245,7 +245,7 @@ contract Stake is Auth {
         emit Restake(msg.sender, amt);
     }
 
-    // Refund to insuree
+    // 피보험자에게 환급
     function refund() external returns (uint256 amt) {
         require(msg.sender == insuree, "not insuree");
 
@@ -268,7 +268,7 @@ contract Stake is Auth {
         emit Refund(msg.sender, amt);
     }
 
-    // Increase reward emission rate
+    // 보상 지급 속도 증가
     function inc(uint256 amt) external live {
         sync(address(0));
         token.safeTransferFrom(msg.sender, address(this), amt);
@@ -282,12 +282,12 @@ contract Stake is Auth {
         emit Inc(amt);
     }
 
-    // Extend insurance and schedule new rate
+    // 보험 기간 연장 및 새 비율 적용 예약
     function roll(uint256 r) external live {
         require(msg.sender == insuree, "not insuree");
         require(rate > 0, "rate = 0");
         require(next == 0, "rolled");
-        // Allow rolling when time remaining is < half the duration
+        // 남은 시간이 전체 기간의 절반 미만이면 연장 허용
         require(exp - block.timestamp < dur / 2, "too early");
 
         sync(address(0));
@@ -304,7 +304,7 @@ contract Stake is Auth {
         emit Roll(r);
     }
 
-    // Stop reward emissions
+    // 보상 지급 중지
     function stop() external auth live {
         sync(address(0));
         keep += pot();
@@ -313,7 +313,7 @@ contract Stake is Auth {
         emit Stop();
     }
 
-    // Decide who to pay (insuree or stakers)
+    // 지급 대상 결정(피보험자 또는 스테이킹 참여자)
     function settle(State s) external auth {
         require(state == State.Stopped, "not stopped");
         require(s == State.Cover || s == State.Exit, "invalid next state");
@@ -321,7 +321,7 @@ contract Stake is Auth {
         emit Settle(uint256(s));
     }
 
-    // Pay insuree
+    // 피보험자에게 지급
     function cover(address dst, uint256 amt) external auth returns (uint256) {
         require(state == State.Cover, "invalid state");
         require(dst != address(0), "dst = 0");
@@ -339,9 +339,9 @@ contract Stake is Auth {
         return amt;
     }
 
-    // Pay stakers
+    // 스테이킹 참여자에게 지급
     function exit() external returns (uint256 amt) {
-        // Expired without call to stop or settled
+        // stop 호출 없이 만료되었거나 정산 완료
         if (state == State.Live) {
             require(exp < block.timestamp, "not expired");
         } else {
@@ -350,12 +350,12 @@ contract Stake is Auth {
 
         sync(msg.sender);
 
-        // Rewards
+        // 보상
         uint256 r = rewards[msg.sender];
         rewards[msg.sender] = 0;
         paid += r;
 
-        // Staked
+        // 스테이킹 수량
         uint256 s = shares[msg.sender];
         shares[msg.sender] = 0;
         total -= s;
@@ -374,7 +374,7 @@ contract Stake is Auth {
         } else if (_token == address(token)) {
             uint256 bal = token.balanceOf(address(this));
             // topped >= paid
-            // topped - paid = future reward emissions + rewards claimable by stakers
+            // topped - paid = 앞으로 지급할 보상 + 스테이킹 참여자가 청구할 수 있는 보상
             // bal >= staked + topped - paid
             uint256 need = total + topped - paid;
             token.safeTransfer(msg.sender, bal - need);

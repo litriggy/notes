@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Constant Sum Automated Market Maker",
+      "fontFamily": 2,
+      "text": "상수합 자동화 마켓 메이커",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Constant Sum Automated Market Maker"
+      "originalText": "상수합 자동화 마켓 메이커"
     },
     {
       "type": "line",
@@ -398,13 +398,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Add liquidity",
+      "fontFamily": 2,
+      "text": "유동성 추가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Add liquidity"
+      "originalText": "유동성 추가"
     },
     {
       "type": "text",
@@ -568,13 +568,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "20 Token A",
+      "fontFamily": 2,
+      "text": "토큰 A 20개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "20 Token A"
+      "originalText": "토큰 A 20개"
     },
     {
       "type": "text",
@@ -602,13 +602,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "30 Token B",
+      "fontFamily": 2,
+      "text": "토큰 B 30개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "30 Token B"
+      "originalText": "토큰 B 30개"
     },
     {
       "type": "text",
@@ -636,13 +636,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Liquidity provider",
+      "fontFamily": 2,
+      "text": "유동성 공급자",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity provider"
+      "originalText": "유동성 공급자"
     },
     {
       "type": "rectangle",
@@ -849,13 +849,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Shares",
+      "fontFamily": 2,
+      "text": "지분",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Shares"
+      "originalText": "지분"
     },
     {
       "type": "text",
@@ -917,13 +917,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28.106060606060616,
-      "fontFamily": 1,
-      "text": "Add Liquidity",
+      "fontFamily": 2,
+      "text": "유동성 추가",
       "baseline": 24.132575757575772,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Add Liquidity"
+      "originalText": "유동성 추가"
     },
     {
       "type": "line",
@@ -1286,13 +1286,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap",
+      "fontFamily": 2,
+      "text": "스왑",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap"
+      "originalText": "스왑"
     },
     {
       "type": "text",
@@ -1456,13 +1456,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "10 Token A",
+      "fontFamily": 2,
+      "text": "토큰 A 10개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "10 Token A"
+      "originalText": "토큰 A 10개"
     },
     {
       "type": "text",
@@ -1490,13 +1490,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "10 Token B",
+      "fontFamily": 2,
+      "text": "토큰 B 10개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "10 Token B"
+      "originalText": "토큰 B 10개"
     },
     {
       "type": "rectangle",
@@ -1727,13 +1727,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Trader",
+      "fontFamily": 2,
+      "text": "거래자",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Trader"
+      "originalText": "거래자"
     },
     {
       "type": "text",
@@ -1761,13 +1761,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": " Swap",
+      "fontFamily": 2,
+      "text": " 스왑",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": " Swap"
+      "originalText": " 스왑"
     },
     {
       "type": "line",
@@ -1836,13 +1836,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Remove Liquidity",
+      "fontFamily": 2,
+      "text": "유동성 제거",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Remove Liquidity"
+      "originalText": "유동성 제거"
     },
     {
       "type": "line",
@@ -2205,13 +2205,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Remove liquidity",
+      "fontFamily": 2,
+      "text": "유동성 제거",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Remove liquidity"
+      "originalText": "유동성 제거"
     },
     {
       "type": "text",
@@ -2375,13 +2375,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "26 Token A",
+      "fontFamily": 2,
+      "text": "토큰 A 26개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "26 Token A"
+      "originalText": "토큰 A 26개"
     },
     {
       "type": "text",
@@ -2409,13 +2409,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "24 Token B",
+      "fontFamily": 2,
+      "text": "토큰 B 24개",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "24 Token B"
+      "originalText": "토큰 B 24개"
     },
     {
       "type": "rectangle",
@@ -2620,13 +2620,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Liquidity provider",
+      "fontFamily": 2,
+      "text": "유동성 공급자",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity provider"
+      "originalText": "유동성 공급자"
     },
     {
       "type": "text",
@@ -2654,13 +2654,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Shares",
+      "fontFamily": 2,
+      "text": "지분",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Shares"
+      "originalText": "지분"
     },
     {
       "type": "rectangle",
@@ -2714,13 +2714,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is Constant Sum AMM?",
+      "fontFamily": 2,
+      "text": "상수합 AMM이란?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is Constant Sum AMM?"
+      "originalText": "상수합 AMM이란?"
     },
     {
       "type": "line",
@@ -2789,13 +2789,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "For simplicity...\n- Trade fee = 0\n- Tokens trade at 1 to 1",
+      "fontFamily": 2,
+      "text": "단순화를 위해...\n- 거래 수수료 = 0\n- 토큰 교환비는 1:1",
       "baseline": 68,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For simplicity...\n- Trade fee = 0\n- Tokens trade at 1 to 1"
+      "originalText": "단순화를 위해...\n- 거래 수수료 = 0\n- 토큰 교환비는 1:1"
     },
     {
       "type": "text",
@@ -2823,13 +2823,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Price of tokens are determined by the equation",
+      "fontFamily": 2,
+      "text": "방정식에 따라 토큰 가격 결정",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of tokens are determined by the equation"
+      "originalText": "방정식에 따라 토큰 가격 결정"
     },
     {
       "type": "text",
@@ -2891,13 +2891,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "X = Amount of Token A in the AMM",
+      "fontFamily": 2,
+      "text": "X = AMM의 토큰 A 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "X = Amount of Token A in the AMM"
+      "originalText": "X = AMM의 토큰 A 수량"
     },
     {
       "type": "text",
@@ -2925,13 +2925,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Y = Amount of Token B in the AMM",
+      "fontFamily": 2,
+      "text": "Y = AMM의 토큰 B 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Y = Amount of Token B in the AMM"
+      "originalText": "Y = AMM의 토큰 B 수량"
     },
     {
       "type": "rectangle",
@@ -3606,13 +3606,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Sell Token A, buy Token B",
+      "fontFamily": 2,
+      "text": "토큰 A 매도, 토큰 B 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Sell Token A, buy Token B"
+      "originalText": "토큰 A 매도, 토큰 B 매수"
     },
     {
       "type": "text",
@@ -3640,13 +3640,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dx = Amount of Token A in",
+      "fontFamily": 2,
+      "text": "dx = 입력 토큰 A 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dx = Amount of Token A in"
+      "originalText": "dx = 입력 토큰 A 수량"
     },
     {
       "type": "text",
@@ -3674,13 +3674,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dy = Amount of Token B out",
+      "fontFamily": 2,
+      "text": "dy = 출력 토큰 B 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dy = Amount of Token B out"
+      "originalText": "dy = 출력 토큰 B 수량"
     },
     {
       "type": "text",
@@ -3708,13 +3708,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap - How many token to return in a trade?",
+      "fontFamily": 2,
+      "text": "스왑 - 거래에서 반환할 토큰 수량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap - How many token to return in a trade?"
+      "originalText": "스왑 - 거래에서 반환할 토큰 수량은?"
     },
     {
       "type": "line",
@@ -3783,13 +3783,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Trade from Token A to Token B",
+      "fontFamily": 2,
+      "text": "토큰 A를 토큰 B로 거래",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Trade from Token A to Token B"
+      "originalText": "토큰 A를 토큰 B로 거래"
     },
     {
       "type": "text",
@@ -3919,13 +3919,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Before the trade",
+      "fontFamily": 2,
+      "text": "거래 전",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Before the trade"
+      "originalText": "거래 전"
     },
     {
       "type": "text",
@@ -3953,13 +3953,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After the trade",
+      "fontFamily": 2,
+      "text": "거래 후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After the trade"
+      "originalText": "거래 후"
     },
     {
       "type": "text",
@@ -5293,13 +5293,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Amount of token out = Amount of token in ",
+      "fontFamily": 2,
+      "text": "출력 토큰 수량 = 입력 토큰 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Amount of token out = Amount of token in "
+      "originalText": "출력 토큰 수량 = 입력 토큰 수량"
     },
     {
       "type": "text",
@@ -5327,13 +5327,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "text",
@@ -5361,13 +5361,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Token in = Token A = 100",
+      "fontFamily": 2,
+      "text": "입력 토큰 = 토큰 A = 100",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Token in = Token A = 100"
+      "originalText": "입력 토큰 = 토큰 A = 100"
     },
     {
       "type": "text",
@@ -5395,13 +5395,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Token out = Token B = 100",
+      "fontFamily": 2,
+      "text": "출력 토큰 = 토큰 B = 100",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Token out = Token B = 100"
+      "originalText": "출력 토큰 = 토큰 B = 100"
     },
     {
       "type": "text",
@@ -5878,13 +5878,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "How many Token B to return? ",
+      "fontFamily": 2,
+      "text": "반환할 토큰 B의 수량은?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How many Token B to return? "
+      "originalText": "반환할 토큰 B의 수량은?"
     },
     {
       "type": "freedraw",
@@ -6428,13 +6428,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Add liquidity - How many shares to mint?",
+      "fontFamily": 2,
+      "text": "유동성 추가 - 지분을 얼마나 발행할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Add liquidity - How many shares to mint?"
+      "originalText": "유동성 추가 - 지분을 얼마나 발행할까?"
     },
     {
       "type": "line",
@@ -6503,13 +6503,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Increase in liquidity is proportional to increase in total shares",
+      "fontFamily": 2,
+      "text": "유동성 증가량은 총지분 증가량에 비례",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Increase in liquidity is proportional to increase in total shares"
+      "originalText": "유동성 증가량은 총지분 증가량에 비례"
     },
     {
       "type": "text",
@@ -6537,13 +6537,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "a = Amount in",
+      "fontFamily": 2,
+      "text": "a = 입력량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "a = Amount in"
+      "originalText": "a = 입력량"
     },
     {
       "type": "text",
@@ -6571,13 +6571,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "L = Total liquidity before new liquidity is added",
+      "fontFamily": 2,
+      "text": "L = 새 유동성을 추가하기 전 총유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "L = Total liquidity before new liquidity is added"
+      "originalText": "L = 새 유동성을 추가하기 전 총유동성"
     },
     {
       "type": "text",
@@ -6605,13 +6605,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "s = Amount of shares to mint",
+      "fontFamily": 2,
+      "text": "s = 발행할 지분 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "s = Amount of shares to mint"
+      "originalText": "s = 발행할 지분 수량"
     },
     {
       "type": "text",
@@ -6639,13 +6639,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "T = Total shares before mint",
+      "fontFamily": 2,
+      "text": "T = 발행 전 총지분",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "T = Total shares before mint"
+      "originalText": "T = 발행 전 총지분"
     },
     {
       "type": "text",
@@ -9101,13 +9101,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Remove liquidity - How many tokens to withdraw?",
+      "fontFamily": 2,
+      "text": "유동성 제거 - 토큰을 얼마나 출금할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Remove liquidity - How many tokens to withdraw?"
+      "originalText": "유동성 제거 - 토큰을 얼마나 출금할까?"
     },
     {
       "type": "line",
@@ -9176,13 +9176,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How to use an AMM",
+      "fontFamily": 2,
+      "text": "AMM 사용 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How to use an AMM"
+      "originalText": "AMM 사용 방법"
     },
     {
       "type": "line",
@@ -9251,13 +9251,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "a = Amount out",
+      "fontFamily": 2,
+      "text": "a = 출력량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "a = Amount out"
+      "originalText": "a = 출력량"
     },
     {
       "type": "text",
@@ -9285,13 +9285,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "L = Total liquidity",
+      "fontFamily": 2,
+      "text": "L = 총유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "L = Total liquidity"
+      "originalText": "L = 총유동성"
     },
     {
       "type": "text",
@@ -9319,13 +9319,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "s = Amount of shares to burn",
+      "fontFamily": 2,
+      "text": "s = 소각할 지분 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "s = Amount of shares to burn"
+      "originalText": "s = 소각할 지분 수량"
     },
     {
       "type": "text",
@@ -9353,13 +9353,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "T = Total shares",
+      "fontFamily": 2,
+      "text": "T = 총지분",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "T = Total shares"
+      "originalText": "T = 총지분"
     },
     {
       "type": "text",
@@ -9387,13 +9387,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Withdraw tokens proportional to shares",
+      "fontFamily": 2,
+      "text": "지분에 비례해 토큰 출금",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Withdraw tokens proportional to shares"
+      "originalText": "지분에 비례해 토큰 출금"
     },
     {
       "type": "text",

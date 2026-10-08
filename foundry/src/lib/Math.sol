@@ -24,7 +24,7 @@ library Math {
                 switch mod(n, 2)
                 case 0 { z := RAY }
                 default { z := x }
-                let half := div(RAY, 2) // for rounding.
+                let half := div(RAY, 2) // 반올림용
                 for { n := div(n, 2) } n { n := div(n, 2) } {
                     let xx := mul(x, x)
                     if iszero(eq(div(xx, x), x)) { revert(0, 0) }

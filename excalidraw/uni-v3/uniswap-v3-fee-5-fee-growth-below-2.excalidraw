@@ -107,13 +107,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Fee - Fee Growth Below",
+      "fontFamily": 2,
+      "text": "Uniswap V3 수수료 - 아래쪽 수수료 증가량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Fee - Fee Growth Below"
+      "originalText": "Uniswap V3 수수료 - 아래쪽 수수료 증가량"
     },
     {
       "type": "line",
@@ -318,13 +318,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth at time t",
+      "fontFamily": 2,
+      "text": "시점 t의 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth at time t"
+      "originalText": "시점 t의 수수료 증가량"
     },
     {
       "type": "line",
@@ -775,13 +775,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth below tick i",
+      "fontFamily": 2,
+      "text": "틱 i 아래쪽 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth below tick i"
+      "originalText": "틱 i 아래쪽 수수료 증가량"
     },
     {
       "type": "text",
@@ -3221,13 +3221,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "rearranged",
+      "fontFamily": 2,
+      "text": "식 정리",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "rearranged"
+      "originalText": "식 정리"
     },
     {
       "type": "text",
@@ -6785,13 +6785,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "alternates sign",
+      "fontFamily": 2,
+      "text": "부호가 번갈아 바뀜",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "alternates sign"
+      "originalText": "부호가 번갈아 바뀜"
     },
     {
       "type": "text",
@@ -6954,14 +6954,14 @@
       "updated": 1673504014941,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for t even",
+      "fontSize": 27.91512630050021,
+      "fontFamily": 2,
+      "text": "t가 짝수일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for t even"
+      "originalText": "t가 짝수일 때"
     },
     {
       "type": "text",
@@ -7124,14 +7124,14 @@
       "updated": 1673504014941,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for t odd",
+      "fontSize": 25.782720819211995,
+      "fontFamily": 2,
+      "text": "t가 홀수일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for t odd"
+      "originalText": "t가 홀수일 때"
     },
     {
       "type": "rectangle",
@@ -7648,13 +7648,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "at time T",
+      "fontFamily": 2,
+      "text": "시점 T에",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "at time T"
+      "originalText": "시점 T에"
     },
     {
       "type": "text",
@@ -7920,13 +7920,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Define",
+      "fontFamily": 2,
+      "text": "정의",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Define"
+      "originalText": "정의"
     },
     {
       "type": "text",
@@ -16023,13 +16023,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How to compute ",
+      "fontFamily": 2,
+      "text": "계산 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How to compute "
+      "originalText": "계산 방법"
     },
     {
       "type": "line",
@@ -16124,13 +16124,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm for ",
+      "fontFamily": 2,
+      "text": "다음의 알고리즘:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm for "
+      "originalText": "다음의 알고리즘:"
     },
     {
       "type": "text",
@@ -17905,13 +17905,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm for ",
+      "fontFamily": 2,
+      "text": "다음의 알고리즘:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm for "
+      "originalText": "다음의 알고리즘:"
     },
     {
       "type": "text",
@@ -19314,13 +19314,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "rearranged",
+      "fontFamily": 2,
+      "text": "식 정리",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "rearranged"
+      "originalText": "식 정리"
     },
     {
       "type": "text",
@@ -20974,13 +20974,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "in terms of",
+      "fontFamily": 2,
+      "text": "다음 기준:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "in terms of"
+      "originalText": "다음 기준:"
     },
     {
       "type": "text",
@@ -21899,13 +21899,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "in terms of",
+      "fontFamily": 2,
+      "text": "다음 기준:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "in terms of"
+      "originalText": "다음 기준:"
     },
     {
       "type": "text",
@@ -22714,14 +22714,14 @@
       "updated": 1673504675370,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.13873535939761,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -22783,13 +22783,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Define",
+      "fontFamily": 2,
+      "text": "정의",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Define"
+      "originalText": "정의"
     },
     {
       "type": "text",
@@ -22885,13 +22885,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "current tick",
+      "fontFamily": 2,
+      "text": "현재 틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "current tick"
+      "originalText": "현재 틱"
     },
     {
       "type": "text",
@@ -23224,14 +23224,14 @@
       "updated": 1673504675370,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.13873535939761,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",

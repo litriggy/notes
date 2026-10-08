@@ -1,10 +1,10 @@
-# Interactive oracle proof
+# 대화형 오라클 증명
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from field import F
 
 
-# Interfaces
+# 인터페이스
 class IFriProver(ABC):
     @abstractmethod
     def prove(self, idx: int) -> (list[(F, F)], list[(list[str], list[str])]):

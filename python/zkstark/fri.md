@@ -1,123 +1,123 @@
 # ZKSTARK
-- trace -> constraint -> quotient polynomial
+- 실행 추적 -> 제약 -> 몫 다항식
 
 # FRI
-Fast Reed–Solomon Interactive Oracle Proofs of Proximity
-- TODO: Why test low degree? -> can consttruct a high degree polynomial that passes the constraint checks but not a honest trace polynomial
-- Intro
-    - Visual Fn space + code
-- TODO: Polynomial
-    - Polynomial degree D, D + 1 points
-    - 2 polynomials can agree atmost D points?
-    - Roots
-    - split f(x) = f_even(x^2) + xf_odd(x^2)
+고속 Reed–Solomon 대화형 오라클 근접성 증명(Fast Reed–Solomon Interactive Oracle Proofs of Proximity)
+- TODO: 왜 저차수인지 검사하는가? -> 제약 검사는 통과하지만 정직한 실행 추적 다항식은 아닌 고차 다항식을 만들 수 있음
+- 소개
+    - 함수 공간 시각화 + 코드
+- TODO: 다항식
+    - 다항식 차수 D, D + 1개 점
+    - 2개 다항식은 최대 D개 점에서 일치할 수 있는가?
+    - 근
+    - 분해 f(x) = f_even(x^2) + xf_odd(x^2)
     - f_even(x^2) = (f(x) + f(-x)) / 2
     - f_odd(x^2) = (f(x) - f(-x)) / 2x
-    - poly is delta close -> quotient polynomial is delta close 
-- TODO: Motivation - d + k queries for (1 - p)^k probability of acceptance?
-- Reed Solomon Code
-    - Example
-      - Lagrange interpolation
-    - Definitions
-        - TODO: rate, notation (RS[F, L, D])?
-        - Code
-        - Codeword
-        - RS code
-- Hamming distance
-- RS code and FRI
+    - 다항식이 delta 이내로 가까움 -> 몫 다항식도 delta 이내로 가까움
+- TODO: 동기 - 수락 확률이 (1 - p)^k이려면 d + k번 질의해야 하는가?
+- Reed Solomon 부호
+    - 예시
+      - 라그랑주 보간
+    - 정의
+        - TODO: 부호율, 표기법(RS[F, L, D])?
+        - 부호
+        - 부호어
+        - RS 부호
+- 해밍 거리
+- RS 부호와 FRI
 - FRI
-  - TODO: tree diagram
-- TODO: soundness / intuitions, fold, proximity gap
-    - fold
-        - [Vector addition and scalar multiplication](https://www.desmos.com/calculator/rezchfjvgw)
-    - [Proximity Gap](https://www.desmos.com/calculator/k6ryiv8qqp)
-- TODO: why random challenge?
+  - TODO: 트리 도식
+- TODO: 건전성 / 직관, 폴딩, 근접성 간극
+    - 폴딩
+        - [벡터 덧셈과 스칼라 곱셈](https://www.desmos.com/calculator/rezchfjvgw)
+    - [근접성 간극](https://www.desmos.com/calculator/k6ryiv8qqp)
+- TODO: 왜 무작위 챌린지를 사용하는가?
 - TODO: ZKSTARK -> FRI
-- TODO: unique decoding distance?
-- TODO: probabilities?
-- TODO: evaluation domain
+- TODO: 유일 복호 거리?
+- TODO: 확률?
+- TODO: 평가 영역
 
 
-- Low degree testing
-- Why RS code? Why not regular polynomial? -> structured redundancy
-- Split + fold
-- Commit phase
-- Query phase
-- TODO: RS code redundancy, error correcting radius, unique decoding distance etc..
-- Hamming weight and distance, unique decoding distance
-- Proximity gap theorem for RS codes
-- Polynomial, degree, how to check if given points recover an polynomial
+- 저차수 검사
+- 왜 RS 부호인가? 일반 다항식은 왜 안 되는가? -> 구조화된 중복성
+- 분해 + 폴딩
+- 커밋 단계
+- 질의 단계
+- TODO: RS 부호의 중복성, 오류 정정 반경, 유일 복호 거리 등
+- 해밍 무게와 거리, 유일 복호 거리
+- RS 부호의 근접성 간극 정리
+- 다항식, 차수, 주어진 점들로 다항식을 복원할 수 있는지 확인하는 방법
 
-- TODO: 128 bit security and delta
+- TODO: 128비트 보안과 delta
 
 
-### TODO: problem with commiting to f(x)
-- TODO: high probability of accepting a fraud
-- need d + k queries for (1 - p)^k probability of accepting a fraud
+### TODO: f(x)에 커밋할 때의 문제
+- TODO: 부정행위를 수락할 확률이 높음
+- 부정행위 수락 확률이 (1 - p)^k이려면 d + k번 질의해야 함
 
-### Commit phase
+### 커밋 단계
 
-TODO: why check that polynomial is low degree? <- given RS code, it always identify a polynomial (a poly that passes through all the points provided)
-TODO: why low degree polynomial is honest execution trace? Can a dishonest execution trace have a low degree poly?
-
-```
-1. Evaluate polynomial f0(x) at w^0, w^1, ..., w^(N-1)
-   where w is a root of unity and N is the domain size (use FFT for fast evaluation)
-   [f0(w^i) for 0 <= i < N] is a RS codeword
-2. Create Merkle tree from the RS codeword
-3. Prover sends Merkle root to the verifier
-4. Verifier sends a challenge B0
-5. Prover calculates the folded polynomial
-   5.1 Split f0(x) = f0_even(x^2) + x * f0_odd(x^2)
-   5.2 Fold f1(x) = f0_even(x) + B0 * f0_odd(x)
-6. Repeat 1 to 5 with f1 and domain ((w^0)^2, (w^1)^2, ...), half the original domain size,
-   until the polynomial is reduced to a constant
-```
+TODO: 왜 다항식이 저차수인지 확인하는가? <- RS 부호가 주어지면 언제나 다항식 하나를 정할 수 있음(주어진 모든 점을 지나는 다항식)
+TODO: 왜 저차 다항식이 정직한 실행 추적인가? 거짓 실행 추적도 저차 다항식을 가질 수 있는가?
 
 ```
-TODO: glue - consistency between folding
+1. w^0, w^1, ..., w^(N-1)에서 다항식 f0(x)의 값을 계산
+   여기서 w는 단위근이고 N은 영역의 크기(빠른 평가를 위해 FFT 사용)
+   [f0(w^i) for 0 <= i < N]은 RS 부호어
+2. RS 부호어로 머클 트리 생성
+3. 증명자가 검증자에게 머클 루트 전송
+4. 검증자가 챌린지 B0 전송
+5. 증명자가 폴딩한 다항식 계산
+   5.1 분해 f0(x) = f0_even(x^2) + x * f0_odd(x^2)
+   5.2 폴딩 f1(x) = f0_even(x) + B0 * f0_odd(x)
+6. f1과 원래 크기의 절반인 영역 ((w^0)^2, (w^1)^2, ...)으로 1~5단계 반복,
+   다항식이 상수로 줄어들 때까지 진행
 ```
 
 ```
-TODO: example domain size small enough to do a direct check (honest and dishonest cases)
-- honest prover -> evals of poly of low degree -> direct check at multiple points
-- dishonest prover -> eval of poly (?), dishonest at many points (*) -> high probability of fraud detection?
-- (*) RS code recovers original low degree poly for small errors / incorrect points
-      so dishonest prover will need to cheat at many points
+TODO: 연결 - 폴딩 단계 사이의 일관성
 ```
 
 ```
-TODO: send evaluation of high degree polynomial
-TODO: example 1 iteration of fold (query + direct check)
-A fraudulent prover is successful when the verifier accepts a codeword that does not correspond to a low degree polynomial.
-2 choices (?)
-- Evaluation of higher degree polynomial -> eventually detected?
-- Send different codeword -> must disagree at many points -> high probability of getting caught?
+TODO: 직접 검사할 수 있을 만큼 작은 영역의 예시(정직한 경우와 부정한 경우)
+- 정직한 증명자 -> 저차 다항식의 평가값 -> 여러 점에서 직접 검사
+- 부정한 증명자 -> 다항식의 평가값(?), 여러 점에서 거짓값 사용(*) -> 높은 확률로 부정행위 탐지?
+- (*) RS 부호는 오류 / 잘못된 점이 적으면 원래의 저차 다항식을 복원하므로
+      부정한 증명자는 여러 점에서 속여야 함
 ```
-### Query phase
 
 ```
-1. Verifier sends random challenge x to the prover
-2. Start at i = 0, prover sends fi(x) and fi(-x) and Merkle proof
-3. Verfifier checks Merkle proofs for fi(x) and fi(-x)
-4. Verifier uses fi(x) and fi(-x) to create f(i+1)(x^2)
+TODO: 고차 다항식의 평가값 전송
+TODO: 폴딩 1회 예시(질의 + 직접 검사)
+검증자가 저차 다항식에 대응하지 않는 부호어를 수락하면 부정한 증명자는 성공한다.
+2가지 선택지(?)
+- 더 높은 차수의 다항식 평가값 -> 결국 탐지되는가?
+- 다른 부호어 전송 -> 여러 점에서 불일치해야 함 -> 높은 확률로 적발되는가?
+```
+### 질의 단계
+
+```
+1. 검증자가 증명자에게 무작위 챌린지 x 전송
+2. i = 0부터 시작하여 증명자가 fi(x), fi(-x)와 머클 증명 전송
+3. 검증자가 fi(x)와 fi(-x)의 머클 증명 확인
+4. 검증자가 fi(x)와 fi(-x)로 f(i+1)(x^2) 계산
    fi(x)  = fi_even(x^2) + x * fi_odd(x^2)
    fi(-x) = fi_even(x^2) - x * fi_odd(x^2)
    f(i+1)(x^2) = fi_even(x^2) + Bi * fi_odd(x^2)
                = (fi(x) + fi(-x)) / 2 + Bi * (fi(x) - fi(-x)) / 2x
-   Check that f(i+1)(x^2) provided in the next step matches the calculation above
-5. Repeat 2 to 4, evaluate at +/-x^2, +/-x^4, +/-x^8, ...
+   다음 단계에서 제공하는 f(i+1)(x^2)가 위 계산과 일치하는지 확인
+5. 2~4단계를 반복하며 +/-x^2, +/-x^4, +/-x^8, ...에서 평가
 
-TODO: check at step 4 fails with high probability if fraud? Also, probability of prover to guess the challenge x before commit is low
+TODO: 부정행위가 있으면 4단계 검사에 높은 확률로 실패하는가? 또 증명자가 커밋 전에 챌린지 x를 맞힐 확률은 낮음
 ```
 
-### g(x,y) evaluation table
-TODO: why it boosts fraud detection? + polynomial reduction
-TODO: probability of fraud detection in polynomial vs bivariate polynomial
-TODO: example of polynomial of high degree
-TODO: example of distance decay?
-small errors -> identify an unique polynomial
-many errors -> not a RS codeword (or a different RS of polynomial with higher degree?)
+### g(x,y) 평가 표
+TODO: 왜 부정행위를 더 잘 탐지하는가? + 다항식 축소
+TODO: 다항식과 이변수 다항식의 부정행위 탐지 확률 비교
+TODO: 고차 다항식 예시
+TODO: 거리 감소 예시?
+적은 오류 -> 유일한 다항식을 정할 수 있음
+많은 오류 -> RS 부호어가 아님(아니면 더 높은 차수의 다항식에 해당하는 다른 RS 부호인가?)
 
 ```
 g(x, y) = f0_even(y) + x * f0_odd(y)
@@ -128,19 +128,17 @@ y (w^0)^2  |
   (w^2)^2  |
     ...    |
 
-g(x, x^2) = f(x) = diagnol
+g(x, x^2) = f(x) = 대각선
 
-Column, deg(g) <= N / 2
-Pick x = B0
+열, deg(g) <= N / 2
+x = B0 선택
 g(B0, y) = f0_even(y) + B0 * f0_odd(y) 
          = f1(y)
 
-Row, linear equation deg(g) <= 1
-Pick y = y0
+행, 일차식 deg(g) <= 1
+y = y0 선택
 g(x, y0) = f0_even(y0) + x * f0_odd(y0) 
-         2 points determine a line -> 2 points in a row is sufficient to recover all the points in that row
+         점 2개가 직선 하나를 결정 -> 한 행의 점 2개만으로 그 행의 모든 점을 복원할 수 있음
 
-TOOD: implications if prover commits to the whole table?
+TOOD: 증명자가 표 전체에 커밋하면 어떤 의미가 있는가?
 ```
-
-

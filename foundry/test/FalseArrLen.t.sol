@@ -8,23 +8,22 @@ contract FalseArrLenTest is Test {
         assembly {
             arr := mload(0x40)
             mstore(arr, len)
-            // Reserve the fake length by moving free mem pointer
+            // 빈 메모리 포인터를 옮겨 가짜 길이만큼 공간 확보
             mstore(0x40, add(arr, 32))
         }
     }
 
     function test() public {
-        // Internal call works
+        // 내부 호출은 정상 동작
         uint256[] memory arr = f(type(uint256).max);
 
-        // External call reverts (out of gas)
+        // 외부 호출은 리버트(가스 부족)
         // uint256[] memory arr = this.f(type(uint256).max);
 
-        // console.log writes to same memory as arr
-        // if free mem pointer was not updated
-        // so store length in a new variable
+        // 빈 메모리 포인터를 갱신하지 않으면
+        // console.log가 arr와 같은 메모리에 기록하므로
+        // 길이는 새 변수에 저장
         uint256 len = arr.length;
         console.log("arr length:", len);
     }
 }
-

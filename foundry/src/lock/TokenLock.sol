@@ -6,13 +6,13 @@ import {Auth} from "../lib/Auth.sol";
 
 contract TokenLock is Auth {
     struct Lock {
-        // Locked amount
+        // 잠긴 수량
         uint256 amount;
-        // Last lock timestamp
+        // 마지막 잠금 타임스탬프
         uint32 updatedAt;
-        // Lock expiry timestamp
+        // 잠금 만료 타임스탬프
         uint32 expiresAt;
-        // Lock duration
+        // 잠금 기간
         uint32 duration;
     }
 

@@ -5,9 +5,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 const L1_RPC = "https://rpc.ankr.com/eth_sepolia"
 const L2_RPC = "https://sepolia.optimism.io"
-// 11155111 for Sepolia, 1 for Ethereum
+// Sepolia는 11155111, Ethereum은 1
 const L1_CHAIN_ID = 11155111
-// 11155420 for OP Sepolia, 10 for OP Mainnet
+// OP Sepolia는 11155420, OP Mainnet은 10
 const L2_CHAIN_ID = 11155420
 
 const L1_TOKEN = "0x5589BB8228C07c4e15558875fAf2B859f678d129"
@@ -30,27 +30,27 @@ const ERC20_ABI = [
   },
 ]
 
-// Withdraw from L2 tx hash
+// L2 출금 트랜잭션 해시
 // https://sepolia-optimism.etherscan.io/tx/0x5237fc420ee0fb376d29a25cdb114335a1a610b75e6468a08092df446d349c86
 // L2StandardBridge.withdraw
 // -> CrossDomainMessenger.sendMessage(L1StandardBridge.finalizeBridgeERC20)
 
-// Prove withdrawal on L1
+// L1에서 출금 증명
 // https://sepolia.etherscan.io/tx/0x633599baec6b617d5acf468c49d9ee992c241c8f888270f3352b6dee919cb89b
 // OptimismPortal.proveWithdrawalTransaction
 
-// Finalize withdrawal on L1
+// L1에서 출금 확정
 // https://sepolia.etherscan.io/tx/0xdc070d1241068ab8f2c647116ac6e74e999d0d4c749e06b24b387fa8dc005046
 // OptimismPortal.finalizeWithdrawalTransaction
 
 async function main() {
-  // Create RPC providers and wallet
+  // RPC 프로바이더와 지갑 생성
   const l1_provider = new ethers.providers.StaticJsonRpcProvider(L1_RPC)
   const l2_provider = new ethers.providers.StaticJsonRpcProvider(L2_RPC)
   const l1_wallet = new ethers.Wallet(PRIVATE_KEY, l1_provider)
   const l2_wallet = new ethers.Wallet(PRIVATE_KEY, l2_provider)
 
-  // Create CrossChainMessenger instance
+  // CrossChainMessenger 인스턴스 생성
   const messenger = new optimism.CrossChainMessenger({
     l1ChainId: L1_CHAIN_ID,
     l2ChainId: L2_CHAIN_ID,
@@ -61,7 +61,7 @@ async function main() {
   const l1_token = new ethers.Contract(L1_TOKEN, ERC20_ABI, l1_wallet)
   const l2_token = new ethers.Contract(L2_TOKEN, ERC20_ABI, l2_wallet)
 
-  // Start withdrawal
+  // 출금 시작
   console.log("Withdraw from L2...")
   const amount = 1000000000000000000n
   const withdrawal = await messenger.withdrawERC20(l1_token, l2_token, amount)

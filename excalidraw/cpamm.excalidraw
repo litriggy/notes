@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Constant Product Automated Market Maker",
+      "fontFamily": 2,
+      "text": "상수곱 자동화 마켓 메이커",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Constant Product Automated Market Maker"
+      "originalText": "상수곱 자동화 마켓 메이커"
     },
     {
       "type": "line",
@@ -104,13 +104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is Constant Product AMM?",
+      "fontFamily": 2,
+      "text": "상수곱 AMM이란?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is Constant Product AMM?"
+      "originalText": "상수곱 AMM이란?"
     },
     {
       "type": "line",
@@ -179,13 +179,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Price of tokens are determined by the equation",
+      "fontFamily": 2,
+      "text": "방정식에 따라 토큰 가격 결정",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of tokens are determined by the equation"
+      "originalText": "방정식에 따라 토큰 가격 결정"
     },
     {
       "type": "text",
@@ -247,13 +247,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "X = Amount of Token A in the AMM",
+      "fontFamily": 2,
+      "text": "X = AMM의 토큰 A 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "X = Amount of Token A in the AMM"
+      "originalText": "X = AMM의 토큰 A 수량"
     },
     {
       "type": "text",
@@ -281,13 +281,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Y = Amount of Token B in the AMM",
+      "fontFamily": 2,
+      "text": "Y = AMM의 토큰 B 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Y = Amount of Token B in the AMM"
+      "originalText": "Y = AMM의 토큰 B 수량"
     },
     {
       "type": "rectangle",
@@ -409,13 +409,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Sell token A, buy token B",
+      "fontFamily": 2,
+      "text": "토큰 A 매도, 토큰 B 매수",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Sell token A, buy token B"
+      "originalText": "토큰 A 매도, 토큰 B 매수"
     },
     {
       "type": "text",
@@ -443,13 +443,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dx = Amount of Token A in",
+      "fontFamily": 2,
+      "text": "dx = 입력 토큰 A 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dx = Amount of Token A in"
+      "originalText": "dx = 입력 토큰 A 수량"
     },
     {
       "type": "text",
@@ -477,13 +477,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dy = Amount of Token B out",
+      "fontFamily": 2,
+      "text": "dy = 출력 토큰 B 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dy = Amount of Token B out"
+      "originalText": "dy = 출력 토큰 B 수량"
     },
     {
       "type": "text",
@@ -1148,13 +1148,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Before trade",
+      "fontFamily": 2,
+      "text": "거래 전",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Before trade"
+      "originalText": "거래 전"
     },
     {
       "type": "text",
@@ -1182,13 +1182,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After trade",
+      "fontFamily": 2,
+      "text": "거래 후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After trade"
+      "originalText": "거래 후"
     },
     {
       "type": "text",
@@ -1336,13 +1336,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "K is constant",
+      "fontFamily": 2,
+      "text": "K는 상수",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "K is constant"
+      "originalText": "K는 상수"
     },
     {
       "type": "freedraw",
@@ -1954,13 +1954,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -2029,13 +2029,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap - How many token to return in a trade?",
+      "fontFamily": 2,
+      "text": "스왑 - 거래에서 반환할 토큰 수량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap - How many token to return in a trade?"
+      "originalText": "스왑 - 거래에서 반환할 토큰 수량은?"
     },
     {
       "type": "line",
@@ -2104,13 +2104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Swap from token A to token B",
+      "fontFamily": 2,
+      "text": "토큰 A를 토큰 B로 스왑",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap from token A to token B"
+      "originalText": "토큰 A를 토큰 B로 스왑"
     },
     {
       "type": "text",
@@ -2138,13 +2138,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Before swap",
+      "fontFamily": 2,
+      "text": "스왑 전",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Before swap"
+      "originalText": "스왑 전"
     },
     {
       "type": "text",
@@ -2206,13 +2206,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After swap",
+      "fontFamily": 2,
+      "text": "스왑 후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After swap"
+      "originalText": "스왑 후"
     },
     {
       "type": "text",
@@ -4886,13 +4886,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dx = Amount of Token A in",
+      "fontFamily": 2,
+      "text": "dx = 입력 토큰 A 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dx = Amount of Token A in"
+      "originalText": "dx = 입력 토큰 A 수량"
     },
     {
       "type": "text",
@@ -4920,13 +4920,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "dy = Amount of Token B out",
+      "fontFamily": 2,
+      "text": "dy = 출력 토큰 B 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "dy = Amount of Token B out"
+      "originalText": "dy = 출력 토큰 B 수량"
     },
     {
       "type": "text",
@@ -4954,13 +4954,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Add liquidity - How many shares to mint?",
+      "fontFamily": 2,
+      "text": "유동성 추가 - 지분을 얼마나 발행할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Add liquidity - How many shares to mint?"
+      "originalText": "유동성 추가 - 지분을 얼마나 발행할까?"
     },
     {
       "type": "line",
@@ -5029,13 +5029,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "How many dx, dy to add?",
+      "fontFamily": 2,
+      "text": "추가할 dx, dy의 수량은?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How many dx, dy to add?"
+      "originalText": "추가할 dx, dy의 수량은?"
     },
     {
       "type": "line",
@@ -5104,13 +5104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "No price change before and after adding liquidity",
+      "fontFamily": 2,
+      "text": "유동성 추가 전후에 가격 변화 없음",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "No price change before and after adding liquidity"
+      "originalText": "유동성 추가 전후에 가격 변화 없음"
     },
     {
       "type": "text",
@@ -5138,13 +5138,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Before",
+      "fontFamily": 2,
+      "text": "이전",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Before"
+      "originalText": "이전"
     },
     {
       "type": "text",
@@ -5206,13 +5206,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After",
+      "fontFamily": 2,
+      "text": "이후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After"
+      "originalText": "이후"
     },
     {
       "type": "text",
@@ -5653,13 +5653,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "What is dy given dx?",
+      "fontFamily": 2,
+      "text": "dx가 주어졌을 때 dy는?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is dy given dx?"
+      "originalText": "dx가 주어졌을 때 dy는?"
     },
     {
       "type": "text",
@@ -5687,13 +5687,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "What is dx given dy?",
+      "fontFamily": 2,
+      "text": "dy가 주어졌을 때 dx는?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is dx given dy?"
+      "originalText": "dy가 주어졌을 때 dx는?"
     },
     {
       "type": "text",
@@ -5720,14 +5720,14 @@
       "updated": 1655454018930,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find dy",
+      "fontSize": 17.30727974467338,
+      "fontFamily": 2,
+      "text": "dy 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find dy"
+      "originalText": "dy 구하기"
     },
     {
       "type": "text",
@@ -6243,14 +6243,14 @@
       "updated": 1655454018931,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find dx",
+      "fontSize": 17.816317384222597,
+      "fontFamily": 2,
+      "text": "dx 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find dx"
+      "originalText": "dx 구하기"
     },
     {
       "type": "line",
@@ -8592,13 +8592,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "How many shares to mint?",
+      "fontFamily": 2,
+      "text": "발행할 지분 수량은?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How many shares to mint?"
+      "originalText": "발행할 지분 수량은?"
     },
     {
       "type": "line",
@@ -8667,13 +8667,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Increase in liquidity is proportional to increase in shares",
+      "fontFamily": 2,
+      "text": "유동성 증가량은 지분 증가량에 비례",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Increase in liquidity is proportional to increase in shares"
+      "originalText": "유동성 증가량은 지분 증가량에 비례"
     },
     {
       "type": "text",
@@ -8701,13 +8701,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "L0 = Total liquidity before\nL1 = Total liquidity after\nT = Total shares before\ns = shares to mint",
+      "fontFamily": 2,
+      "text": "L0 = 이전 총유동성\nL1 = 이후 총유동성\nT = 이전 총지분\ns = 발행할 지분",
       "baseline": 93,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "L0 = Total liquidity before\nL1 = Total liquidity after\nT = Total shares before\ns = shares to mint"
+      "originalText": "L0 = 이전 총유동성\nL1 = 이후 총유동성\nT = 이전 총지분\ns = 발행할 지분"
     },
     {
       "type": "text",
@@ -9364,14 +9364,14 @@
       "updated": 1655454018933,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find s",
+      "fontSize": 17.196240711032935,
+      "fontFamily": 2,
+      "text": "s 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find s"
+      "originalText": "s 구하기"
     },
     {
       "type": "text",
@@ -10314,13 +10314,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "What is L0 and L1?",
+      "fontFamily": 2,
+      "text": "L0와 L1은 무엇일까?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is L0 and L1?"
+      "originalText": "L0와 L1은 무엇일까?"
     },
     {
       "type": "text",
@@ -10348,13 +10348,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "How to measure total liquidity from X and Y?",
+      "fontFamily": 2,
+      "text": "X와 Y로 총유동성을 어떻게 측정할까?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How to measure total liquidity from X and Y?"
+      "originalText": "X와 Y로 총유동성을 어떻게 측정할까?"
     },
     {
       "type": "freedraw",
@@ -11023,13 +11023,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "f(X, Y) = total liquidity",
+      "fontFamily": 2,
+      "text": "f(X, Y) = 총유동성",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "f(X, Y) = total liquidity"
+      "originalText": "f(X, Y) = 총유동성"
     },
     {
       "type": "text",
@@ -11343,13 +11343,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Motivation",
+      "fontFamily": 2,
+      "text": "동기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Motivation"
+      "originalText": "동기"
     },
     {
       "type": "line",
@@ -11906,13 +11906,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Adding liquidity increases K (area of XY)",
+      "fontFamily": 2,
+      "text": "유동성을 추가하면 K (XY의 넓이) 증가",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Adding liquidity increases K (area of XY)"
+      "originalText": "유동성을 추가하면 K (XY의 넓이) 증가"
     },
     {
       "type": "text",
@@ -11940,13 +11940,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Define f(X, Y) = XY?",
+      "fontFamily": 2,
+      "text": "f(X, Y) = XY로 정의?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Define f(X, Y) = XY?"
+      "originalText": "f(X, Y) = XY로 정의?"
     },
     {
       "type": "text",
@@ -11974,13 +11974,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "f(X, Y) is quadratic which is not good",
+      "fontFamily": 2,
+      "text": "f(X, Y)는 이차식이므로 부적절",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "f(X, Y) is quadratic which is not good"
+      "originalText": "f(X, Y)는 이차식이므로 부적절"
     },
     {
       "type": "text",
@@ -12144,13 +12144,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "f(X, Y) should be like linear",
+      "fontFamily": 2,
+      "text": "f(X, Y)는 선형에 가까워야 함",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "f(X, Y) should be like linear"
+      "originalText": "f(X, Y)는 선형에 가까워야 함"
     },
     {
       "type": "freedraw",
@@ -12594,13 +12594,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "(Not good)",
+      "fontFamily": 2,
+      "text": "(부적절)",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "(Not good)"
+      "originalText": "(부적절)"
     },
     {
       "type": "text",
@@ -12628,13 +12628,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "How about f(x, y) = ",
+      "fontFamily": 2,
+      "text": "f(x, y)를 다음처럼 두면?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How about f(x, y) = "
+      "originalText": "f(x, y)를 다음처럼 두면?"
     },
     {
       "type": "text",
@@ -13873,13 +13873,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Simplify this",
+      "fontFamily": 2,
+      "text": "식 정리",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Simplify this"
+      "originalText": "식 정리"
     },
     {
       "type": "line",
@@ -15187,13 +15187,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "What is L0 and L1?",
+      "fontFamily": 2,
+      "text": "L0와 L1은 무엇일까?",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is L0 and L1?"
+      "originalText": "L0와 L1은 무엇일까?"
     },
     {
       "type": "text",
@@ -15221,13 +15221,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "f(X, Y) = total liquidity",
+      "fontFamily": 2,
+      "text": "f(X, Y) = 총유동성",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "f(X, Y) = total liquidity"
+      "originalText": "f(X, Y) = 총유동성"
     },
     {
       "type": "text",
@@ -17371,14 +17371,14 @@
       "updated": 1655454018937,
       "link": null,
       "locked": false,
-      "text": "so",
+      "text": "∴",
       "fontSize": 20,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "text",
@@ -20427,14 +20427,14 @@
       "updated": 1655454018939,
       "link": null,
       "locked": false,
-      "text": "Replace dy",
+      "text": "dy 대입",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Replace dy"
+      "originalText": "dy 대입"
     },
     {
       "type": "text",
@@ -26541,14 +26541,14 @@
       "updated": 1655454018942,
       "link": null,
       "locked": false,
-      "text": "Pull out Y",
+      "text": "Y로 묶기",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Pull out Y"
+      "originalText": "Y로 묶기"
     },
     {
       "id": "ScrGyNv4OqP8dChaPeZNk",
@@ -27373,14 +27373,14 @@
       "updated": 1655454018942,
       "link": null,
       "locked": false,
-      "text": "Multiply by 1",
+      "text": "1 곱하기",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Multiply by 1"
+      "originalText": "1 곱하기"
     },
     {
       "id": "DvFCMiaScwIej_DrUywYt",
@@ -32861,14 +32861,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "Answer",
+      "text": "답",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Answer"
+      "originalText": "답"
     },
     {
       "id": "JOqWimmMRLuU5U1e30XP1",
@@ -32895,14 +32895,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "Answer",
+      "text": "답",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Answer"
+      "originalText": "답"
     },
     {
       "type": "text",
@@ -32930,13 +32930,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Remove liquidity - How many tokens to withdraw?",
+      "fontFamily": 2,
+      "text": "유동성 제거 - 토큰을 얼마나 출금할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Remove liquidity - How many tokens to withdraw?"
+      "originalText": "유동성 제거 - 토큰을 얼마나 출금할까?"
     },
     {
       "type": "line",
@@ -33384,14 +33384,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "Answer",
+      "text": "답",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Answer"
+      "originalText": "답"
     },
     {
       "id": "cWc87Byo7T_Medul2HO0j",
@@ -33418,14 +33418,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "Withdraw tokens proportional to shares",
+      "text": "지분에 비례해 토큰 출금",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Withdraw tokens proportional to shares"
+      "originalText": "지분에 비례해 토큰 출금"
     },
     {
       "id": "4Bg0wq6AhMI7CGQGHBrdi",
@@ -33452,14 +33452,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "a = Amount out = f(dx, dy)",
+      "text": "a = 출력량 = f(dx, dy)",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "a = Amount out = f(dx, dy)"
+      "originalText": "a = 출력량 = f(dx, dy)"
     },
     {
       "id": "4F4nlEw4FC8W4a3LkFhRq",
@@ -34015,14 +34015,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "L = Total liquidity = f(X, Y) ",
+      "text": "L = 총유동성 = f(X, Y)",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "L = Total liquidity = f(X, Y) "
+      "originalText": "L = 총유동성 = f(X, Y)"
     },
     {
       "type": "text",
@@ -34083,14 +34083,14 @@
       "updated": 1655454018944,
       "link": null,
       "locked": false,
-      "text": "s = Amount of shares to burn\nT = Total shares",
+      "text": "s = 소각할 지분 수량\nT = 총지분",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 43,
       "containerId": null,
-      "originalText": "s = Amount of shares to burn\nT = Total shares"
+      "originalText": "s = 소각할 지분 수량\nT = 총지분"
     },
     {
       "id": "_prUFRWSROQp42fN-L-Eb",
@@ -35161,14 +35161,14 @@
       "updated": 1655454018945,
       "link": null,
       "locked": false,
-      "text": "Find a",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "찾을 대상:",
+      "fontSize": 15.190522946349589,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Find a"
+      "originalText": "찾을 대상:"
     },
     {
       "id": "3vifkt0BlKSynbRCdwU97",
@@ -36033,14 +36033,14 @@
       "updated": 1655454018945,
       "link": null,
       "locked": false,
-      "text": "Find dx",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "dx 구하기",
+      "fontSize": 17.816317384222597,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Find dx"
+      "originalText": "dx 구하기"
     },
     {
       "id": "BJn7FLDaNzySTu9r4eKzB",
@@ -36362,12 +36362,12 @@
       "locked": false,
       "fontSize": 20,
       "fontFamily": 1,
-      "text": "so",
+      "text": "∴",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "text",
@@ -37560,14 +37560,14 @@
       "updated": 1655454018945,
       "link": null,
       "locked": false,
-      "text": "Replace dy",
+      "text": "dy 대입",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Replace dy"
+      "originalText": "dy 대입"
     },
     {
       "id": "3aNN94BrSWr72MxKihjwC",
@@ -39971,14 +39971,14 @@
       "updated": 1655454034678,
       "link": null,
       "locked": false,
-      "text": "Pull out dx",
+      "text": "dx로 묶기",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Pull out dx"
+      "originalText": "dx로 묶기"
     },
     {
       "id": "GhAXTQbYIwZBzfn78Y4RE",
@@ -43203,14 +43203,14 @@
       "updated": 1655454466987,
       "link": null,
       "locked": false,
-      "text": "Likewise",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "마찬가지로",
+      "fontSize": 17.572266734405154,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Likewise"
+      "originalText": "마찬가지로"
     },
     {
       "type": "text",

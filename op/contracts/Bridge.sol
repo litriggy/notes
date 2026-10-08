@@ -4,32 +4,32 @@ pragma solidity 0.8.24;
 // L1    | L2
 // ERC20 | OPERC20 (OptimismMintableERC20)
 
-// Send ERC20 from L1 to L2
-// Lock ERC20 on L1StandardBrige
+// L1에서 L2로 ERC20 전송
+// L1StandardBrige에 ERC20 잠금
 // -> CrossDomainMessenger (L1)
 // -> L2StandardBrige (L2)
-// -> Mint OPERC20 (L2)
+// -> OPERC20 발행(L2)
 
-// Send ERC20 from L2 to L1
-// Burn OPERC20 by L2StandardBrige
+// L2에서 L1으로 ERC20 전송
+// L2StandardBrige에서 OPERC20 소각
 // -> CrossDomainMessenger (L2)
-// -> Unlock ERC20 on L1StandardBridge
+// -> L1StandardBridge의 ERC20 잠금 해제
 
-// 1. Deploy ERC20 on L1
-// 2. Deploy OPERC20 on L2
-// 3. Deploy L1Bridge on L1
-// 4. Deploy L2Bridge on L2
-// 5. Mint ERC20 and approve L1Bridge
-// 6. Send ERC20 to L2
-// 7. Check OPERC20 balance of L2Bridge
-// 8. Withdraw OPERC20 on L2
-// 9. Approve OPERC20 for L2Bridge and send ERC20 to L1
-// 10. Check ERC20 balance of L1Bridge
-// 11. Withdraw ERC20 on L1
-// 12. Check finalize tx and token transfer
+// 1. L1에 ERC20 배포
+// 2. L2에 OPERC20 배포
+// 3. L1에 L1Bridge 배포
+// 4. L2에 L2Bridge 배포
+// 5. ERC20 발행 후 L1Bridge에 사용 승인
+// 6. L2로 ERC20 전송
+// 7. L2Bridge의 OPERC20 잔액 확인
+// 8. L2에서 OPERC20 출금
+// 9. L2Bridge에 OPERC20 사용 승인 후 L1으로 ERC20 전송
+// 10. L1Bridge의 ERC20 잔액 확인
+// 11. L1에서 ERC20 출금
+// 12. 확정 트랜잭션과 토큰 전송 확인
 
 interface IL1StandardBridge {
-    // Calls same internal function as bridgeERC20To
+    // bridgeERC20To와 같은 내부 함수 호출
     function depositERC20To(
         address l1_token,
         address l2_token,
@@ -50,7 +50,7 @@ interface IL1StandardBridge {
 }
 
 interface IL2StandardBridge {
-    // Calls same internal function as bridgeERC20To
+    // bridgeERC20To와 같은 내부 함수 호출
     function withdrawTo(address l2_token, address to, uint256 amount, uint32 min_gas_limit, bytes calldata data)
         external;
 
@@ -87,21 +87,21 @@ contract L1Bridge {
         l1_token = _l1_token;
         l2_token = _l2_token;
 
-        // TODO: infinite approval is safe?
+        // TODO: 무제한 사용 승인은 안전한가?
         IERC20(l1_token).approve(l1_op_bridge, type(uint256).max);
     }
 
-    // Deposit L1 -> L2
+    // 입금 L1 -> L2
     // remote_addr = L2Bridge
     function sendToL2(address remote_addr, uint256 amount) external {
-        // TODO: how to cancel bridge transfer?
+        // TODO: 브리지 전송은 어떻게 취소하는가?
         IERC20(l1_token).transferFrom(msg.sender, address(this), amount);
         IL1StandardBridge(l1_op_bridge).bridgeERC20To({
             local_token: l1_token,
             remote_token: l2_token,
             to: remote_addr,
             amount: amount,
-            // TODO: what should go here?
+            // TODO: 여기에 어떤 값을 넣어야 하는가?
             min_gas_limit: 200000,
             data: ""
         });
@@ -114,7 +114,7 @@ contract L1Bridge {
 }
 
 // 0x31B136e2d1fa077e6e6b629b05B1E0360835e5B8
-// Withdraw from L2 to L1 tx
+// L2에서 L1으로 출금하는 트랜잭션
 // https://optimism-sepolia.blockscout.com/tx/0x915f467d322682f0bb1bfe332a9099dcef8dbd2acc4335b0d653cb5d255b655b
 contract L2Bridge {
     // 0x4200000000000000000000000000000000000010
@@ -127,21 +127,21 @@ contract L2Bridge {
         l1_token = _l1_token;
         l2_token = _l2_token;
 
-        // TODO: infinite approval is safe?
+        // TODO: 무제한 사용 승인은 안전한가?
         IERC20(l2_token).approve(l2_op_bridge, type(uint256).max);
     }
 
-    // Withdraw L2 -> L1
+    // 출금 L2 -> L1
     // remote_addr = L1Bridge
     function sendToL1(address remote_addr, uint256 amount) external {
-        // TODO: how to cancel bridge transfer?
+        // TODO: 브리지 전송은 어떻게 취소하는가?
         IERC20(l2_token).transferFrom(msg.sender, address(this), amount);
         IL1StandardBridge(l2_op_bridge).bridgeERC20To({
             local_token: l2_token,
             remote_token: l1_token,
             to: remote_addr,
             amount: amount,
-            // TODO: what should go here?
+            // TODO: 여기에 어떤 값을 넣어야 하는가?
             min_gas_limit: 200000,
             data: ""
         });

@@ -185,13 +185,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Fee - How to Calculate Fee?",
+      "fontFamily": 2,
+      "text": "Uniswap V3 수수료 - 수수료 계산 방법",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Fee - How to Calculate Fee?"
+      "originalText": "Uniswap V3 수수료 - 수수료 계산 방법"
     },
     {
       "type": "line",
@@ -579,13 +579,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Alice has ",
+      "fontFamily": 2,
+      "text": "Alice 보유:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Alice has "
+      "originalText": "Alice 보유:"
     },
     {
       "type": "text",
@@ -647,13 +647,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity",
+      "fontFamily": 2,
+      "text": "유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity"
+      "originalText": "유동성"
     },
     {
       "id": "wxunvTiBsGUh6tMCIAkkY",
@@ -680,14 +680,14 @@
       "updated": 1672972576850,
       "link": null,
       "locked": false,
-      "text": "Swap updates active liquidity from",
+      "text": "스왑으로 활성 유동성 갱신. 시작점:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swap updates active liquidity from"
+      "originalText": "스왑으로 활성 유동성 갱신. 시작점:"
     },
     {
       "type": "text",
@@ -1000,14 +1000,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "text": "to",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -1170,14 +1170,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "text": "collects ",
+      "text": "징수",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "collects "
+      "originalText": "징수"
     },
     {
       "type": "text",
@@ -1272,14 +1272,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "text": "fee",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "수수료",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "fee"
+      "originalText": "수수료"
     },
     {
       "type": "text",
@@ -1375,13 +1375,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "collects ",
+      "fontFamily": 2,
+      "text": "징수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "collects "
+      "originalText": "징수"
     },
     {
       "type": "text",
@@ -1476,14 +1476,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "fee",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "수수료",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "fee"
+      "originalText": "수수료"
     },
     {
       "id": "wVzytw9k69MUIIsFjxkJ2",
@@ -1510,14 +1510,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "text": "Fees earned by Alice",
+      "text": "Alice가 얻은 수수료",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Fees earned by Alice"
+      "originalText": "Alice가 얻은 수수료"
     },
     {
       "id": "zjXRaYHAxcWDI6xA-4NKc",
@@ -1653,14 +1653,14 @@
       "updated": 1672972576852,
       "link": null,
       "locked": false,
-      "text": "Total fees earned by Alice",
+      "text": "Alice가 얻은 총수수료",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Total fees earned by Alice"
+      "originalText": "Alice가 얻은 총수수료"
     },
     {
       "type": "text",
@@ -2178,13 +2178,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap updates active liquidity from",
+      "fontFamily": 2,
+      "text": "스왑으로 활성 유동성 갱신. 시작점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap updates active liquidity from"
+      "originalText": "스왑으로 활성 유동성 갱신. 시작점:"
     },
     {
       "type": "text",
@@ -2281,12 +2281,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -2924,14 +2924,14 @@
       "updated": 1672973198366,
       "link": null,
       "locked": false,
-      "text": "Some time later...",
+      "text": "얼마 후...",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Some time later..."
+      "originalText": "얼마 후..."
     },
     {
       "id": "CYFtpdfBaST6Wapd4GezC",
@@ -4933,14 +4933,14 @@
       "updated": 1672972704269,
       "link": null,
       "locked": false,
-      "text": "is constant",
+      "text": "상수",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "is constant"
+      "originalText": "상수"
     },
     {
       "type": "text",
@@ -6476,14 +6476,14 @@
       "updated": 1672973077377,
       "link": null,
       "locked": false,
-      "text": "General equation",
+      "text": "일반식",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "General equation"
+      "originalText": "일반식"
     },
     {
       "id": "8sGCslSBIRY18K8xJxHqG",
@@ -6551,14 +6551,14 @@
       "updated": 1672972872750,
       "link": null,
       "locked": false,
-      "text": "Alice provides",
+      "text": "Alice가 공급",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Alice provides"
+      "originalText": "Alice가 공급"
     },
     {
       "type": "text",
@@ -6619,14 +6619,14 @@
       "updated": 1672973105432,
       "link": null,
       "locked": false,
-      "text": "liquidity",
+      "text": "유동성",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "liquidity"
+      "originalText": "유동성"
     },
     {
       "id": "uSqGdisTC6pUz0hNybNR9",
@@ -6653,14 +6653,14 @@
       "updated": 1672973604232,
       "link": null,
       "locked": false,
-      "text": "Swaps through",
+      "text": "다음을 거쳐 스왑:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swaps through"
+      "originalText": "다음을 거쳐 스왑:"
     },
     {
       "type": "text",
@@ -6756,13 +6756,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "collects ",
+      "fontFamily": 2,
+      "text": "징수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "collects "
+      "originalText": "징수"
     },
     {
       "type": "text",
@@ -6823,14 +6823,14 @@
       "updated": 1672973620934,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "fee",
+      "fontSize": 17.34105051342516,
+      "fontFamily": 2,
+      "text": "수수료",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "fee"
+      "originalText": "수수료"
     },
     {
       "id": "2PVuvfxYA6bCL022e6akJ",
@@ -6891,14 +6891,14 @@
       "updated": 1672973139152,
       "link": null,
       "locked": false,
-      "text": "Total fee earned by Alice",
+      "text": "Alice가 얻은 총수수료",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Total fee earned by Alice"
+      "originalText": "Alice가 얻은 총수수료"
     },
     {
       "type": "text",
@@ -8615,14 +8615,14 @@
       "updated": 1672973604232,
       "link": null,
       "locked": false,
-      "text": "liquidity",
+      "text": "유동성",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "liquidity"
+      "originalText": "유동성"
     },
     {
       "id": "0v8-1uKv784-9agowqTBv",
@@ -8649,14 +8649,14 @@
       "updated": 1672973353214,
       "link": null,
       "locked": false,
-      "text": "Liquidity has concentrated \naround current price",
+      "text": "현재 가격 주변에\n유동성 집중",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 60,
       "containerId": null,
-      "originalText": "Liquidity has concentrated \naround current price"
+      "originalText": "현재 가격 주변에\n유동성 집중"
     },
     {
       "id": "ukUMOK299rwHYcW0ISy6_",

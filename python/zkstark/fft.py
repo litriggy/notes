@@ -1,13 +1,13 @@
-# Number Theoretic Transform (NTT) - FFT on modular arithmetic
+# 수론적 변환(NTT) - 모듈러 연산에서의 FFT
 
 
-# Recursive fft
+# 재귀 FFT
 def fft_rec(f: list[int], ws: list[int], p: int) -> list[int]:
     """
-    f = polynomial of degree < N
-    ws[i] = w^i, where w is a N-th primitive root of unity
+    f = 차수가 N 미만인 다항식
+    ws[i] = w^i, 여기서 w는 1의 원시 N제곱근
     p = x mod p
-    Returns [f(ws[0]), f(ws[1]), ..., f(ws[N-1])]
+    [f(ws[0]), f(ws[1]), ..., f(ws[N-1])] 반환
     """
     n = len(f)
     assert n & (n - 1) == 0, f"{n} is not a power of 2"
@@ -16,7 +16,7 @@ def fft_rec(f: list[int], ws: list[int], p: int) -> list[int]:
     if n == 1:
         return f
 
-    # Optional - check x is a Nth primitive root of unity
+    # 선택 사항 - x가 1의 원시 N제곱근인지 확인
     w = ws[1]
     assert pow(w, n, p) == 1, f"{w}^{n} mod {p} != 1"
     assert pow(w, n // 2, p) == p - 1, f"{w}^({n} / 2) mod {p} != -1"
@@ -37,8 +37,8 @@ def fft_rec(f: list[int], ws: list[int], p: int) -> list[int]:
     return ys
 
 
-# FFT without recursion
-# Evaluates polynomial f at N points (ws)
+# 재귀 없는 FFT
+# N개 점(ws)에서 다항식 f의 값 계산
 def fft(f: list[int], ws: list[int], p: int) -> list[int]:
     n = len(f)
     assert n & (n - 1) == 0, f"{n} is not a power of 2"
@@ -46,23 +46,23 @@ def fft(f: list[int], ws: list[int], p: int) -> list[int]:
 
     ys = [0] * n
 
-    # Map final positions of evens and odds to ys
-    # Bit reversal
-    # Starting index = reverse of final index
+    # 짝수·홀수 항의 최종 위치를 ys에 대응시킴
+    # 비트 순서 뒤집기
+    # 시작 인덱스 = 최종 인덱스의 비트 순서를 뒤집은 값
     rev = 0
     for i in range(n):
         ys[i] = f[rev]
-        # Carry from left to right
+        # 왼쪽에서 오른쪽으로 올림 처리
         mask = n >> 1
         while rev & mask:
-            # Set 0 where mask has a 1
+            # mask가 1인 위치를 0으로 설정
             rev &= ~mask
-            # Shift 1 to the right
+            # 1을 오른쪽으로 이동
             mask >>= 1
-        # Put 1 at the correct bit position after carry
+        # 올림 처리 후 해당 비트 위치에 1을 배치
         rev |= mask
 
-    # Merge
+    # 병합
     k = n
     s = 2
     while k > 1:
@@ -71,8 +71,8 @@ def fft(f: list[int], ws: list[int], p: int) -> list[int]:
             for j in range(i, i + h):
                 f_even = ys[j]
                 f_odd = ys[j + h]
-                # wi = (w^j)^k = w^(j * k % n) at loop k,
-                #      so the wi at next loop = w^(j * (k // 2) % n)
+                # 반복 k에서 wi = (w^j)^k = w^(j * k % n)이므로
+                #      다음 반복의 wi = w^(j * (k // 2) % n)
                 wi = ws[(j * (k // 2)) % n]
 
                 ys[j] = (f_even + wi * f_odd) % p
@@ -84,15 +84,15 @@ def fft(f: list[int], ws: list[int], p: int) -> list[int]:
     return ys
 
 
-# Inverse FFT
-# Interpolates a polynomial of degree < N from N evaluations (ys)
+# 역 FFT
+# N개 평가값(ys)으로 차수가 N 미만인 다항식을 보간
 # inverse fft = N^(-1) * fft(ys, [1, w^(-1), w^(-2), ..., w^(-(N-1))], p)
 def ifft(ys: list[int], ws: list[int], p: int) -> list[int]:
     n = len(ys)
     # x = a^(-1) mod P
     # x * a^(-1) = 1 mod P
-    # Fermat's Little Theorem
-    # a^(P - 1) = 1 mod P so a^(P - 2) = a^(-1)
+    # 페르마의 소정리
+    # a^(P - 1) = 1 mod P이므로 a^(P - 2) = a^(-1)
     n_inv = pow(n, p - 2, p)
     # w^(-i) = w^(N - i)
     ws_inv = [0] * n
@@ -103,7 +103,7 @@ def ifft(ys: list[int], ws: list[int], p: int) -> list[int]:
     return [(n_inv * c) % p for c in fft(ys, ws_inv, p)]
 
 
-# Evaluate polynomial as xs, used to check outputs of FFT
+# FFT 출력을 확인하기 위해 xs에서 다항식의 값 계산
 def eval_poly(f: list[int], xs: list[int], p: int) -> list[int]:
     ys = [0] * len(xs)
     for i, xi in enumerate(xs):

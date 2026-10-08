@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 - Tick and sqrtPriceX96",
+      "fontFamily": 2,
+      "text": "Uniswap V3 - 틱과 sqrtPriceX96",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 - Tick and sqrtPriceX96"
+      "originalText": "Uniswap V3 - 틱과 sqrtPriceX96"
     },
     {
       "type": "line",
@@ -664,13 +664,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= price of token 0 in terms of token 1",
+      "fontFamily": 2,
+      "text": "= 토큰 1 기준 토큰 0 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= price of token 0 in terms of token 1"
+      "originalText": "= 토큰 1 기준 토큰 0 가격"
     },
     {
       "type": "text",
@@ -766,13 +766,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "text",
@@ -1156,13 +1156,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",
@@ -1299,13 +1299,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",
@@ -2698,13 +2698,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "rectangle",
@@ -2758,13 +2758,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example - Tick to sqrtPriceX96",
+      "fontFamily": 2,
+      "text": "예시 - 틱을 sqrtPriceX96으로 변환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example - Tick to sqrtPriceX96"
+      "originalText": "예시 - 틱을 sqrtPriceX96으로 변환"
     },
     {
       "type": "line",
@@ -2833,13 +2833,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "text",
@@ -2969,13 +2969,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",
@@ -3283,13 +3283,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",
@@ -4649,13 +4649,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "text",
@@ -4826,13 +4826,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",
@@ -5563,14 +5563,14 @@
       "updated": 1666340950329,
       "link": null,
       "locked": false,
-      "text": "Tick to sqrtPriceX96",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "틱을 sqrtPriceX96으로 변환",
+      "fontSize": 25.63147938064346,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Tick to sqrtPriceX96"
+      "originalText": "틱을 sqrtPriceX96으로 변환"
     },
     {
       "id": "tPOzIzobUCClnmrtWpMnN",
@@ -5597,14 +5597,14 @@
       "updated": 1666340950329,
       "link": null,
       "locked": false,
-      "text": "sqrtPriceX96 to tick",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "sqrtPriceX96을 틱으로 변환",
+      "fontSize": 25.021206062056713,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "sqrtPriceX96 to tick"
+      "originalText": "sqrtPriceX96을 틱으로 변환"
     },
     {
       "id": "BRvkH2ERwGg1VjaahjF3L",
@@ -5820,13 +5820,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example - sqrtPriceX96 to tick",
+      "fontFamily": 2,
+      "text": "예시 - sqrtPriceX96을 틱으로 변환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example - sqrtPriceX96 to tick"
+      "originalText": "예시 - sqrtPriceX96을 틱으로 변환"
     },
     {
       "type": "line",
@@ -6635,13 +6635,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tick"
+      "originalText": "틱"
     },
     {
       "type": "line",

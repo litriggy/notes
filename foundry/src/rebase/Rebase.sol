@@ -10,7 +10,7 @@ interface IMint is IERC20 {
     function mint(address dst, uint256 amt) external;
 }
 
-// Compound interest accruing rebase token
+// 복리 이자가 쌓이는 리베이스 토큰
 contract Rebase is Auth {
     using SafeTransfer for IMint;
 
@@ -18,9 +18,9 @@ contract Rebase is Auth {
     uint256 public acc;
     uint256 public rate;
     uint256 public last;
-    // Total shares
+    // 총지분
     uint256 public total;
-    // User => shares
+    // 사용자 => 지분
     mapping(address => uint256) public shares;
     bool public stopped;
 
@@ -93,7 +93,7 @@ contract Rebase is Auth {
         shares[dst] += s;
     }
 
-    // In case rates blow up and revert call to sync()
+    // 비율이 급증해 sync() 호출이 리버트되는 경우에 대비
     function yoink() external auth live {
         stopped = true;
         uint256 bal = token.balanceOf(address(this));

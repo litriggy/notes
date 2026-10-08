@@ -14,7 +14,6 @@ interface IERC20 {
         external
         returns (bool);
 
-    // IERC20 metadata
+    // IERC20 메타데이터
     function decimals() external view returns (uint8);
 }
-

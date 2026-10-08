@@ -3,12 +3,12 @@ from typing import Callable
 from field import F
 
 
-# Generic getter
+# 범용 getter
 def get(xs, i, default_val):
     return xs[i] if i < len(xs) else default_val
 
 
-# Wraps x with f(x)
+# x를 f(x)로 감싸기
 def wrap(x, f):
     if isinstance(x, type(f(0))):
         return x
@@ -16,7 +16,7 @@ def wrap(x, f):
         return f(x)
 
 
-# WARNING - this is slow. Dividing 1024 degree polynomial took 5 min 46 s
+# 주의 - 느린 연산. 1024차 다항식 나눗셈에 5분 46초 소요
 def div(p: Polynomial, d: Polynomial) -> (Polynomial, Polynomial):
     assert p.z == d.z
     assert d != 0, "div by 0"
@@ -45,7 +45,7 @@ def div(p: Polynomial, d: Polynomial) -> (Polynomial, Polynomial):
 class Polynomial:
     def __init__(self, cs: list[int] | list[F], f=lambda x: x):
         z = f(0)
-        # Remove trailing 0s
+        # 뒤쪽의 0 제거
         cs = cs[:]
         while len(cs) > 0 and wrap(cs[-1], f) == z:
             cs.pop()
@@ -82,7 +82,7 @@ class Polynomial:
             return p
         if isinstance(p, list):
             return self.wrap(p)
-        # int or F
+        # int 또는 F
         return self.wrap([p])
 
     def __neg__(self) -> Polynomial:
@@ -170,13 +170,13 @@ class Polynomial:
     def __repr__(self):
         return str(self.cs)
 
-    # Evaluate polynomial P(x)
+    # 다항식 P(x)의 값 계산
     def __call__(self, x: int | F | list[int] | list[F]):
-        # x is a list
+        # x가 리스트인 경우
         if isinstance(x, list):
             return [self(wrap(xi, self.f)) for xi in x]
 
-        # x is int
+        # x가 int인 경우
         f = self.f
         x = wrap(x, f)
         y = f(0)
@@ -187,7 +187,7 @@ class Polynomial:
         return y
 
 
-# Polynomial x^n
+# 다항식 x^n
 def X(n: int, f=lambda x: x) -> Polynomial:
     assert n >= 0
     cs = [0] * (n + 1)
@@ -195,8 +195,8 @@ def X(n: int, f=lambda x: x) -> Polynomial:
     return Polynomial(cs, f)
 
 
-# Lagrange interpolatin - very slow
-# Polynomial with L(xi) = yi for (x0, y0), (x1, y1), ... , (xn, yn)
+# 라그랑주 보간 - 매우 느림
+# (x0, y0), (x1, y1), ... , (xn, yn)에 대해 L(xi) = yi를 만족하는 다항식
 def interp(xs: list[int | F], ys: list[int | F], f=lambda x: x) -> Polynomial:
     assert len(xs) == len(ys)
 

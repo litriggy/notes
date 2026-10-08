@@ -78,13 +78,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Liquidity Delta",
+      "fontFamily": 2,
+      "text": "Uniswap V3 유동성 변화량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Liquidity Delta"
+      "originalText": "Uniswap V3 유동성 변화량"
     },
     {
       "type": "line",
@@ -412,13 +412,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity delta",
+      "fontFamily": 2,
+      "text": "유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity delta"
+      "originalText": "유동성 변화량"
     },
     {
       "type": "text",
@@ -2155,14 +2155,14 @@
       "updated": 1660138919537,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "For",
+      "fontSize": 26.01157577013774,
+      "fontFamily": 2,
+      "text": "범위",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For"
+      "originalText": "범위"
     },
     {
       "type": "text",
@@ -4145,13 +4145,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Uniswap V2 liquidity delta",
+      "fontFamily": 2,
+      "text": "Uniswap V2 유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V2 liquidity delta"
+      "originalText": "Uniswap V2 유동성 변화량"
     },
     {
       "type": "rectangle",
@@ -4565,13 +4565,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity ",
+      "fontFamily": 2,
+      "text": "유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity "
+      "originalText": "유동성"
     },
     {
       "type": "freedraw",
@@ -4823,14 +4823,14 @@
       "updated": 1660138919538,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "freedraw",
@@ -5084,12 +5084,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "are",
+      "text": "",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "are"
+      "originalText": ""
     },
     {
       "type": "text",
@@ -5117,13 +5117,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "added to price range between ",
+      "fontFamily": 2,
+      "text": "다음 가격 범위 사이에 추가:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "added to price range between "
+      "originalText": "다음 가격 범위 사이에 추가:"
     },
     {
       "type": "text",
@@ -5286,14 +5286,14 @@
       "updated": 1660138919538,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -5321,13 +5321,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is the change in liquidity?",
+      "fontFamily": 2,
+      "text": "유동성 변화량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is the change in liquidity?"
+      "originalText": "유동성 변화량은?"
     },
     {
       "type": "text",
@@ -5355,13 +5355,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Preliminary Math",
+      "fontFamily": 2,
+      "text": "기초 수학",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Preliminary Math"
+      "originalText": "기초 수학"
     },
     {
       "type": "line",
@@ -6123,13 +6123,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Curve of real reserves",
+      "fontFamily": 2,
+      "text": "실제 준비금 곡선",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Curve of real reserves"
+      "originalText": "실제 준비금 곡선"
     },
     {
       "type": "text",
@@ -8618,13 +8618,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity Delta",
+      "fontFamily": 2,
+      "text": "유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity Delta"
+      "originalText": "유동성 변화량"
     },
     {
       "type": "line",
@@ -8795,13 +8795,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity before",
+      "fontFamily": 2,
+      "text": "이전 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity before"
+      "originalText": "이전 유동성"
     },
     {
       "type": "text",
@@ -8897,13 +8897,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Current price",
+      "fontFamily": 2,
+      "text": "현재 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Current price"
+      "originalText": "현재 가격"
     },
     {
       "type": "text",
@@ -9033,13 +9033,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity after",
+      "fontFamily": 2,
+      "text": "이후 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity after"
+      "originalText": "이후 유동성"
     },
     {
       "type": "text",
@@ -9326,13 +9326,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity delta",
+      "fontFamily": 2,
+      "text": "유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity delta"
+      "originalText": "유동성 변화량"
     },
     {
       "type": "text",
@@ -9564,13 +9564,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "adding ",
+      "fontFamily": 2,
+      "text": "추가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "adding "
+      "originalText": "추가"
     },
     {
       "type": "freedraw",
@@ -9822,14 +9822,14 @@
       "updated": 1660138919539,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "freedraw",
@@ -10081,14 +10081,14 @@
       "updated": 1660138919539,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "in price range",
+      "fontSize": 27.682558880980068,
+      "fontFamily": 2,
+      "text": "가격 범위 안에서",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "in price range"
+      "originalText": "가격 범위 안에서"
     },
     {
       "type": "text",
@@ -10251,14 +10251,14 @@
       "updated": 1660138919539,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "line",
@@ -12628,14 +12628,14 @@
       "updated": 1660138919541,
       "link": null,
       "locked": false,
-      "text": "How to calculate",
+      "text": "계산 방법",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "How to calculate"
+      "originalText": "계산 방법"
     },
     {
       "type": "text",
@@ -12996,14 +12996,14 @@
       "updated": 1660138919541,
       "link": null,
       "locked": false,
-      "text": "Write real curve for",
+      "text": "다음의 실제 곡선 표현:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Write real curve for"
+      "originalText": "다음의 실제 곡선 표현:"
     },
     {
       "id": "L_wnw8y-Tc6QYAg7hzSNB",
@@ -13030,14 +13030,14 @@
       "updated": 1660138919541,
       "link": null,
       "locked": false,
-      "text": "from",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "시작점:",
+      "fontSize": 20.885325268079338,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "from"
+      "originalText": "시작점:"
     },
     {
       "type": "text",
@@ -13370,14 +13370,14 @@
       "updated": 1660138919542,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -14537,14 +14537,14 @@
       "updated": 1660138919542,
       "link": null,
       "locked": false,
-      "text": "Write real curve for",
+      "text": "다음의 실제 곡선 표현:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Write real curve for"
+      "originalText": "다음의 실제 곡선 표현:"
     },
     {
       "type": "text",
@@ -16392,14 +16392,14 @@
       "updated": 1660138919542,
       "link": null,
       "locked": false,
-      "text": "Real x increases",
+      "text": "실제 x 증가",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Real x increases"
+      "originalText": "실제 x 증가"
     },
     {
       "id": "KyE8Ess7NYBK8lCoiMTMz",
@@ -17198,13 +17198,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Real y increases",
+      "fontFamily": 2,
+      "text": "실제 y 증가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Real y increases"
+      "originalText": "실제 y 증가"
     },
     {
       "type": "freedraw",
@@ -17962,14 +17962,14 @@
       "updated": 1660138919543,
       "link": null,
       "locked": false,
-      "text": "Rewrite",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다시 쓰기",
+      "fontSize": 27.288560286504577,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Rewrite"
+      "originalText": "다시 쓰기"
     },
     {
       "type": "text",
@@ -18064,14 +18064,14 @@
       "updated": 1660138919543,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -21646,14 +21646,14 @@
       "updated": 1660138919543,
       "link": null,
       "locked": false,
-      "text": "Calculate",
+      "text": "계산",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Calculate"
+      "originalText": "계산"
     },
     {
       "type": "text",
@@ -27155,14 +27155,14 @@
       "updated": 1660138919545,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "For",
+      "fontSize": 26.01157577013774,
+      "fontFamily": 2,
+      "text": "범위",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For"
+      "originalText": "범위"
     },
     {
       "type": "text",
@@ -29145,13 +29145,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Uniswap V2 liquidity delta",
+      "fontFamily": 2,
+      "text": "Uniswap V2 유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V2 liquidity delta"
+      "originalText": "Uniswap V2 유동성 변화량"
     },
     {
       "type": "rectangle",
@@ -29538,14 +29538,14 @@
       "updated": 1660138919546,
       "link": null,
       "locked": false,
-      "text": "Liquidity delta - V3 converges to V2",
+      "text": "유동성 변화량 - V3가 V2로 수렴",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Liquidity delta - V3 converges to V2"
+      "originalText": "유동성 변화량 - V3가 V2로 수렴"
     },
     {
       "id": "GZY2M_ZyM74wlITQyExWI",

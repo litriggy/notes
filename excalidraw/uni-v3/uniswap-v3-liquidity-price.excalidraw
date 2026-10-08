@@ -367,14 +367,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "text": "Uniswap V3 - Liquidity Price Graph",
+      "text": "Uniswap V3 - 유동성·가격 그래프",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Uniswap V3 - Liquidity Price Graph"
+      "originalText": "Uniswap V3 - 유동성·가격 그래프"
     },
     {
       "id": "TFhbbOLUruysv6h7Qhrzp",
@@ -1913,14 +1913,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "text": "for left of ",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음의 왼쪽에서:",
+      "fontSize": 25.110955050506508,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "for left of "
+      "originalText": "다음의 왼쪽에서:"
     },
     {
       "type": "text",
@@ -1981,14 +1981,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "text": "liquidity is",
+      "text": "유동성:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "liquidity is"
+      "originalText": "유동성:"
     },
     {
       "type": "text",
@@ -2049,14 +2049,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for right of ",
+      "fontSize": 23.54307161972944,
+      "fontFamily": 2,
+      "text": "다음의 오른쪽에서:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for right of "
+      "originalText": "다음의 오른쪽에서:"
     },
     {
       "type": "text",
@@ -2118,13 +2118,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity is",
+      "fontFamily": 2,
+      "text": "유동성:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity is"
+      "originalText": "유동성:"
     },
     {
       "id": "nDidWukFX-1dOOcaBGMM8",
@@ -2151,14 +2151,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "text": "token 0 = ",
+      "text": "토큰 0 =",
       "fontSize": 28.10842207163602,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 24.135527589545028,
       "containerId": null,
-      "originalText": "token 0 = "
+      "originalText": "토큰 0 ="
     },
     {
       "type": "text",
@@ -2219,14 +2219,14 @@
       "updated": 1668319318567,
       "link": null,
       "locked": false,
-      "text": "token 1 =",
+      "text": "토큰 1 =",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "token 1 ="
+      "originalText": "토큰 1 ="
     },
     {
       "type": "text",
@@ -2915,14 +2915,14 @@
       "updated": 1668318503608,
       "link": null,
       "locked": false,
-      "text": "When",
+      "text": "조건",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "id": "5dofDu5BA43MO30CdKR8y",
@@ -2949,14 +2949,14 @@
       "updated": 1668318503608,
       "link": null,
       "locked": false,
-      "text": "liquidity is fully in token 1 ",
+      "text": "유동성 전부가 토큰 1",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "liquidity is fully in token 1 "
+      "originalText": "유동성 전부가 토큰 1"
     },
     {
       "id": "8VhsaGwZn71lo4ihgi1e7",
@@ -3499,14 +3499,14 @@
       "updated": 1668318732260,
       "link": null,
       "locked": false,
-      "text": "price increases",
+      "text": "가격 상승",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price increases"
+      "originalText": "가격 상승"
     },
     {
       "id": "RBkZZQf4nr6scN7MPoxZv",
@@ -4703,14 +4703,14 @@
       "updated": 1668319304452,
       "link": null,
       "locked": false,
-      "text": "price increases",
+      "text": "가격 상승",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price increases"
+      "originalText": "가격 상승"
     },
     {
       "type": "text",
@@ -5218,7 +5218,7 @@
       "type": "text",
       "x": 1859.7838089157208,
       "y": 15723.04575516738,
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "angle": 0,
       "strokeColor": "#000000",
@@ -5238,14 +5238,14 @@
       "updated": 1668318809300,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "line",
@@ -5983,13 +5983,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -6017,13 +6017,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity is fully in token 0 ",
+      "fontFamily": 2,
+      "text": "유동성 전부가 토큰 0",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity is fully in token 0 "
+      "originalText": "유동성 전부가 토큰 0"
     },
     {
       "type": "text",
@@ -7081,13 +7081,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "price decreases",
+      "fontFamily": 2,
+      "text": "가격 하락",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "price decreases"
+      "originalText": "가격 하락"
     },
     {
       "type": "freedraw",
@@ -7964,14 +7964,14 @@
       "updated": 1668318503611,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for right of ",
+      "fontSize": 23.54307161972944,
+      "fontFamily": 2,
+      "text": "다음의 오른쪽에서:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for right of "
+      "originalText": "다음의 오른쪽에서:"
     },
     {
       "type": "text",
@@ -8033,13 +8033,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity is",
+      "fontFamily": 2,
+      "text": "유동성:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity is"
+      "originalText": "유동성:"
     },
     {
       "type": "text",
@@ -8403,13 +8403,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "price decrease",
+      "fontFamily": 2,
+      "text": "가격 하락",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "price decrease"
+      "originalText": "가격 하락"
     },
     {
       "type": "text",
@@ -8928,7 +8928,7 @@
       "y": 16279.760040881678,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 41374091,
       "groupIds": [],
@@ -8937,14 +8937,14 @@
       "updated": 1668318503611,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -9005,14 +9005,14 @@
       "updated": 1668318503611,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for left of ",
+      "fontSize": 25.110955050506508,
+      "fontFamily": 2,
+      "text": "다음의 왼쪽에서:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for left of "
+      "originalText": "다음의 왼쪽에서:"
     },
     {
       "type": "text",
@@ -9074,13 +9074,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity is",
+      "fontFamily": 2,
+      "text": "유동성:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity is"
+      "originalText": "유동성:"
     },
     {
       "id": "iF1Mz-m_sfMitkVK00jJ1",

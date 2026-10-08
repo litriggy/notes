@@ -224,14 +224,14 @@
       "updated": 1676547565714,
       "link": null,
       "locked": false,
-      "text": "How to borrow and repay",
+      "text": "차입과 상환 방법",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "How to borrow and repay"
+      "originalText": "차입과 상환 방법"
     },
     {
       "type": "text",
@@ -870,14 +870,14 @@
       "updated": 1676548168492,
       "link": null,
       "locked": false,
-      "text": "Borrow",
+      "text": "차입",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Borrow"
+      "originalText": "차입"
     },
     {
       "type": "text",
@@ -1013,14 +1013,14 @@
       "updated": 1676546690055,
       "link": null,
       "locked": false,
-      "text": "Create a vault",
+      "text": "볼트 생성",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Create a vault"
+      "originalText": "볼트 생성"
     },
     {
       "id": "bVitcml8DlQ8I7JGPtRbO",
@@ -1183,14 +1183,14 @@
       "updated": 1676546690055,
       "link": null,
       "locked": false,
-      "text": "Deposit",
+      "text": "예치",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Deposit"
+      "originalText": "예치"
     },
     {
       "id": "klHG2ZsO3kFpqm6IAv1EZ",
@@ -1251,14 +1251,14 @@
       "updated": 1676547722927,
       "link": null,
       "locked": false,
-      "text": "Borrow",
+      "text": "차입",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Borrow"
+      "originalText": "차입"
     },
     {
       "type": "text",
@@ -1286,13 +1286,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How much",
+      "fontFamily": 2,
+      "text": "수량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How much"
+      "originalText": "수량은?"
     },
     {
       "type": "text",
@@ -1394,14 +1394,14 @@
       "updated": 1676547742005,
       "link": null,
       "locked": false,
-      "text": "can you borrow?",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "얼마나 차입할 수 있을까?",
+      "fontSize": 21.913128854389655,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "can you borrow?"
+      "originalText": "얼마나 차입할 수 있을까?"
     },
     {
       "id": "XInMROTFfcdnlg8qUNDka",
@@ -1462,14 +1462,14 @@
       "updated": 1676546690056,
       "link": null,
       "locked": false,
-      "text": "Minimum collateral ratio",
+      "text": "최소 담보 비율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Minimum collateral ratio"
+      "originalText": "최소 담보 비율"
     },
     {
       "id": "ewKS9YVERYRRgpR8WrZlj",
@@ -1530,14 +1530,14 @@
       "updated": 1676546690056,
       "link": null,
       "locked": false,
-      "text": "ETH collateral",
+      "text": "ETH 담보",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "ETH collateral"
+      "originalText": "ETH 담보"
     },
     {
       "id": "AUYDkBIgQye5S0bA9gZ0-",
@@ -1639,14 +1639,14 @@
       "updated": 1676546690056,
       "link": null,
       "locked": false,
-      "text": "debt",
+      "text": "부채",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "debt"
+      "originalText": "부채"
     },
     {
       "type": "text",
@@ -1707,14 +1707,14 @@
       "updated": 1676546690056,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "shMgjMoPyXcfl7-wNeGMQ",
@@ -1850,14 +1850,14 @@
       "updated": 1676546690056,
       "link": null,
       "locked": false,
-      "text": "Locked 3 ETH as collateral",
+      "text": "담보로 3 ETH 예치",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Locked 3 ETH as collateral"
+      "originalText": "담보로 3 ETH 예치"
     },
     {
       "id": "sfdmupnPu0X_RkqPdfzJM",
@@ -2469,14 +2469,14 @@
       "updated": 1676546690057,
       "link": null,
       "locked": false,
-      "text": "maximum amount of ",
+      "text": "최대 수량:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "maximum amount of "
+      "originalText": "최대 수량:"
     },
     {
       "type": "text",
@@ -2537,14 +2537,14 @@
       "updated": 1676548289472,
       "link": null,
       "locked": false,
-      "text": "you can borrow",
+      "text": "빌릴 수 있는 수량:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "you can borrow"
+      "originalText": "빌릴 수 있는 수량:"
     },
     {
       "id": "X7MDACVTqZIaEHT4gzQle",
@@ -2571,14 +2571,14 @@
       "updated": 1676546690057,
       "link": null,
       "locked": false,
-      "text": "Find",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "구하기",
+      "fontSize": 20.423903938034076,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Find"
+      "originalText": "구하기"
     },
     {
       "type": "text",
@@ -3230,14 +3230,14 @@
       "updated": 1676547041729,
       "link": null,
       "locked": false,
-      "text": "Maximum amount of",
+      "text": "최대 수량:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Maximum amount of"
+      "originalText": "최대 수량:"
     },
     {
       "type": "text",
@@ -3298,14 +3298,14 @@
       "updated": 1676547758123,
       "link": null,
       "locked": false,
-      "text": "you can borrow",
+      "text": "빌릴 수 있는 수량:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "you can borrow"
+      "originalText": "빌릴 수 있는 수량:"
     },
     {
       "id": "83wtI7VSlON3DJRVmGVza",
@@ -3332,14 +3332,14 @@
       "updated": 1676547041729,
       "link": null,
       "locked": false,
-      "text": "when",
+      "text": "일 때",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "when"
+      "originalText": "일 때"
     },
     {
       "type": "text",
@@ -3550,7 +3550,7 @@
       "type": "text",
       "x": 2243.3437483401804,
       "y": 18305.364570528167,
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "angle": 0,
       "strokeColor": "#000000",
@@ -3570,14 +3570,14 @@
       "updated": 1676547041729,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -3773,14 +3773,14 @@
       "updated": 1676547410394,
       "link": null,
       "locked": false,
-      "text": "What happens if your ",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음 상황에서는 어떻게 될까?",
+      "fontSize": 26.08405497924101,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What happens if your "
+      "originalText": "다음 상황에서는 어떻게 될까?"
     },
     {
       "id": "_gBGNzR9Rxp7LfPdkDmgC",
@@ -3807,14 +3807,14 @@
       "updated": 1676547400679,
       "link": null,
       "locked": false,
-      "text": "collateral ratio",
+      "text": "담보 비율",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "collateral ratio"
+      "originalText": "담보 비율"
     },
     {
       "id": "yEz4Vsie07oNcGbxhXpRX",
@@ -3943,14 +3943,14 @@
       "updated": 1676547456144,
       "link": null,
       "locked": false,
-      "text": "Liquidation",
+      "text": "청산",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Liquidation"
+      "originalText": "청산"
     },
     {
       "id": "9cpkvhRO_3d8Kz_mHpQ8c",
@@ -3977,14 +3977,14 @@
       "updated": 1676547456144,
       "link": null,
       "locked": false,
-      "text": "- Your ETH collateral will be sold on an auction",
+      "text": "- 담보로 맡긴 ETH가 경매로 매각됨",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "- Your ETH collateral will be sold on an auction"
+      "originalText": "- 담보로 맡긴 ETH가 경매로 매각됨"
     },
     {
       "type": "line",
@@ -4639,13 +4639,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Repay",
+      "fontFamily": 2,
+      "text": "상환",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Repay"
+      "originalText": "상환"
     },
     {
       "type": "text",
@@ -4747,14 +4747,14 @@
       "updated": 1676548201074,
       "link": null,
       "locked": false,
-      "text": "and withdraw ETH",
+      "text": "그리고 ETH 출금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and withdraw ETH"
+      "originalText": "그리고 ETH 출금"
     },
     {
       "id": "4zy7xOQLZMKFDFnmX8wzr",
@@ -4849,14 +4849,14 @@
       "updated": 1676548058943,
       "link": null,
       "locked": false,
-      "text": "Repay",
+      "text": "상환",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Repay"
+      "originalText": "상환"
     },
     {
       "id": "ZmlDvsQOmaabQttjo6ePm",
@@ -4917,14 +4917,14 @@
       "updated": 1676548058943,
       "link": null,
       "locked": false,
-      "text": "fees",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "수수료",
+      "fontSize": 23.506757362642993,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "fees"
+      "originalText": "수수료"
     },
     {
       "id": "TrQJBkvb3qjRW5MTwHHF4",
@@ -4985,14 +4985,14 @@
       "updated": 1676548066194,
       "link": null,
       "locked": false,
-      "text": "Withdraw",
+      "text": "출금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Withdraw"
+      "originalText": "출금"
     }
   ],
   "appState": {

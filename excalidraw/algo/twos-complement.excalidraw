@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "How does EVM store an int?",
+      "fontFamily": 2,
+      "text": "EVM은 int를 어떻게 저장할까?",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How does EVM store an int?"
+      "originalText": "EVM은 int를 어떻게 저장할까?"
     },
     {
       "type": "line",
@@ -2144,13 +2144,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How to turn a positive number into a negative number",
+      "fontFamily": 2,
+      "text": "양수를 음수로 바꾸는 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How to turn a positive number into a negative number"
+      "originalText": "양수를 음수로 바꾸는 방법"
     },
     {
       "type": "line",
@@ -2219,13 +2219,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "1. Start with positive number",
+      "fontFamily": 2,
+      "text": "1. 양수에서 시작",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "1. Start with positive number"
+      "originalText": "1. 양수에서 시작"
     },
     {
       "type": "text",
@@ -2253,13 +2253,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "2. Invert each bit ",
+      "fontFamily": 2,
+      "text": "2. 각 비트 반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "2. Invert each bit "
+      "originalText": "2. 각 비트 반전"
     },
     {
       "type": "text",
@@ -2286,14 +2286,14 @@
       "updated": 1666525749564,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "3. Add 1",
+      "fontSize": 25.325937787694617,
+      "fontFamily": 2,
+      "text": "3. 1 더하기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "3. Add 1"
+      "originalText": "3. 1 더하기"
     },
     {
       "type": "text",
@@ -2321,13 +2321,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -2498,13 +2498,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Invert",
+      "fontFamily": 2,
+      "text": "반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Invert"
+      "originalText": "반전"
     },
     {
       "type": "text",
@@ -2659,14 +2659,14 @@
       "updated": 1666525938709,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Why invert + 1 works?",
+      "fontSize": 25.052311174640813,
+      "fontFamily": 2,
+      "text": "비트 반전 + 1은 왜 작동할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Why invert + 1 works?"
+      "originalText": "비트 반전 + 1은 왜 작동할까?"
     },
     {
       "type": "line",
@@ -2735,13 +2735,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "invert",
+      "fontFamily": 2,
+      "text": "반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "invert"
+      "originalText": "반전"
     },
     {
       "type": "text",
@@ -2803,13 +2803,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "because",
+      "fontFamily": 2,
+      "text": "이유:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "because"
+      "originalText": "이유:"
     },
     {
       "type": "text",
@@ -2837,13 +2837,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= substraction from 1",
+      "fontFamily": 2,
+      "text": "= 1에서 빼기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= substraction from 1"
+      "originalText": "= 1에서 빼기"
     },
     {
       "type": "text",
@@ -2871,13 +2871,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "invert = substraction from 1",
+      "fontFamily": 2,
+      "text": "반전 = 1에서 빼기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "invert = substraction from 1"
+      "originalText": "반전 = 1에서 빼기"
     },
     {
       "type": "text",
@@ -3327,13 +3327,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Invert",
+      "fontFamily": 2,
+      "text": "반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Invert"
+      "originalText": "반전"
     },
     {
       "type": "text",
@@ -3915,13 +3915,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Subtract",
+      "fontFamily": 2,
+      "text": "빼기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Subtract"
+      "originalText": "빼기"
     },
     {
       "type": "rectangle",
@@ -4009,13 +4009,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Base 10",
+      "fontFamily": 2,
+      "text": "밑 10",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Base 10"
+      "originalText": "밑 10"
     },
     {
       "type": "line",
@@ -4212,13 +4212,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Base 2",
+      "fontFamily": 2,
+      "text": "밑 2",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Base 2"
+      "originalText": "밑 2"
     },
     {
       "type": "text",
@@ -4246,13 +4246,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "(8 bits)",
+      "fontFamily": 2,
+      "text": "(8비트)",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "(8 bits)"
+      "originalText": "(8비트)"
     },
     {
       "type": "text",
@@ -4340,13 +4340,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Flip to 1 for negative",
+      "fontFamily": 2,
+      "text": "음수이면 1로 반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Flip to 1 for negative"
+      "originalText": "음수이면 1로 반전"
     },
     {
       "type": "text",
@@ -8582,13 +8582,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Invert",
+      "fontFamily": 2,
+      "text": "반전",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Invert"
+      "originalText": "반전"
     },
     {
       "type": "text",
@@ -10009,13 +10009,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "because",
+      "fontFamily": 2,
+      "text": "이유:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "because"
+      "originalText": "이유:"
     },
     {
       "type": "text",
@@ -14176,14 +14176,14 @@
       "updated": 1666526980059,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "It's ok, not used for",
+      "fontSize": 25.150490551891483,
+      "fontFamily": 2,
+      "text": "괜찮음. 다음에 사용하지 않음:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "It's ok, not used for"
+      "originalText": "괜찮음. 다음에 사용하지 않음:"
     },
     {
       "type": "freedraw",
@@ -15018,14 +15018,14 @@
       "updated": 1666526989003,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "max int8",
+      "fontSize": 27.869839819135706,
+      "fontFamily": 2,
+      "text": "int8 최댓값",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "max int8"
+      "originalText": "int8 최댓값"
     },
     {
       "type": "text",
@@ -15121,13 +15121,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "nonnegative number",
+      "fontFamily": 2,
+      "text": "0 이상인 수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "nonnegative number"
+      "originalText": "0 이상인 수"
     }
   ],
   "appState": {

@@ -9,14 +9,14 @@ library Math {
         pure
         returns (uint256 high, uint256 low)
     {
-        // Uses Chinese Remainder Theorem to calculate x * y
+        // 중국인의 나머지 정리로 x * y 계산
         // x * y = high * 2^256 + low
 
         // https://xn--2-umb.com/17/chinese-remainder-theorem/
         // x0 = (x * y) mod 2^256
         // x1 = (x * y) mod (2^256 - 1)
         // low = x0
-        // high = x1 - x0 - c, c = 1 if x1 < x0, else = 0
+        // high = x1 - x0 - c, x1 < x0이면 c = 1, 아니면 c = 0
         assembly ("memory-safe") {
             // x1 = (x * y) mod (2^256 - 1)
             let mm := mulmod(x, y, not(0))
@@ -40,7 +40,7 @@ library Math {
                 return low / d;
             }
 
-            // Make sure the quotient is less than 2^256
+            // 몫이 2^256 미만인지 확인
             // (high * 2^256 + low) / d < 2^256
             // high + low / 2^256 < d
             // high + low / 2^256 < high + 1 <= d < d + 1
@@ -49,70 +49,70 @@ library Math {
 
             // 512 bits / 256 bits
 
-            // Explanations of steps 1 to 3 (in reverse order)
-            // 3. Calculate x * y / d by finding the multiplicative inverse of d = d_inv
-            // and return x * y * d_inv
-            // 2. For d_inv to exist, d must be an odd number
-            // 1. To calculate x * y / d correctly with d_inv, division must be exact (no remainder)
+            // 1~3단계 설명(역순)
+            // 3. d의 곱셈 역원 d_inv를 구해 x * y / d 계산
+            // x * y * d_inv 반환
+            // 2. d_inv가 존재하려면 d가 홀수여야 함
+            // 1. d_inv로 x * y / d를 정확히 계산하려면 나머지 없이 나누어떨어져야 함
 
-            // 1. Make division exact by subtracting the remainder from high and low
+            // 1. high와 low에서 나머지를 빼 나누어떨어지도록 만듦
 
-            // Why subtracting remainder doesn't change the quotient
-            // If x * y / d = q with remainder r
-            // then x * y = q * d + r, 0 <= r < d
+            // 나머지를 빼도 몫이 바뀌지 않는 이유
+            // x * y / d = q이고 나머지가 r이면
+            // x * y = q * d + r, 0 <= r < d
             //      x * y / d = q + r / d
-            // floor(x * y / d) = floor(q + r / d) = q (integer div makes r / d = 0)
+            // floor(x * y / d) = floor(q + r / d) = q (정수 나눗셈에서는 r / d = 0)
             // (x * y - r) / d = q = floor(x * y / d)
             uint256 rem;
             assembly ("memory-safe") {
-                // Compute remainder using mulmod.
+                // mulmod로 나머지 계산
                 rem := mulmod(x, y, d)
 
-                // Subtract 256 bit number from 512 bit number.
+                // 512비트 수에서 256비트 수를 뺌
                 high := sub(high, gt(rem, low))
                 low := sub(low, rem)
             }
 
-            // 2. Factor powers of two out of d and compute largest power of two divisor of d
-            // Always >= 1. See https://cs.stackexchange.com/q/138556/92363.
+            // 2. d에서 2의 거듭제곱 인수를 분리하고, d의 약수인 2의 거듭제곱 중 최댓값 계산
+            // 항상 >= 1. https://cs.stackexchange.com/q/138556/92363. 참고
             uint256 twos = d & (0 - d);
             assembly ("memory-safe") {
-                // Divide d by twos.
+                // d를 twos로 나눔
                 d := div(d, twos)
 
-                // Divide [high low] by twos.
+                // [high low]를 twos로 나눔
                 low := div(low, twos)
 
-                // Flip twos such that it is 2²⁵⁶ / twos. If twos is zero, then it becomes one.
+                // twos를 2²⁵⁶ / twos로 바꿈. twos가 0이면 1이 됨
                 // 2^256 / 2^k
                 twos := add(div(sub(0, twos), twos), 1)
             }
 
-            // Shift in bits from high into low.
-            // Let 2^k = largest power of 2 divisor of d
+            // high의 비트를 low로 이동
+            // d의 약수인 2의 거듭제곱 중 최댓값을 2^k로 둠
             // low = high * 2^256 / 2^k + low / 2^k
-            // - bits of high and low are both shifted to the right by k steps
-            // - high * 2^256 / 2^k can overflow
-            // - But overflow isn't a problem
-            //   let z = high * 2^256 / 2^k + low / 2^k
-            //   Reassign d = d / 2^k
-            //   Regular division
+            // - high와 low의 비트를 모두 오른쪽으로 k칸 이동
+            // - high * 2^256 / 2^k에서 오버플로가 발생할 수 있음
+            // - 하지만 오버플로는 문제가 되지 않음
+            //   z = high * 2^256 / 2^k + low / 2^k로 두고
+            //   d = d / 2^k로 다시 대입
+            //   일반 나눗셈
             //     z / d = q
-            //     so z = q * d
-            //   Division by multiplicative inverse
+            //     따라서 z = q * d
+            //   곱셈 역원으로 나누기
             //     (z mod 2^256) * d_inv mod 2^256
             //   = ((q * d) mod 2^256) * d_inv mod 2^256
             //   =  (q * d * d_inv) mod 2^256
             //   = q mod 2^256
             low |= high * twos;
 
-            // 3. Invert d mod 2²⁵⁶. Now that d is an odd number, it has an inverse modulo 2²⁵⁶ such
-            // that d * inv ≡ 1 mod 2²⁵⁶. Compute the inverse by starting with a seed that is correct for
-            // four bits. That is, d * inv ≡ 1 mod 2⁴.
+            // 3. mod 2²⁵⁶에서 d의 역원을 구함. 이제 d가 홀수이므로
+            // d * inv ≡ 1 mod 2²⁵⁶인 역원이 존재함. 처음 4비트가 정확한
+            // 초깃값부터 역원을 계산함. 즉, d * inv ≡ 1 mod 2⁴.
             uint256 inv = (3 * d) ^ 2;
 
-            // Use the Newton-Raphson iteration to improve the precision. Thanks to Hensel's lifting lemma, this also
-            // works in modular arithmetic, doubling the correct bits in each step.
+            // Newton-Raphson 반복법으로 정밀도를 높임. Hensel의 보조정리에 따라
+            // 모듈러 연산에서도 성립하며, 단계마다 정확한 비트 수가 두 배로 늘어남
             inv *= 2 - d * inv; // inv mod 2⁸
             inv *= 2 - d * inv; // inv mod 2¹⁶
             inv *= 2 - d * inv; // inv mod 2³²
@@ -120,10 +120,10 @@ library Math {
             inv *= 2 - d * inv; // inv mod 2¹²⁸
             inv *= 2 - d * inv; // inv mod 2²⁵⁶
 
-            // Because the division is now exact we can divide by multiplying with the modular inv of d.
-            // This will give us the correct result modulo 2²⁵⁶. Since the preconditions guarantee that the outcome is
-            // less than 2²⁵⁶, this is the final result. We don't need to compute the high bits of the result and high
-            // is no longer required.
+            // 이제 나누어떨어지므로 d의 모듈러 역원을 곱해 나눗셈을 수행할 수 있음
+            // mod 2²⁵⁶에서 올바른 결과를 얻으며, 사전 조건이 결과가
+            // 2²⁵⁶ 미만임을 보장하므로 이것이 최종 결과임. 결과의 상위 비트를 계산할 필요가 없고
+            // high도 더는 필요하지 않음
             result = low * inv;
             return result;
         }

@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "How to calculate impermanent loss",
+      "fontFamily": 2,
+      "text": "비영구적 손실 계산 방법",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How to calculate impermanent loss"
+      "originalText": "비영구적 손실 계산 방법"
     },
     {
       "type": "line",
@@ -577,13 +577,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "where d > 0",
+      "fontFamily": 2,
+      "text": "여기서 d > 0",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "where d > 0"
+      "originalText": "여기서 d > 0"
     },
     {
       "type": "text",
@@ -611,13 +611,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Percentage loss of LP given a price movement of d  ",
+      "fontFamily": 2,
+      "text": "가격이 d만큼 움직였을 때 LP의 손실률",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Percentage loss of LP given a price movement of d  "
+      "originalText": "가격이 d만큼 움직였을 때 LP의 손실률"
     },
     {
       "type": "text",
@@ -679,13 +679,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price changes from P0 to P1",
+      "fontFamily": 2,
+      "text": "P0에서 P1으로 가격 변화",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price changes from P0 to P1"
+      "originalText": "P0에서 P1으로 가격 변화"
     },
     {
       "type": "rectangle",
@@ -1153,13 +1153,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Assuming fee = 0",
+      "fontFamily": 2,
+      "text": "수수료 = 0으로 가정",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Assuming fee = 0"
+      "originalText": "수수료 = 0으로 가정"
     },
     {
       "type": "text",
@@ -1187,13 +1187,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "token X (ETH)\ntoken Y (DAI)",
+      "fontFamily": 2,
+      "text": "토큰 X (ETH)\n토큰 Y (DAI)",
       "baseline": 60,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "token X (ETH)\ntoken Y (DAI)"
+      "originalText": "토큰 X (ETH)\n토큰 Y (DAI)"
     },
     {
       "type": "text",
@@ -1221,13 +1221,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "x = amount of ETH in the pool",
+      "fontFamily": 2,
+      "text": "x = 풀 안의 ETH 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "x = amount of ETH in the pool"
+      "originalText": "x = 풀 안의 ETH 수량"
     },
     {
       "type": "text",
@@ -1255,13 +1255,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "y = amount of DAI in the pool",
+      "fontFamily": 2,
+      "text": "y = 풀 안의 DAI 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "y = amount of DAI in the pool"
+      "originalText": "y = 풀 안의 DAI 수량"
     },
     {
       "type": "text",
@@ -1289,13 +1289,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "P = price X in terms of Y",
+      "fontFamily": 2,
+      "text": "P = Y 기준 X 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "P = price X in terms of Y"
+      "originalText": "P = Y 기준 X 가격"
     },
     {
       "type": "text",
@@ -1323,13 +1323,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= price of ETH in terms of DAI",
+      "fontFamily": 2,
+      "text": "= DAI 기준 ETH 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= price of ETH in terms of DAI"
+      "originalText": "= DAI 기준 ETH 가격"
     },
     {
       "type": "text",
@@ -1391,13 +1391,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -5855,13 +5855,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "loss from LP",
+      "fontFamily": 2,
+      "text": "LP 손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "loss from LP"
+      "originalText": "LP 손실"
     },
     {
       "type": "line",
@@ -5930,13 +5930,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -6100,13 +6100,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -6243,13 +6243,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -6379,13 +6379,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "value of tokens in pool",
+      "fontFamily": 2,
+      "text": "풀 안의 토큰 가치",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "value of tokens in pool"
+      "originalText": "풀 안의 토큰 가치"
     },
     {
       "type": "text",
@@ -6447,13 +6447,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -6481,13 +6481,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= value of tokens outside pool",
+      "fontFamily": 2,
+      "text": "= 풀 밖의 토큰 가치",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= value of tokens outside pool"
+      "originalText": "= 풀 밖의 토큰 가치"
     },
     {
       "type": "text",
@@ -7066,13 +7066,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "at t = 0",
+      "fontFamily": 2,
+      "text": "t = 0일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "at t = 0"
+      "originalText": "t = 0일 때"
     },
     {
       "type": "text",
@@ -7345,13 +7345,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "at t = 1",
+      "fontFamily": 2,
+      "text": "t = 1일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "at t = 1"
+      "originalText": "t = 1일 때"
     },
     {
       "type": "text",
@@ -10534,13 +10534,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -14264,13 +14264,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "text",
@@ -14407,13 +14407,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "hodl",
+      "fontFamily": 2,
+      "text": "보유",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "hodl"
+      "originalText": "보유"
     },
     {
       "type": "rectangle",

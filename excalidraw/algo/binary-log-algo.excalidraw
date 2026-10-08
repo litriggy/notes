@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Algorithm to Approximate Binary Log",
+      "fontFamily": 2,
+      "text": "이진 로그 근사 알고리즘",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm to Approximate Binary Log"
+      "originalText": "이진 로그 근사 알고리즘"
     },
     {
       "type": "line",
@@ -1420,14 +1420,14 @@
       "updated": 1670558342831,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "0 or 1",
+      "fontSize": 24.720658419212683,
+      "fontFamily": 2,
+      "text": "0 또는 1",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "0 or 1"
+      "originalText": "0 또는 1"
     },
     {
       "type": "text",
@@ -1455,13 +1455,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm",
+      "fontFamily": 2,
+      "text": "알고리즘",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm"
+      "originalText": "알고리즘"
     },
     {
       "type": "line",
@@ -1880,14 +1880,14 @@
       "updated": 1670558342831,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.716770376511784,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -2459,13 +2459,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Important insights",
+      "fontFamily": 2,
+      "text": "주요 통찰",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Important insights"
+      "originalText": "주요 통찰"
     },
     {
       "type": "line",
@@ -3385,13 +3385,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Approximate",
+      "fontFamily": 2,
+      "text": "근사",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Approximate"
+      "originalText": "근사"
     },
     {
       "type": "text",
@@ -4023,13 +4023,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm to approximate decimal with binary",
+      "fontFamily": 2,
+      "text": "십진수를 이진수로 근사하는 알고리즘",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm to approximate decimal with binary"
+      "originalText": "십진수를 이진수로 근사하는 알고리즘"
     },
     {
       "type": "line",
@@ -4202,13 +4202,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Approximate",
+      "fontFamily": 2,
+      "text": "근사",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Approximate"
+      "originalText": "근사"
     },
     {
       "type": "text",
@@ -4270,13 +4270,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "with",
+      "fontFamily": 2,
+      "text": "함께",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "with"
+      "originalText": "함께"
     },
     {
       "type": "text",
@@ -4337,14 +4337,14 @@
       "updated": 1670558342834,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.716770376511784,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -4473,14 +4473,14 @@
       "updated": 1670558342834,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "then",
+      "fontSize": 23.12140068456688,
+      "fontFamily": 2,
+      "text": "그러면",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "then"
+      "originalText": "그러면"
     },
     {
       "type": "text",
@@ -4745,14 +4745,14 @@
       "updated": 1670558342834,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "then",
+      "fontSize": 23.12140068456688,
+      "fontFamily": 2,
+      "text": "그러면",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "then"
+      "originalText": "그러면"
     },
     {
       "type": "text",
@@ -5450,7 +5450,7 @@
       "y": 14753.685619436055,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 1663534402,
       "groupIds": [],
@@ -5459,14 +5459,14 @@
       "updated": 1670558342835,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -5484,7 +5484,7 @@
       "y": 14805.685619436055,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 1760552926,
       "groupIds": [],
@@ -5493,14 +5493,14 @@
       "updated": 1670558342835,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "rectangle",
@@ -5554,13 +5554,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Multiply by 2 again to find",
+      "fontFamily": 2,
+      "text": "다시 2를 곱해 구하기:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Multiply by 2 again to find"
+      "originalText": "다시 2를 곱해 구하기:"
     },
     {
       "type": "text",
@@ -6643,14 +6643,14 @@
       "updated": 1670558342836,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.716770376511784,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -9531,7 +9531,7 @@
       "y": 15347.471333721764,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 814779769,
       "groupIds": [],
@@ -9540,14 +9540,14 @@
       "updated": 1670662085132,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -9565,7 +9565,7 @@
       "y": 15427.138000388424,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 810651319,
       "groupIds": [],
@@ -9574,14 +9574,14 @@
       "updated": 1670558342838,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -9805,13 +9805,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Square again to find",
+      "fontFamily": 2,
+      "text": "다시 제곱해 구하기:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Square again to find"
+      "originalText": "다시 제곱해 구하기:"
     },
     {
       "type": "text",

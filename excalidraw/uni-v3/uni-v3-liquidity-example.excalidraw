@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 - How many dy for adding dx of liquidity?",
+      "fontFamily": 2,
+      "text": "Uniswap V3 - 유동성 dx를 추가할 때 필요한 dy는?",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 - How many dy for adding dx of liquidity?"
+      "originalText": "Uniswap V3 - 유동성 dx를 추가할 때 필요한 dy는?"
     },
     {
       "type": "line",
@@ -104,13 +104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "A user wants to add liquidity to ETH/USDC pool ",
+      "fontFamily": 2,
+      "text": "사용자가 ETH/USDC 풀에 유동성을 추가하려 함",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "A user wants to add liquidity to ETH/USDC pool "
+      "originalText": "사용자가 ETH/USDC 풀에 유동성을 추가하려 함"
     },
     {
       "type": "freedraw",
@@ -533,13 +533,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Amount of ETH to add",
+      "fontFamily": 2,
+      "text": "추가할 ETH 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Amount of ETH to add"
+      "originalText": "추가할 ETH 수량"
     },
     {
       "type": "text",
@@ -669,13 +669,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Current price",
+      "fontFamily": 2,
+      "text": "현재 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Current price"
+      "originalText": "현재 가격"
     },
     {
       "type": "text",
@@ -941,13 +941,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Lower price range",
+      "fontFamily": 2,
+      "text": "하한 가격 범위",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Lower price range"
+      "originalText": "하한 가격 범위"
     },
     {
       "type": "text",
@@ -1077,13 +1077,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Upper price range",
+      "fontFamily": 2,
+      "text": "상한 가격 범위",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Upper price range"
+      "originalText": "상한 가격 범위"
     },
     {
       "type": "text",
@@ -1179,13 +1179,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "How many USDC is needed? ",
+      "fontFamily": 2,
+      "text": "필요한 USDC 수량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How many USDC is needed? "
+      "originalText": "필요한 USDC 수량은?"
     },
     {
       "type": "text",
@@ -1213,13 +1213,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "freedraw",
@@ -1939,13 +1939,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Amount of USDC to add",
+      "fontFamily": 2,
+      "text": "추가할 USDC 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Amount of USDC to add"
+      "originalText": "추가할 USDC 수량"
     },
     {
       "type": "text",
@@ -2041,13 +2041,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Question",
+      "fontFamily": 2,
+      "text": "질문",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Question"
+      "originalText": "질문"
     },
     {
       "type": "text",
@@ -2135,13 +2135,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Problem",
+      "fontFamily": 2,
+      "text": "문제",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Problem"
+      "originalText": "문제"
     },
     {
       "type": "line",
@@ -2210,13 +2210,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Solution",
+      "fontFamily": 2,
+      "text": "해결 방법",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Solution"
+      "originalText": "해결 방법"
     },
     {
       "type": "line",
@@ -2544,13 +2544,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity delta",
+      "fontFamily": 2,
+      "text": "유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity delta"
+      "originalText": "유동성 변화량"
     },
     {
       "type": "text",
@@ -4288,13 +4288,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Use this equation. Solve for",
+      "fontFamily": 2,
+      "text": "이 식으로 다음을 구하기:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Use this equation. Solve for"
+      "originalText": "이 식으로 다음을 구하기:"
     },
     {
       "type": "freedraw",
@@ -9110,13 +9110,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Use google to calculate",
+      "fontFamily": 2,
+      "text": "Google로 계산",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Use google to calculate"
+      "originalText": "Google로 계산"
     },
     {
       "type": "freedraw",

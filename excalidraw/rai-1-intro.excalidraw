@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "RAI - Non-pegged Decentralized Stablecoin",
+      "fontFamily": 2,
+      "text": "RAI - 비페깅 탈중앙화 스테이블코인",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "RAI - Non-pegged Decentralized Stablecoin"
+      "originalText": "RAI - 비페깅 탈중앙화 스테이블코인"
     },
     {
       "type": "line",
@@ -104,13 +104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Non-pegged",
+      "fontFamily": 2,
+      "text": "비페깅",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Non-pegged"
+      "originalText": "비페깅"
     },
     {
       "type": "image",
@@ -204,13 +204,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "pegged to\n$1",
+      "fontFamily": 2,
+      "text": "$1에\n고정",
       "baseline": 60,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "pegged to\n$1"
+      "originalText": "$1에\n고정"
     },
     {
       "type": "text",
@@ -238,13 +238,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "not\npegged to\n$1",
+      "fontFamily": 2,
+      "text": "$1에\n고정되지\n않음",
       "baseline": 95,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "not\npegged to\n$1"
+      "originalText": "$1에\n고정되지\n않음"
     },
     {
       "type": "text",
@@ -272,13 +272,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "centralized",
+      "fontFamily": 2,
+      "text": "중앙화",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "centralized"
+      "originalText": "중앙화"
     },
     {
       "type": "text",
@@ -306,13 +306,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "decentralized",
+      "fontFamily": 2,
+      "text": "탈중앙화",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "decentralized"
+      "originalText": "탈중앙화"
     },
     {
       "type": "line",
@@ -818,13 +818,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "decentralized",
+      "fontFamily": 2,
+      "text": "탈중앙화",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "decentralized"
+      "originalText": "탈중앙화"
     },
     {
       "type": "text",
@@ -851,14 +851,14 @@
       "updated": 1676548510693,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "stablecoin",
+      "fontSize": 26.396932448213853,
+      "fontFamily": 2,
+      "text": "스테이블코인",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "stablecoin"
+      "originalText": "스테이블코인"
     },
     {
       "type": "text",
@@ -886,13 +886,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Stablecoin that is not pegged to $1",
+      "fontFamily": 2,
+      "text": "$1에 페깅되지 않은 스테이블코인",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Stablecoin that is not pegged to $1"
+      "originalText": "$1에 페깅되지 않은 스테이블코인"
     },
     {
       "type": "image",

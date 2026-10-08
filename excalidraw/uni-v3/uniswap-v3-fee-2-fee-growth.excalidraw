@@ -70,13 +70,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Fee - Fee Growth",
+      "fontFamily": 2,
+      "text": "Uniswap V3 수수료 - 수수료 증가량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Fee - Fee Growth"
+      "originalText": "Uniswap V3 수수료 - 수수료 증가량"
     },
     {
       "type": "line",
@@ -226,14 +226,14 @@
       "updated": 1673060697927,
       "link": null,
       "locked": false,
-      "text": "Fee\ngrowth",
+      "text": "수수료\n증가량",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 60,
       "containerId": null,
-      "originalText": "Fee\ngrowth"
+      "originalText": "수수료\n증가량"
     },
     {
       "id": "HPN2gijJA6-4OIVK4zlBH",
@@ -260,14 +260,14 @@
       "updated": 1673060697927,
       "link": null,
       "locked": false,
-      "text": "Ticks",
+      "text": "틱",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Ticks"
+      "originalText": "틱"
     },
     {
       "type": "rectangle",
@@ -831,14 +831,14 @@
       "updated": 1673060697930,
       "link": null,
       "locked": false,
-      "text": "Swap collects fee ",
+      "text": "스왑 시 수수료 징수",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swap collects fee "
+      "originalText": "스왑 시 수수료 징수"
     },
     {
       "type": "text",
@@ -933,14 +933,14 @@
       "updated": 1673060697930,
       "link": null,
       "locked": false,
-      "text": "through liquidity ",
+      "text": "유동성을 거쳐",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "through liquidity "
+      "originalText": "유동성을 거쳐"
     },
     {
       "type": "text",
@@ -1036,13 +1036,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap collects fee ",
+      "fontFamily": 2,
+      "text": "스왑 시 수수료 징수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap collects fee "
+      "originalText": "스왑 시 수수료 징수"
     },
     {
       "type": "text",
@@ -1138,13 +1138,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "through liquidity ",
+      "fontFamily": 2,
+      "text": "유동성을 거쳐",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "through liquidity "
+      "originalText": "유동성을 거쳐"
     },
     {
       "type": "text",
@@ -1366,13 +1366,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap collects fee ",
+      "fontFamily": 2,
+      "text": "스왑 시 수수료 징수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap collects fee "
+      "originalText": "스왑 시 수수료 징수"
     },
     {
       "type": "text",
@@ -1468,13 +1468,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "through liquidity ",
+      "fontFamily": 2,
+      "text": "유동성을 거쳐",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "through liquidity "
+      "originalText": "유동성을 거쳐"
     },
     {
       "type": "text",
@@ -1569,14 +1569,14 @@
       "updated": 1673060697932,
       "link": null,
       "locked": false,
-      "text": "at time",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음 시점에:",
+      "fontSize": 21.513476974734296,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "at time"
+      "originalText": "다음 시점에:"
     },
     {
       "id": "d2jkh_IVFCpJ86dUG3IYl",
@@ -1671,14 +1671,14 @@
       "updated": 1673060697932,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "at time",
+      "fontSize": 21.513476974734296,
+      "fontFamily": 2,
+      "text": "다음 시점에:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "at time"
+      "originalText": "다음 시점에:"
     },
     {
       "type": "text",
@@ -1773,14 +1773,14 @@
       "updated": 1673060697932,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "at time",
+      "fontSize": 21.513476974734296,
+      "fontFamily": 2,
+      "text": "다음 시점에:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "at time"
+      "originalText": "다음 시점에:"
     },
     {
       "type": "text",
@@ -3555,14 +3555,14 @@
       "updated": 1673060697934,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth",
+      "fontSize": 27.43319137570003,
+      "fontFamily": 2,
+      "text": "수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth"
+      "originalText": "수수료 증가량"
     },
     {
       "type": "text",
@@ -5683,14 +5683,14 @@
       "updated": 1673060697938,
       "link": null,
       "locked": false,
-      "text": "from time",
+      "text": "시작 시점:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "from time"
+      "originalText": "시작 시점:"
     },
     {
       "id": "GsUdO9U_L6z-fnyh9gYgu",
@@ -5717,14 +5717,14 @@
       "updated": 1673060697938,
       "link": null,
       "locked": false,
-      "text": "Swap collect fees",
+      "text": "스왑 수수료 징수",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Swap collect fees"
+      "originalText": "스왑 수수료 징수"
     },
     {
       "type": "text",
@@ -5819,14 +5819,14 @@
       "updated": 1673060697938,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -5989,14 +5989,14 @@
       "updated": 1673060697938,
       "link": null,
       "locked": false,
-      "text": "to",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -6133,13 +6133,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "from time",
+      "fontFamily": 2,
+      "text": "시작 시점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "from time"
+      "originalText": "시작 시점:"
     },
     {
       "type": "text",
@@ -6167,13 +6167,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap collect fees",
+      "fontFamily": 2,
+      "text": "스왑 수수료 징수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap collect fees"
+      "originalText": "스왑 수수료 징수"
     },
     {
       "type": "text",
@@ -6338,12 +6338,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -8235,13 +8235,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "At time ",
+      "fontFamily": 2,
+      "text": "시점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "At time "
+      "originalText": "시점:"
     },
     {
       "type": "text",

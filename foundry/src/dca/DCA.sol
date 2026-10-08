@@ -13,7 +13,7 @@ interface IVault {
 }
 
 interface IOracle {
-    // price = [sell token decimals] / [buy token decimals] * 1e18
+    // price = [매도 토큰 소수 자릿수] / [매수 토큰 소수 자릿수] * 1e18
     function get(address sell, address buy)
         external
         returns (bool ok, uint256 price, uint256 timestamp);
@@ -55,20 +55,20 @@ contract DCA is Auth {
     mapping(address => Snap) public snaps;
     mapping(address => uint128) public vs;
 
-    // Rate limit
-    // Upper limit of cap
+    // 속도 제한
+    // cap의 상한
     uint128 public max;
-    // Total deposit is divided by this constant to calculate the cap
+    // 총예치금을 이 상수로 나누어 cap 계산
     uint128 private constant C = 8;
-    // Max swap amount per epoch
+    // 에포크당 최대 스왑 수량
     uint128 public cap;
-    // Swapped amount in the current epoch
+    // 현재 에포크에서 스왑한 수량
     uint128 public curr;
-    // Epoch duration
+    // 에포크 길이
     uint256 private constant E = 7 days;
     uint256 public epoch = (block.timestamp / E) * E;
 
-    // Oracle
+    // 오라클
     uint256 private constant MAX_PRICE_DT = 5 minutes;
     uint256 private constant MAX_PRICE_DELTA = 0.02e18;
 
@@ -87,7 +87,7 @@ contract DCA is Auth {
 
         oracle = IOracle(_oracle);
 
-        // Optional
+        // 선택 사항
         vault = IVault(_vault);
         if (address(vault) != address(0)) {
             sell.approve(address(vault), type(uint256).max);
@@ -179,14 +179,14 @@ contract DCA is Auth {
         require(curr + q <= cap, "cap");
         curr += q;
 
-        // Oracle check
+        // 오라클 확인
         (bool ok, uint256 price, uint256 timestamp) =
             oracle.get(address(sell), address(buy));
         require(ok, "oracle not ok");
         require(price > 0, "price = 0");
         require(timestamp <= block.timestamp, "timestamp > block.timestamp");
         require(block.timestamp - timestamp <= MAX_PRICE_DT, "stale price");
-        // price = sell token amount / 1 buy token * 1e18
+        // price = 매도 토큰 수량 / 매수 토큰 1개 * 1e18
         require(
             uint256(q) * 1e18 / b >= price * (1e18 - MAX_PRICE_DELTA) / 1e18,
             "swap price < oracle price"
@@ -198,7 +198,7 @@ contract DCA is Auth {
         r = Math.r(rn, q, tn);
         t = tn - q;
 
-        // Swap
+        // 스왑
         sell.safeTransfer(msg.sender, q);
 
         uint256 bal0 = buy.balanceOf(address(this));
@@ -211,4 +211,3 @@ contract DCA is Auth {
         require(bal1 - bal0 >= b, "buy transfer < min");
     }
 }
-

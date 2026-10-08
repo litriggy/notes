@@ -5,10 +5,10 @@ import "forge-std/Test.sol";
 
 // 2**8 = 256
 
-// Tree
+// 트리
 // 256 = 2^8
-// 3 levels = 256^3 = 2^24
-// 4 levels = 256^4 = 2^32
+// 3단계 = 256^3 = 2^24
+// 4단계 = 256^4 = 2^32
 
 contract BitMap {
     // [15 to 8] -> [7 to 0]

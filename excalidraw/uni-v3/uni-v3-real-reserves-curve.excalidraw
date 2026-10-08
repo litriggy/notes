@@ -439,13 +439,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 - Curve of real reserves",
+      "fontFamily": 2,
+      "text": "Uniswap V3 - 실제 준비금 곡선",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 - Curve of real reserves"
+      "originalText": "Uniswap V3 - 실제 준비금 곡선"
     },
     {
       "type": "line",
@@ -514,13 +514,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "x = real + virtual reserve of X = ",
+      "fontFamily": 2,
+      "text": "x = X의 실제 + 가상 준비금 =",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "x = real + virtual reserve of X = "
+      "originalText": "x = X의 실제 + 가상 준비금 ="
     },
     {
       "type": "text",
@@ -718,13 +718,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "y = real + virtual reserve of Y = ",
+      "fontFamily": 2,
+      "text": "y = Y의 실제 + 가상 준비금 =",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "y = real + virtual reserve of Y = "
+      "originalText": "y = Y의 실제 + 가상 준비금 ="
     },
     {
       "type": "text",
@@ -2289,14 +2289,14 @@
       "updated": 1660612238101,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Find ",
+      "fontSize": 25.433540753023568,
+      "fontFamily": 2,
+      "text": "구하기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find "
+      "originalText": "구하기"
     },
     {
       "type": "text",
@@ -2391,14 +2391,14 @@
       "updated": 1660612238101,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -2587,13 +2587,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -4073,12 +4073,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "so",
+      "text": "∴",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "text",
@@ -7254,13 +7254,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -9218,12 +9218,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "so",
+      "text": "∴",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "text",
@@ -23484,13 +23484,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Derive ",
+      "fontFamily": 2,
+      "text": "유도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Derive "
+      "originalText": "유도"
     },
     {
       "type": "text",
@@ -23517,14 +23517,14 @@
       "updated": 1660612238113,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "line",
@@ -24230,13 +24230,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Combine all the equations",
+      "fontFamily": 2,
+      "text": "모든 방정식 결합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Combine all the equations"
+      "originalText": "모든 방정식 결합"
     },
     {
       "type": "text",
@@ -29758,13 +29758,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "real",
+      "fontFamily": 2,
+      "text": "실제",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "real"
+      "originalText": "실제"
     },
     {
       "type": "text",
@@ -29826,13 +29826,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "real",
+      "fontFamily": 2,
+      "text": "실제",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "real"
+      "originalText": "실제"
     },
     {
       "type": "text",
@@ -30350,13 +30350,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity",
+      "fontFamily": 2,
+      "text": "유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity"
+      "originalText": "유동성"
     },
     {
       "type": "text",
@@ -30418,13 +30418,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and price ",
+      "fontFamily": 2,
+      "text": "및 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and price "
+      "originalText": "및 가격"
     },
     {
       "type": "text",
@@ -30799,13 +30799,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of X in terms of Y",
+      "fontFamily": 2,
+      "text": "Y 기준 X 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of X in terms of Y"
+      "originalText": "Y 기준 X 가격"
     },
     {
       "type": "text",
@@ -30866,14 +30866,14 @@
       "updated": 1660612238116,
       "link": null,
       "locked": false,
-      "text": "real reserves",
+      "text": "실제 준비금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "real reserves"
+      "originalText": "실제 준비금"
     },
     {
       "id": "PEBaiaW4ugk4Sxvht6KoE",
@@ -30900,14 +30900,14 @@
       "updated": 1660612238116,
       "link": null,
       "locked": false,
-      "text": "virtual reserves",
+      "text": "가상 준비금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "virtual reserves"
+      "originalText": "가상 준비금"
     },
     {
       "type": "text",
@@ -32958,13 +32958,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Curve of real reserves ",
+      "fontFamily": 2,
+      "text": "실제 준비금 곡선",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Curve of real reserves "
+      "originalText": "실제 준비금 곡선"
     },
     {
       "type": "text",
@@ -33059,14 +33059,14 @@
       "updated": 1660612238117,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -33162,13 +33162,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "between the price range",
+      "fontFamily": 2,
+      "text": "가격 범위 사이",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "between the price range"
+      "originalText": "가격 범위 사이"
     },
     {
       "type": "text",
@@ -33263,14 +33263,14 @@
       "updated": 1660612238117,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -33392,13 +33392,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is the curve of real reserves? ",
+      "fontFamily": 2,
+      "text": "실제 준비금 곡선은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is the curve of real reserves? "
+      "originalText": "실제 준비금 곡선은?"
     },
     {
       "id": "GIK2HEHmsWgGxODW6wlxw",
@@ -33425,14 +33425,14 @@
       "updated": 1660612238117,
       "link": null,
       "locked": false,
-      "text": "When",
+      "text": "조건",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -34449,14 +34449,14 @@
       "updated": 1660612293418,
       "link": null,
       "locked": false,
-      "text": "y in",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "y 입력",
+      "fontSize": 18.741294555063245,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "y in"
+      "originalText": "y 입력"
     },
     {
       "id": "XrHzgk4LVDQJi3i9tsdqC",
@@ -34791,14 +34791,14 @@
       "updated": 1660612238117,
       "link": null,
       "locked": false,
-      "text": "x out",
+      "text": "x 출력",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "x out"
+      "originalText": "x 출력"
     },
     {
       "id": "SKbTNeh8524i_Fh6Y1Ui9",
@@ -35133,14 +35133,14 @@
       "updated": 1660612284584,
       "link": null,
       "locked": false,
-      "text": "x in",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "x 입력",
+      "fontSize": 19.937547399003453,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "x in"
+      "originalText": "x 입력"
     },
     {
       "id": "psc7pxatxkGOx3dFIrmgG",
@@ -35167,14 +35167,14 @@
       "updated": 1660612279602,
       "link": null,
       "locked": false,
-      "text": "y out",
+      "text": "y 출력",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "y out"
+      "originalText": "y 출력"
     },
     {
       "id": "Xy-Hif0Ksk36tLflXtdq2",

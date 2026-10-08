@@ -331,13 +331,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Options Payoff",
+      "fontFamily": 2,
+      "text": "옵션 손익",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Options Payoff"
+      "originalText": "옵션 손익"
     },
     {
       "type": "line",
@@ -406,13 +406,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Call - Right to buy stock at price K  ",
+      "fontFamily": 2,
+      "text": "콜 - 가격 K에 주식을 매수할 권리",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Call - Right to buy stock at price K  "
+      "originalText": "콜 - 가격 K에 주식을 매수할 권리"
     },
     {
       "type": "text",
@@ -440,13 +440,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Put - Right to sell stock at price K",
+      "fontFamily": 2,
+      "text": "풋 - 가격 K에 주식을 매도할 권리",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Put - Right to sell stock at price K"
+      "originalText": "풋 - 가격 K에 주식을 매도할 권리"
     },
     {
       "type": "text",
@@ -474,13 +474,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "stock price",
+      "fontFamily": 2,
+      "text": "주가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "stock price"
+      "originalText": "주가"
     },
     {
       "type": "text",
@@ -508,13 +508,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Long call",
+      "fontFamily": 2,
+      "text": "콜 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Long call"
+      "originalText": "콜 매수"
     },
     {
       "type": "line",
@@ -583,13 +583,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Long call",
+      "fontFamily": 2,
+      "text": "콜 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Long call"
+      "originalText": "콜 매수"
     },
     {
       "type": "rectangle",
@@ -930,13 +930,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit / loss",
+      "fontFamily": 2,
+      "text": "이익 / 손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit / loss"
+      "originalText": "이익 / 손실"
     },
     {
       "type": "text",
@@ -1865,13 +1865,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Call option with ",
+      "fontFamily": 2,
+      "text": "콜 옵션 조건:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Call option with "
+      "originalText": "콜 옵션 조건:"
     },
     {
       "type": "text",
@@ -1899,13 +1899,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "strike price K = $50",
+      "fontFamily": 2,
+      "text": "행사 가격 K = $50",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "strike price K = $50"
+      "originalText": "행사 가격 K = $50"
     },
     {
       "type": "text",
@@ -1933,13 +1933,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "trading at C = $10",
+      "fontFamily": 2,
+      "text": "C = $10에 거래 중",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "trading at C = $10"
+      "originalText": "C = $10에 거래 중"
     },
     {
       "type": "text",
@@ -2069,13 +2069,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Short call",
+      "fontFamily": 2,
+      "text": "콜 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Short call"
+      "originalText": "콜 매도"
     },
     {
       "type": "line",
@@ -2144,13 +2144,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Short call ",
+      "fontFamily": 2,
+      "text": "콜 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Short call "
+      "originalText": "콜 매도"
     },
     {
       "type": "text",
@@ -2178,13 +2178,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit",
+      "fontFamily": 2,
+      "text": "이익",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit"
+      "originalText": "이익"
     },
     {
       "type": "text",
@@ -2212,13 +2212,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "loss",
+      "fontFamily": 2,
+      "text": "손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "loss"
+      "originalText": "손실"
     },
     {
       "id": "a-SJp5EXw75kxiRy3i5mN",
@@ -2245,14 +2245,14 @@
       "updated": 1665215211952,
       "link": null,
       "locked": false,
-      "text": "Write call",
+      "text": "콜 매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Write call"
+      "originalText": "콜 매도"
     },
     {
       "id": "0O-7e4HYL2FDmZbgvzu80",
@@ -2279,14 +2279,14 @@
       "updated": 1665215211952,
       "link": null,
       "locked": false,
-      "text": "= must sell stock at strike price K",
+      "text": "= 행사가 K에 주식을 매도할 의무",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "= must sell stock at strike price K"
+      "originalText": "= 행사가 K에 주식을 매도할 의무"
     },
     {
       "type": "text",
@@ -2314,13 +2314,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Call option with ",
+      "fontFamily": 2,
+      "text": "콜 옵션 조건:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Call option with "
+      "originalText": "콜 옵션 조건:"
     },
     {
       "type": "text",
@@ -2348,13 +2348,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "strike price K = $50",
+      "fontFamily": 2,
+      "text": "행사 가격 K = $50",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "strike price K = $50"
+      "originalText": "행사 가격 K = $50"
     },
     {
       "type": "text",
@@ -2382,13 +2382,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "trading at C = $10",
+      "fontFamily": 2,
+      "text": "C = $10에 거래 중",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "trading at C = $10"
+      "originalText": "C = $10에 거래 중"
     },
     {
       "type": "line",
@@ -2469,13 +2469,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "stock price",
+      "fontFamily": 2,
+      "text": "주가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "stock price"
+      "originalText": "주가"
     },
     {
       "type": "line",
@@ -2790,13 +2790,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit / loss",
+      "fontFamily": 2,
+      "text": "이익 / 손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit / loss"
+      "originalText": "이익 / 손실"
     },
     {
       "type": "text",
@@ -3575,13 +3575,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit",
+      "fontFamily": 2,
+      "text": "이익",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit"
+      "originalText": "이익"
     },
     {
       "type": "text",
@@ -3609,13 +3609,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "loss",
+      "fontFamily": 2,
+      "text": "손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "loss"
+      "originalText": "손실"
     },
     {
       "id": "rTK2YMwbyqNMPEplneUZO",
@@ -3751,14 +3751,14 @@
       "updated": 1665215211954,
       "link": null,
       "locked": false,
-      "text": "Buy call",
+      "text": "콜 매수",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Buy call"
+      "originalText": "콜 매수"
     },
     {
       "id": "GUps9WyFLW7H8x2-oHs77",
@@ -3785,14 +3785,14 @@
       "updated": 1665215211954,
       "link": null,
       "locked": false,
-      "text": "= right to buy stock at strike price K",
+      "text": "= 행사가 K에 주식을 매수할 권리",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "= right to buy stock at strike price K"
+      "originalText": "= 행사가 K에 주식을 매수할 권리"
     },
     {
       "id": "5CNmaH583kKL_ZKreH8ux",
@@ -3819,14 +3819,14 @@
       "updated": 1665215211954,
       "link": null,
       "locked": false,
-      "text": "Sell call",
+      "text": "콜 매도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Sell call"
+      "originalText": "콜 매도"
     },
     {
       "type": "line",
@@ -3907,13 +3907,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "stock price",
+      "fontFamily": 2,
+      "text": "주가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "stock price"
+      "originalText": "주가"
     },
     {
       "type": "text",
@@ -3941,13 +3941,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Long put",
+      "fontFamily": 2,
+      "text": "풋 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Long put"
+      "originalText": "풋 매수"
     },
     {
       "type": "line",
@@ -4016,13 +4016,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Long put",
+      "fontFamily": 2,
+      "text": "풋 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Long put"
+      "originalText": "풋 매수"
     },
     {
       "type": "line",
@@ -4337,13 +4337,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit / loss",
+      "fontFamily": 2,
+      "text": "이익 / 손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit / loss"
+      "originalText": "이익 / 손실"
     },
     {
       "type": "text",
@@ -5129,13 +5129,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Put option with ",
+      "fontFamily": 2,
+      "text": "풋 옵션 조건:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Put option with "
+      "originalText": "풋 옵션 조건:"
     },
     {
       "type": "text",
@@ -5163,13 +5163,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "strike price K = $50",
+      "fontFamily": 2,
+      "text": "행사 가격 K = $50",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "strike price K = $50"
+      "originalText": "행사 가격 K = $50"
     },
     {
       "type": "text",
@@ -5197,13 +5197,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "trading at P = $10",
+      "fontFamily": 2,
+      "text": "P = $10에 거래 중",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "trading at P = $10"
+      "originalText": "P = $10에 거래 중"
     },
     {
       "type": "text",
@@ -5231,13 +5231,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit",
+      "fontFamily": 2,
+      "text": "이익",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit"
+      "originalText": "이익"
     },
     {
       "type": "text",
@@ -5265,13 +5265,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "loss",
+      "fontFamily": 2,
+      "text": "손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "loss"
+      "originalText": "손실"
     },
     {
       "type": "text",
@@ -5299,13 +5299,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Buy put",
+      "fontFamily": 2,
+      "text": "풋 매수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Buy put"
+      "originalText": "풋 매수"
     },
     {
       "type": "text",
@@ -5333,13 +5333,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= right to sell stock at strike price K",
+      "fontFamily": 2,
+      "text": "= 행사가 K에 주식을 매도할 권리",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= right to sell stock at strike price K"
+      "originalText": "= 행사가 K에 주식을 매도할 권리"
     },
     {
       "type": "text",
@@ -5665,13 +5665,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Short put",
+      "fontFamily": 2,
+      "text": "풋 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Short put"
+      "originalText": "풋 매도"
     },
     {
       "type": "line",
@@ -5740,13 +5740,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Short put ",
+      "fontFamily": 2,
+      "text": "풋 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Short put "
+      "originalText": "풋 매도"
     },
     {
       "type": "text",
@@ -5774,13 +5774,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Write put",
+      "fontFamily": 2,
+      "text": "풋 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Write put"
+      "originalText": "풋 매도"
     },
     {
       "type": "text",
@@ -5808,13 +5808,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= must buy stock at strike price K",
+      "fontFamily": 2,
+      "text": "= 행사가 K에 주식을 매수할 의무",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= must buy stock at strike price K"
+      "originalText": "= 행사가 K에 주식을 매수할 의무"
     },
     {
       "type": "text",
@@ -5842,13 +5842,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Put option with ",
+      "fontFamily": 2,
+      "text": "풋 옵션 조건:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Put option with "
+      "originalText": "풋 옵션 조건:"
     },
     {
       "type": "text",
@@ -5876,13 +5876,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "strike price K = $50",
+      "fontFamily": 2,
+      "text": "행사 가격 K = $50",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "strike price K = $50"
+      "originalText": "행사 가격 K = $50"
     },
     {
       "type": "text",
@@ -5910,13 +5910,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "trading at P = $10",
+      "fontFamily": 2,
+      "text": "P = $10에 거래 중",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "trading at P = $10"
+      "originalText": "P = $10에 거래 중"
     },
     {
       "type": "text",
@@ -5944,13 +5944,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "stock price",
+      "fontFamily": 2,
+      "text": "주가",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "stock price"
+      "originalText": "주가"
     },
     {
       "type": "line",
@@ -6265,13 +6265,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit / loss",
+      "fontFamily": 2,
+      "text": "이익 / 손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit / loss"
+      "originalText": "이익 / 손실"
     },
     {
       "type": "text",
@@ -6982,13 +6982,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "profit",
+      "fontFamily": 2,
+      "text": "이익",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "profit"
+      "originalText": "이익"
     },
     {
       "type": "text",
@@ -7016,13 +7016,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "loss",
+      "fontFamily": 2,
+      "text": "손실",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "loss"
+      "originalText": "손실"
     },
     {
       "type": "text",
@@ -7193,13 +7193,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Sell put",
+      "fontFamily": 2,
+      "text": "풋 매도",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Sell put"
+      "originalText": "풋 매도"
     },
     {
       "id": "sn7QETtC0ntzYsYtliQS8",

@@ -15,7 +15,7 @@ contract WithdrawDelay is Auth {
 
     IERC20 public immutable token;
     IStake public immutable stake;
-    // Duration of an epoch
+    // 에포크 길이
     uint256 public immutable EPOCH;
 
     enum State {
@@ -32,18 +32,18 @@ contract WithdrawDelay is Auth {
         uint256 exp;
     }
 
-    // User => lock count
+    // 사용자 => 잠금 개수
     mapping(address usr => uint256 count) public counts;
-    // User => lock index => Lock
+    // 사용자 => 잠금 인덱스 => Lock
     mapping(address usr => mapping(uint256 i => Lock)) public locks;
-    // Total amount queued
+    // 대기 중인 총수량
     uint256 public keep;
 
-    // Last updated epoch
+    // 마지막으로 갱신한 에포크
     uint256 public last;
-    // Total queued amounts in the last 2 epoch
+    // 최근 2개 에포크에서 대기 중인 총수량
     uint256[2] public buckets;
-    // Total amount dumped
+    // 배출한 총수량
     uint256 public dumped;
 
     constructor(address _stake, uint256 _epoch) {
@@ -69,12 +69,12 @@ contract WithdrawDelay is Auth {
         stake.withdraw(msg.sender, address(this), amt);
         keep += amt;
 
-        // Current epoch
+        // 현재 에포크
         uint256 curr = (block.timestamp / EPOCH) * EPOCH;
-        // End of next epoch
+        // 다음 에포크의 끝
         uint256 exp = curr + 2 * EPOCH;
 
-        // Update buckets
+        // 버킷 갱신
         if (last + 2 * EPOCH <= curr) {
             buckets[0] = 0;
             buckets[1] = 0;
@@ -106,7 +106,7 @@ contract WithdrawDelay is Auth {
         } else if (s == State.Covered) {
             require(lock.exp <= last, "dumped");
         }
-        // Refilled - all locks are expired
+        // 다시 채워짐 - 모든 잠금 만료
 
         uint256 amt = lock.amt;
         keep -= amt;

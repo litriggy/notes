@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.24;
 
-// 1. Deploy L1 contract
-// 2. Deploy L2 contract
-// 3. Send ETH L1 -> L2
-// 4. Check ETH balance on L2
-// 5. Withdraw on L2
-// 6. Send ETH L2 -> L1
-// 7. Check ETH balance on L1
-// 8. Withdraw on L1
+// 1. L1 컨트랙트 배포
+// 2. L2 컨트랙트 배포
+// 3. ETH 전송 L1 -> L2
+// 4. L2에서 ETH 잔액 확인
+// 5. L2에서 출금
+// 6. ETH 전송 L2 -> L1
+// 7. L1에서 ETH 잔액 확인
+// 8. L1에서 출금
 
 interface ICrossDomainMessenger {
     function xDomainMessageSender() external view returns (address);
@@ -16,8 +16,8 @@ interface ICrossDomainMessenger {
 }
 
 contract Wallet {
-    // ETH Sepolia messenger - L1 0x58Cc85b8D04EA49cC6DBd3CbFFd00B4B8D6cb3ef
-    // OP Sepolia messenger  - L2 0x4200000000000000000000000000000000000007
+    // ETH Sepolia 메신저 - L1 0x58Cc85b8D04EA49cC6DBd3CbFFd00B4B8D6cb3ef
+    // OP Sepolia 메신저  - L2 0x4200000000000000000000000000000000000007
     address public immutable MESSENGER;
     // L1 - 0xffC0F11c92F4E2e50b3f72Fd32BB3d034Ac77BDc
     // L2 - 0x15d97e464ed2D95cC7c7d8365681946b1d9b5DD9

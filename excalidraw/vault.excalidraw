@@ -28,14 +28,14 @@
       "updated": 1653047798416,
       "link": null,
       "locked": false,
-      "text": "Vault - How much shares to mint / burn?",
+      "text": "볼트 - 발행·소각할 지분 수량은?",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Vault - How much shares to mint / burn?"
+      "originalText": "볼트 - 발행·소각할 지분 수량은?"
     },
     {
       "id": "ICD2xWUcTAcIDb8S9wP-e",
@@ -103,14 +103,14 @@
       "updated": 1653047798416,
       "link": null,
       "locked": false,
-      "text": "What is a vault?",
+      "text": "볼트란?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What is a vault?"
+      "originalText": "볼트란?"
     },
     {
       "id": "u75A1N-wg0XGlHTMpI8CD",
@@ -293,14 +293,14 @@
       "updated": 1653047798417,
       "link": null,
       "locked": false,
-      "text": "user",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "사용자",
+      "fontSize": 16.570339245162756,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "user"
+      "originalText": "사용자"
     },
     {
       "id": "R_ZVL7caR3UgQZU8nFvng",
@@ -372,14 +372,14 @@
       "updated": 1653047798417,
       "link": null,
       "locked": false,
-      "text": "1. Deposit $",
+      "text": "1. $ 예치",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "1. Deposit $"
+      "originalText": "1. $ 예치"
     },
     {
       "id": "qk3DEejbcN3SQhVtxBxNv",
@@ -411,14 +411,14 @@
       "updated": 1653047798417,
       "link": null,
       "locked": false,
-      "text": "$ + profit",
+      "text": "$ + 수익",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "$ + profit"
+      "originalText": "$ + 수익"
     },
     {
       "id": "ogjKkyqW5suU7lzGrp7dg",
@@ -490,14 +490,14 @@
       "updated": 1653047798417,
       "link": null,
       "locked": false,
-      "text": "Mint shares",
+      "text": "지분 발행",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Mint shares"
+      "originalText": "지분 발행"
     },
     {
       "id": "fn-vVu-FryQfVBDZbGYzk",
@@ -529,14 +529,14 @@
       "updated": 1653047798417,
       "link": null,
       "locked": false,
-      "text": "Burn shares",
+      "text": "지분 소각",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Burn shares"
+      "originalText": "지분 소각"
     },
     {
       "id": "7d4uyTX5BWlmxLdnsMOOH",
@@ -882,14 +882,14 @@
       "updated": 1653047798418,
       "link": null,
       "locked": false,
-      "text": "Vault",
+      "text": "볼트",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Vault"
+      "originalText": "볼트"
     },
     {
       "type": "arrow",
@@ -975,13 +975,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "2. Withdraw ",
+      "fontFamily": 2,
+      "text": "2. 출금",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "2. Withdraw "
+      "originalText": "2. 출금"
     },
     {
       "type": "arrow",
@@ -1053,14 +1053,14 @@
       "updated": 1653047798419,
       "link": null,
       "locked": false,
-      "text": "- loss",
+      "text": "- 손실",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "- loss"
+      "originalText": "- 손실"
     },
     {
       "type": "text",
@@ -1093,13 +1093,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "vault owner",
+      "fontFamily": 2,
+      "text": "금고 소유자",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "vault owner"
+      "originalText": "금고 소유자"
     },
     {
       "id": "tYpJ_8c--GWx6saifgmFg",
@@ -1165,14 +1165,14 @@
       "updated": 1653047798419,
       "link": null,
       "locked": false,
-      "text": "Other \nDeFi",
+      "text": "기타\nDeFi",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "center",
       "verticalAlign": "middle",
       "baseline": 43,
       "containerId": "tYpJ_8c--GWx6saifgmFg",
-      "originalText": "Other DeFi"
+      "originalText": "기타 DeFi"
     },
     {
       "id": "TJvQCskKBrDB71dtIu6bk",
@@ -1248,14 +1248,14 @@
       "updated": 1653047798419,
       "link": null,
       "locked": false,
-      "text": "Invest $",
+      "text": "$ 투자",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Invest $"
+      "originalText": "$ 투자"
     },
     {
       "id": "FYxlWKKxr6XAkiXxWRoJH",
@@ -1331,14 +1331,14 @@
       "updated": 1653047798419,
       "link": null,
       "locked": false,
-      "text": "Return profit",
+      "text": "수익 반환",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Return profit"
+      "originalText": "수익 반환"
     },
     {
       "type": "ellipse",
@@ -1552,13 +1552,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Deposit - How much shares to mint?",
+      "fontFamily": 2,
+      "text": "예치 - 지분을 얼마나 발행할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Deposit - How much shares to mint?"
+      "originalText": "예치 - 지분을 얼마나 발행할까?"
     },
     {
       "type": "line",
@@ -1626,14 +1626,14 @@
       "updated": 1653047798420,
       "link": null,
       "locked": false,
-      "text": "Shares to mint is proportional to increase in balance of vault",
+      "text": "발행할 지분 수량은 볼트 잔액 증가량에 비례",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Shares to mint is proportional to increase in balance of vault"
+      "originalText": "발행할 지분 수량은 볼트 잔액 증가량에 비례"
     },
     {
       "id": "PYPLCZmKskKApDzNg77gk",
@@ -1660,14 +1660,14 @@
       "updated": 1653047798420,
       "link": null,
       "locked": false,
-      "text": "a = Amount to deposit ",
+      "text": "a = 예치할 수량",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "a = Amount to deposit "
+      "originalText": "a = 예치할 수량"
     },
     {
       "id": "PHxMzYZmRQYUgWySqMjpe",
@@ -1694,14 +1694,14 @@
       "updated": 1653047798420,
       "link": null,
       "locked": false,
-      "text": "B = Balance of vault before deposit",
+      "text": "B = 예치 전 볼트 잔액",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "B = Balance of vault before deposit"
+      "originalText": "B = 예치 전 볼트 잔액"
     },
     {
       "id": "IoS3ock2YEB7FQ1k65z_u",
@@ -1728,14 +1728,14 @@
       "updated": 1653047798420,
       "link": null,
       "locked": false,
-      "text": "s = Shares to mint",
+      "text": "s = 발행할 지분",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "s = Shares to mint"
+      "originalText": "s = 발행할 지분"
     },
     {
       "id": "nVGrD20jPynRM4Bk27oTr",
@@ -1762,14 +1762,14 @@
       "updated": 1653047798420,
       "link": null,
       "locked": false,
-      "text": "T = Total shares before mint",
+      "text": "T = 발행 전 총지분",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "T = Total shares before mint"
+      "originalText": "T = 발행 전 총지분"
     },
     {
       "id": "vtWHCzn-ukTjppj7z5tkb",
@@ -2268,14 +2268,14 @@
       "updated": 1653047798421,
       "link": null,
       "locked": false,
-      "text": "Before deposit",
+      "text": "예치 전",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Before deposit"
+      "originalText": "예치 전"
     },
     {
       "type": "text",
@@ -2303,13 +2303,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After deposit",
+      "fontFamily": 2,
+      "text": "예치 후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After deposit"
+      "originalText": "예치 후"
     },
     {
       "id": "vXL6aCFC8gfauk0LWSFX6",
@@ -3249,14 +3249,14 @@
       "updated": 1653047798422,
       "link": null,
       "locked": false,
-      "text": "s = Amount of shares to mint",
+      "text": "s = 발행할 지분 수량",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "s = Amount of shares to mint"
+      "originalText": "s = 발행할 지분 수량"
     },
     {
       "type": "text",
@@ -3284,13 +3284,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Withdraw - How much amount to withdraw?",
+      "fontFamily": 2,
+      "text": "출금 - 얼마나 출금할까?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Withdraw - How much amount to withdraw?"
+      "originalText": "출금 - 얼마나 출금할까?"
     },
     {
       "type": "line",
@@ -3399,14 +3399,14 @@
       "updated": 1653047798422,
       "link": null,
       "locked": false,
-      "text": "Solve for s",
+      "text": "s 구하기",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Solve for s"
+      "originalText": "s 구하기"
     },
     {
       "type": "text",
@@ -3434,13 +3434,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "a = Amount to withdraw ",
+      "fontFamily": 2,
+      "text": "a = 출금할 수량",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "a = Amount to withdraw "
+      "originalText": "a = 출금할 수량"
     },
     {
       "type": "text",
@@ -3468,13 +3468,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "B = Balance of vault before withdraw",
+      "fontFamily": 2,
+      "text": "B = 출금 전 볼트 잔액",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "B = Balance of vault before withdraw"
+      "originalText": "B = 출금 전 볼트 잔액"
     },
     {
       "type": "text",
@@ -3502,13 +3502,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "s = Shares to burn",
+      "fontFamily": 2,
+      "text": "s = 소각할 지분",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "s = Shares to burn"
+      "originalText": "s = 소각할 지분"
     },
     {
       "type": "text",
@@ -3536,13 +3536,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "T = Total shares before burn",
+      "fontFamily": 2,
+      "text": "T = 소각 전 총지분",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "T = Total shares before burn"
+      "originalText": "T = 소각 전 총지분"
     },
     {
       "type": "line",
@@ -3611,13 +3611,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Solve for a",
+      "fontFamily": 2,
+      "text": "a 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Solve for a"
+      "originalText": "a 구하기"
     },
     {
       "type": "ellipse",
@@ -4235,13 +4235,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Before withdraw",
+      "fontFamily": 2,
+      "text": "출금 전",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Before withdraw"
+      "originalText": "출금 전"
     },
     {
       "type": "text",
@@ -4269,13 +4269,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "After withdraw",
+      "fontFamily": 2,
+      "text": "출금 후",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "After withdraw"
+      "originalText": "출금 후"
     },
     {
       "type": "text",
@@ -5101,14 +5101,14 @@
       "updated": 1653047910882,
       "link": null,
       "locked": false,
-      "text": "a = Amount to withdraw",
+      "text": "a = 출금할 수량",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "a = Amount to withdraw"
+      "originalText": "a = 출금할 수량"
     }
   ],
   "appState": {

@@ -1,99 +1,96 @@
 # ZKSTARK
 
-- zk-stark-overview (TODO: update)
+- zk-stark-overview (TODO: 갱신)
 - comp-to-poly
 - trace-poly
 - trace-domain
-- lagrange polynomial
-- quotienting
-- vanishing polynomial
-- composition polynomial
-- checks
-- mask
-- eval domain
-- why few checks on pcomp?
-- hamming dist
-- rs code
-- rs code + zkstark
-- hamming dist of rational func
-- dist of q to `RS[F, L, K]` and `RS[F, L, D]`
-- apply avg dist amp
-- delta example
-- why check delta close
-- batch FRI
-- polynomial decomposition
-- recap
-- deep ali
-- deep ali sec
+- 라그랑주 다항식
+- 몫 구하기
+- 소거 다항식
+- 합성 다항식
+- 검사
+- 마스크
+- 평가 영역
+- 왜 pcomp를 몇 번만 검사하는가?
+- 해밍 거리
+- RS 부호
+- RS 부호 + zkstark
+- 유리함수의 해밍 거리
+- q에서 `RS[F, L, K]`와 `RS[F, L, D]`까지의 거리
+- 평균 거리 증폭 적용
+- delta 예시
+- delta 이내로 가까운지 검사하는 이유
+- FRI 일괄 처리
+- 다항식 분해
+- 복습
+- DEEP ALI
+- DEEP ALI 보안
 - FRI
-- Proximity gap -> distance preservation
-- Honest and dishonest prover
+- 근접성 간극 -> 거리 보존
+- 정직한 증명자와 부정한 증명자
 
-- Big picture
+- 전체 흐름
 ```
-Code execution (trace + constraints) -> polynomial -> prover commits to poly, verifier queries properties about the poly
+코드 실행(실행 추적 + 제약) -> 다항식 -> 증명자가 다항식에 커밋, 검증자가 다항식의 성질을 질의
                                      |------------------------------------ ZKSTARK ----------------------------------|
-                                     |  Polynomail, finite field, group, roots of unity, FFT, Merkle tree, Reed Solomon code, codeword, FRI
+                                     |  다항식, 유한체, 군, 단위근, FFT, 머클 트리, Reed Solomon 부호, 부호어, FRI
                                     AIR
 ```
-- Prerequisites
-  - Polynomial over prime fields
-  - Roots of unity
-- Trace + constraint -> polynomial
-  - Composition polynomial
-- Polynomial
-  - Properties
-      - M points uniquely determines a poly of degree < M
-      - 2 different poly of degree < M can agree at most M points?
-      - r is a root of a polynomial P -> (x - r) divides P
-      - degree(P) < K -> P(x) = 0 for at most K points
-- Evaluation domain
-  - Trace evaluation domain
-  - ZKSTARK evaluation domain (coset)
-- Polynomail constraint checks
-  - Quotient
+- 선수 지식
+  - 소체 위의 다항식
+  - 단위근
+- 실행 추적 + 제약 -> 다항식
+  - 합성 다항식
+- 다항식
+  - 성질
+      - M개 점은 차수 < M인 다항식을 유일하게 결정
+      - 차수 < M인 서로 다른 2개 다항식은 최대 M개 점에서 일치할 수 있는가?
+      - r이 다항식 P의 근 -> (x - r)이 P를 나눔
+      - degree(P) < K -> 최대 K개 점에서 P(x) = 0
+- 평가 영역
+  - 실행 추적 평가 영역
+  - ZKSTARK 평가 영역(잉여류)
+- 다항식 제약 검사
+  - 몫
   - DEEP?
-  - Commitment
-  - Query
+  - 커밋
+  - 질의
 - FRI
-  - Intro / Steps
-  - Reed Solomon code
-  - Code distance
-  - Linear code
-  - Commitment
-  - Query
-- Zero knowledge
+  - 소개 / 단계
+  - Reed Solomon 부호
+  - 부호 거리
+  - 선형 부호
+  - 커밋
+  - 질의
+- 영지식
 
-- Modular arithmetic, negative, multiplicative inverse, division, finite field, prime field
-- Field, multiplicative group, how to find generator for multiplicative group?
-- Starkware primitive Nth root of unity N = 2^192, P = 2^251 + 17*2^192 + 1
-- Polynomial, lagrange interpolation, division
-- polynomial roots and division p(x) = f(x) / (x - a0)(x - a1)...(x-an)
-- f and g poly degree = d -> intersect at most d points
-- Constraint, composition polynomial
-- Lagrange interpolation
-- Fermat's conjecture 2^(2^k) + 1 is prime
-- Group, subgroup, generator, Fermat's little theorem, coset
-- Roots of unity (z^n = 1, n > 0), primitive roots of unity
-- FFT, inverse FFT
+- 모듈러 연산, 음수, 곱셈 역원, 나눗셈, 유한체, 소체
+- 체, 곱셈군, 곱셈군의 생성원을 구하는 방법은?
+- Starkware N차 원시 단위근 N = 2^192, P = 2^251 + 17*2^192 + 1
+- 다항식, 라그랑주 보간, 나눗셈
+- 다항식의 근과 나눗셈 p(x) = f(x) / (x - a0)(x - a1)...(x-an)
+- 다항식 f와 g의 차수 = d -> 최대 d개 점에서 교차
+- 제약, 합성 다항식
+- 라그랑주 보간
+- 페르마의 추측: 2^(2^k) + 1은 소수
+- 군, 부분군, 생성원, 페르마의 소정리, 잉여류
+- 단위근(z^n = 1, n > 0), 원시 단위근
+- FFT, 역 FFT
 
-- Merkle tree
+- 머클 트리
 
-- How is ZKStark zero knowledge? -> masking (shifting polynomial by a random polynomial)
-- Batching
-- Mixing
-- Why prime field?
-- Composition, constraint and validity polynomial
-- Degree adjustment
-- Schwartz-Zippel lemma
-TODO: cheat example?
-TODO: low degree testing
-TODO: quotienting?
+- ZKStark는 어떻게 영지식을 보장하는가? -> 마스킹(무작위 다항식으로 다항식을 이동)
+- 일괄 처리
+- 혼합
+- 왜 소체인가?
+- 합성 다항식, 제약 다항식, 유효성 다항식
+- 차수 조정
+- Schwartz-Zippel 보조정리
+TODO: 부정행위 예시?
+TODO: 저차수 검사
+TODO: 몫 구하기?
 
-- [Graph - finite field, group, subgroup, coset](https://www.desmos.com/calculator/fadywrc9h5)
-
-
-
+- [그래프 - 유한체, 군, 부분군, 잉여류](https://www.desmos.com/calculator/fadywrc9h5)
 
 
 

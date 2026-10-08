@@ -111,13 +111,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 - Liquidity of a single position",
+      "fontFamily": 2,
+      "text": "Uniswap V3 - 단일 포지션의 유동성",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 - Liquidity of a single position"
+      "originalText": "Uniswap V3 - 단일 포지션의 유동성"
     },
     {
       "type": "line",
@@ -472,13 +472,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "real",
+      "fontFamily": 2,
+      "text": "실제",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "real"
+      "originalText": "실제"
     },
     {
       "type": "text",
@@ -506,13 +506,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "real + virtual",
+      "fontFamily": 2,
+      "text": "실제 + 가상",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "real + virtual"
+      "originalText": "실제 + 가상"
     },
     {
       "type": "text",
@@ -3056,13 +3056,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of X in terms of Y",
+      "fontFamily": 2,
+      "text": "Y 기준 X 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of X in terms of Y"
+      "originalText": "Y 기준 X 가격"
     },
     {
       "type": "text",
@@ -3090,13 +3090,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Curve with real reserves ",
+      "fontFamily": 2,
+      "text": "실제 준비금 곡선",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Curve with real reserves "
+      "originalText": "실제 준비금 곡선"
     },
     {
       "type": "text",
@@ -3191,14 +3191,14 @@
       "updated": 1661765462226,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -3294,13 +3294,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "between the price range",
+      "fontFamily": 2,
+      "text": "가격 범위 사이",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "between the price range"
+      "originalText": "가격 범위 사이"
     },
     {
       "type": "text",
@@ -3395,14 +3395,14 @@
       "updated": 1661765462226,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -3668,13 +3668,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -6823,12 +6823,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "so",
+      "text": "∴",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "freedraw",
@@ -13821,13 +13821,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -16908,12 +16908,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "so",
+      "text": "∴",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "so"
+      "originalText": "∴"
     },
     {
       "type": "text",
@@ -24615,13 +24615,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -24921,13 +24921,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "ideal liquidity is liquidity of X = liquidity of Y ",
+      "fontFamily": 2,
+      "text": "이상적인 유동성: X의 유동성 = Y의 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "ideal liquidity is liquidity of X = liquidity of Y "
+      "originalText": "이상적인 유동성: X의 유동성 = Y의 유동성"
     },
     {
       "type": "text",
@@ -25057,13 +25057,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity of X from",
+      "fontFamily": 2,
+      "text": "X의 유동성, 구간:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity of X from"
+      "originalText": "X의 유동성, 구간:"
     },
     {
       "type": "text",
@@ -25126,12 +25126,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -26305,13 +26305,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "liquidity of Y from",
+      "fontFamily": 2,
+      "text": "Y의 유동성, 구간:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "liquidity of Y from"
+      "originalText": "Y의 유동성, 구간:"
     },
     {
       "type": "text",
@@ -26374,12 +26374,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -26475,13 +26475,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Ideal liquidity",
+      "fontFamily": 2,
+      "text": "이상적인 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Ideal liquidity"
+      "originalText": "이상적인 유동성"
     },
     {
       "type": "text",
@@ -26510,12 +26510,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "is",
+      "text": ":",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "is"
+      "originalText": ":"
     },
     {
       "type": "text",
@@ -26739,13 +26739,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "when",
+      "fontFamily": 2,
+      "text": "일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "when"
+      "originalText": "일 때"
     },
     {
       "type": "text",
@@ -28480,13 +28480,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "For price range",
+      "fontFamily": 2,
+      "text": "가격 범위:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For price range"
+      "originalText": "가격 범위:"
     },
     {
       "type": "text",
@@ -28583,12 +28583,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -28684,13 +28684,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "So, for price range",
+      "fontFamily": 2,
+      "text": "따라서 가격 범위:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "So, for price range"
+      "originalText": "따라서 가격 범위:"
     },
     {
       "type": "text",
@@ -28753,12 +28753,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -28854,13 +28854,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "when",
+      "fontFamily": 2,
+      "text": "일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "when"
+      "originalText": "일 때"
     },
     {
       "type": "text",
@@ -30493,13 +30493,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "replace P",
+      "fontFamily": 2,
+      "text": "P 교체",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "replace P"
+      "originalText": "P 교체"
     },
     {
       "type": "text",
@@ -30560,14 +30560,14 @@
       "updated": 1661765377092,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "with P",
+      "fontSize": 24.295002019058124,
+      "fontFamily": 2,
+      "text": "P와 함께",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "with P"
+      "originalText": "P와 함께"
     },
     {
       "type": "freedraw",
@@ -31046,14 +31046,14 @@
       "updated": 1661765377092,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Find ",
+      "fontSize": 25.433540753023568,
+      "fontFamily": 2,
+      "text": "구하기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find "
+      "originalText": "구하기"
     },
     {
       "type": "text",
@@ -31189,14 +31189,14 @@
       "updated": 1661765377092,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Find ",
+      "fontSize": 25.433540753023568,
+      "fontFamily": 2,
+      "text": "구하기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find "
+      "originalText": "구하기"
     },
     {
       "type": "line",
@@ -31333,13 +31333,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "when",
+      "fontFamily": 2,
+      "text": "일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "when"
+      "originalText": "일 때"
     },
     {
       "type": "text",
@@ -31503,13 +31503,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "For price range",
+      "fontFamily": 2,
+      "text": "가격 범위:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For price range"
+      "originalText": "가격 범위:"
     },
     {
       "type": "text",
@@ -31606,12 +31606,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -31707,13 +31707,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "So, for price range",
+      "fontFamily": 2,
+      "text": "따라서 가격 범위:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "So, for price range"
+      "originalText": "따라서 가격 범위:"
     },
     {
       "type": "text",
@@ -31776,12 +31776,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -31877,13 +31877,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "when",
+      "fontFamily": 2,
+      "text": "일 때",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "when"
+      "originalText": "일 때"
     },
     {
       "type": "text",
@@ -32013,13 +32013,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "replace P",
+      "fontFamily": 2,
+      "text": "P 교체",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "replace P"
+      "originalText": "P 교체"
     },
     {
       "type": "text",
@@ -32080,14 +32080,14 @@
       "updated": 1661765377092,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "with P",
+      "fontSize": 24.295002019058124,
+      "fontFamily": 2,
+      "text": "P와 함께",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "with P"
+      "originalText": "P와 함께"
     },
     {
       "type": "freedraw",
@@ -36777,13 +36777,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Putting it all together",
+      "fontFamily": 2,
+      "text": "전체 종합",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Putting it all together"
+      "originalText": "전체 종합"
     },
     {
       "type": "text",
@@ -36811,13 +36811,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -37109,13 +37109,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -38850,13 +38850,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -42237,13 +42237,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When",
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When"
+      "originalText": "조건"
     },
     {
       "type": "text",

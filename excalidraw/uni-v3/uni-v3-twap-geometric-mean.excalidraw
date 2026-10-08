@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 TWAP and Geometric Mean",
+      "fontFamily": 2,
+      "text": "Uniswap V3 TWAP과 기하평균",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 TWAP and Geometric Mean"
+      "originalText": "Uniswap V3 TWAP과 기하평균"
     },
     {
       "type": "line",
@@ -138,13 +138,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -206,13 +206,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Tick average from time 0 to n",
+      "fontFamily": 2,
+      "text": "시점 0부터 n까지의 틱 평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Tick average from time 0 to n"
+      "originalText": "시점 0부터 n까지의 틱 평균"
     },
     {
       "type": "text",
@@ -888,13 +888,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "= Tick at i second",
+      "fontFamily": 2,
+      "text": "= i초 시점의 틱",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= Tick at i second"
+      "originalText": "= i초 시점의 틱"
     },
     {
       "type": "text",
@@ -2912,13 +2912,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -3048,13 +3048,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -3082,13 +3082,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Time weighted average price",
+      "fontFamily": 2,
+      "text": "시간 가중 평균 가격",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Time weighted average price"
+      "originalText": "시간 가중 평균 가격"
     },
     {
       "type": "text",
@@ -3176,13 +3176,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Review of V3 TWAP",
+      "fontFamily": 2,
+      "text": "V3 TWAP 복습",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Review of V3 TWAP"
+      "originalText": "V3 TWAP 복습"
     },
     {
       "type": "text",
@@ -3244,13 +3244,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -3346,13 +3346,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -4128,13 +4128,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Geometric mean of prices",
+      "fontFamily": 2,
+      "text": "가격의 기하평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Geometric mean of prices"
+      "originalText": "가격의 기하평균"
     },
     {
       "type": "rectangle",
@@ -4256,13 +4256,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -7361,13 +7361,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Geometric mean",
+      "fontFamily": 2,
+      "text": "기하평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Geometric mean"
+      "originalText": "기하평균"
     },
     {
       "type": "text",
@@ -11534,13 +11534,13 @@
       "link": null,
       "locked": false,
       "fontSize": 16,
-      "fontFamily": 1,
-      "text": "Price at time 0",
+      "fontFamily": 2,
+      "text": "시점 0의 가격",
       "baseline": 14,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price at time 0"
+      "originalText": "시점 0의 가격"
     },
     {
       "type": "rectangle",
@@ -11594,13 +11594,13 @@
       "link": null,
       "locked": false,
       "fontSize": 16,
-      "fontFamily": 1,
-      "text": "Price change from P  to P",
+      "fontFamily": 2,
+      "text": "P에서 P로 가격 변화",
       "baseline": 14,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price change from P  to P"
+      "originalText": "P에서 P로 가격 변화"
     },
     {
       "type": "rectangle",
@@ -11654,13 +11654,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Geometric mean of price changes from P",
+      "fontFamily": 2,
+      "text": "P부터 가격 변화의 기하평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Geometric mean of price changes from P"
+      "originalText": "P부터 가격 변화의 기하평균"
     },
     {
       "type": "text",
@@ -12273,13 +12273,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "are all close to ",
+      "fontFamily": 2,
+      "text": "모두 다음에 가까움:",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "are all close to "
+      "originalText": "모두 다음에 가까움:"
     },
     {
       "type": "text",
@@ -12375,13 +12375,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Let's say",
+      "fontFamily": 2,
+      "text": "가정:",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Let's say"
+      "originalText": "가정:"
     },
     {
       "type": "text",
@@ -12408,14 +12408,14 @@
       "updated": 1651475408782,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Then",
+      "fontSize": 18.111766151689523,
+      "fontFamily": 2,
+      "text": "그러면",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Then"
+      "originalText": "그러면"
     },
     {
       "type": "text",
@@ -12477,13 +12477,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -14862,13 +14862,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "When prices are close to ",
+      "fontFamily": 2,
+      "text": "가격이 다음에 가까울 때:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "When prices are close to "
+      "originalText": "가격이 다음에 가까울 때:"
     },
     {
       "type": "text",
@@ -14997,14 +14997,14 @@
       "updated": 1651475408782,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontSize": 27.745680821480256,
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -15032,13 +15032,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "also close to ",
+      "fontFamily": 2,
+      "text": "다음에도 가까움:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "also close to "
+      "originalText": "다음에도 가까움:"
     },
     {
       "type": "text",

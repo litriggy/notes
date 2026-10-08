@@ -137,14 +137,14 @@
       "updated": 1649498386361,
       "link": null,
       "locked": false,
-      "text": "avg",
+      "text": "평균",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "_5StSu7JUKQx6d7GDJLUh",
@@ -641,14 +641,14 @@
       "updated": 1649498386361,
       "link": null,
       "locked": false,
-      "text": "Tick",
+      "text": "틱",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Tick"
+      "originalText": "틱"
     },
     {
       "id": "dVg-3cQgiFfTEiKLW-H6f",
@@ -675,14 +675,14 @@
       "updated": 1649498386361,
       "link": null,
       "locked": false,
-      "text": "avg",
+      "text": "평균",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -710,13 +710,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Tick",
+      "fontFamily": 2,
+      "text": "틱",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Tick"
+      "originalText": "틱"
     },
     {
       "type": "text",
@@ -744,13 +744,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "7ZqNX888BTgLl5Mgm9pjU",
@@ -1396,14 +1396,14 @@
       "updated": 1649498386361,
       "link": null,
       "locked": false,
-      "text": "Average price (Y / X) from time t  to  t",
+      "text": "시점 t부터 t까지의 평균 가격 (Y / X)",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Average price (Y / X) from time t  to  t"
+      "originalText": "시점 t부터 t까지의 평균 가격 (Y / X)"
     },
     {
       "id": "YSZfOjIaZILnB6gTdu5_v",
@@ -1660,14 +1660,14 @@
       "updated": 1649498386362,
       "link": null,
       "locked": false,
-      "text": "price of token B in terms of token A",
+      "text": "토큰 A 단위로 나타낸 토큰 B 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price of token B in terms of token A"
+      "originalText": "토큰 A 단위로 나타낸 토큰 B 가격"
     },
     {
       "id": "flnbj4p_1NuPOTAykoUCZ",
@@ -1762,14 +1762,14 @@
       "updated": 1649498386363,
       "link": null,
       "locked": false,
-      "text": "Tick",
+      "text": "틱",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Tick"
+      "originalText": "틱"
     },
     {
       "id": "eUL7VaARE3Rac9kqkkRFG",
@@ -2177,14 +2177,14 @@
       "updated": 1649498386363,
       "link": null,
       "locked": false,
-      "text": "= virtual reserve of token B at time i",
+      "text": "= 시점 i의 토큰 B 가상 준비금",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "= virtual reserve of token B at time i"
+      "originalText": "= 시점 i의 토큰 B 가상 준비금"
     },
     {
       "type": "text",
@@ -2212,13 +2212,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "= virtual reserve of token A at time i",
+      "fontFamily": 2,
+      "text": "= 시점 i의 토큰 A 가상 준비금",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= virtual reserve of token A at time i"
+      "originalText": "= 시점 i의 토큰 A 가상 준비금"
     },
     {
       "id": "PZftPZb4LYv6RAYG9Se6T",
@@ -2271,14 +2271,14 @@
       "updated": 1649498386364,
       "link": null,
       "locked": false,
-      "text": "Not stored in Uni V3",
+      "text": "Uni V3에 저장되지 않음",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Not stored in Uni V3"
+      "originalText": "Uni V3에 저장되지 않음"
     },
     {
       "id": "cO89fb5DsQIE2Hpm-Ou5d",
@@ -2331,14 +2331,14 @@
       "updated": 1649498386364,
       "link": null,
       "locked": false,
-      "text": "Tracked in Uni V3",
+      "text": "Uni V3에서 추적",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Tracked in Uni V3"
+      "originalText": "Uni V3에서 추적"
     },
     {
       "id": "gJGnDQbTYpIvlGsmKaTYr",
@@ -2365,14 +2365,14 @@
       "updated": 1649498386364,
       "link": null,
       "locked": false,
-      "text": "Price and liquidity implies virtual reserves",
+      "text": "가격과 유동성으로 가상 준비금 결정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price and liquidity implies virtual reserves"
+      "originalText": "가격과 유동성으로 가상 준비금 결정"
     },
     {
       "id": "nju3seo4kuC6tsQhSh7Jk",
@@ -2399,14 +2399,14 @@
       "updated": 1649498386364,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "uMeVjfDRhIrMW3XF4jLBM",
@@ -2602,14 +2602,14 @@
       "updated": 1649498386365,
       "link": null,
       "locked": false,
-      "text": "Tick = 80067",
+      "text": "틱 = 80067",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Tick = 80067"
+      "originalText": "틱 = 80067"
     },
     {
       "id": "p-6tiMXPBYfLfMx0VbcP-",
@@ -4279,13 +4279,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "freedraw",
@@ -6274,13 +6274,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "9MA9iwlNxiKP62fcJnmOT",
@@ -7638,13 +7638,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "freedraw",
@@ -9599,13 +9599,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -10321,13 +10321,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "pN2kHRBS8VVwAjwsU88Eg",
@@ -10457,13 +10457,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -10491,13 +10491,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",
@@ -10599,14 +10599,14 @@
       "updated": 1649499755729,
       "link": null,
       "locked": false,
-      "text": "price",
+      "text": "가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "price"
+      "originalText": "가격"
     },
     {
       "id": "tBeYexypoVe1mC2CtLZFK",
@@ -11028,14 +11028,14 @@
       "updated": 1649499755729,
       "link": null,
       "locked": false,
-      "text": "Tick",
+      "text": "틱",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Tick"
+      "originalText": "틱"
     },
     {
       "id": "1hUUOCAtD77533-qGYdXA",
@@ -11267,13 +11267,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "3AxqhVqbMu6qf8d61qc4v",
@@ -11805,13 +11805,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -12050,13 +12050,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "VfgmXflF4oHzuqk5WAssp",
@@ -12219,14 +12219,14 @@
       "updated": 1649499715538,
       "link": null,
       "locked": false,
-      "text": "Side note",
+      "text": "참고",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Side note"
+      "originalText": "참고"
     },
     {
       "id": "wXVz9LaWXLVHOqWCVkKqQ",
@@ -12279,14 +12279,14 @@
       "updated": 1649500254380,
       "link": null,
       "locked": false,
-      "text": "price cumulative",
+      "text": "가격 누적값",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "price cumulative"
+      "originalText": "가격 누적값"
     },
     {
       "id": "-6gHrLLxux_ww_c_pwDXP",
@@ -12339,14 +12339,14 @@
       "updated": 1649500243373,
       "link": null,
       "locked": false,
-      "text": "tick cumulative",
+      "text": "틱 누적값",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "tick cumulative"
+      "originalText": "틱 누적값"
     },
     {
       "id": "RNUS_xKFBeXSeHXj-grt3",
@@ -12399,14 +12399,14 @@
       "updated": 1649500249134,
       "link": null,
       "locked": false,
-      "text": "starts from t = 0",
+      "text": "t = 0부터 시작",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "starts from t = 0"
+      "originalText": "t = 0부터 시작"
     },
     {
       "type": "rectangle",
@@ -12460,13 +12460,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "starts from t = 0",
+      "fontFamily": 2,
+      "text": "t = 0부터 시작",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "starts from t = 0"
+      "originalText": "t = 0부터 시작"
     }
   ],
   "appState": {

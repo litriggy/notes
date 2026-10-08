@@ -2,8 +2,8 @@ from __future__ import annotations
 from utils import find_prime_divisors
 
 
-# Use extended Euclidean algo for calculating multiplicative inverse
-# TODO: wat dis?
+# 확장 유클리드 알고리즘으로 곱셈 역원 계산
+# TODO: 이게 뭐지?
 def xgcd(x: int, y: int) -> (int, int, int):
     old_r, r = (x, y)
     old_s, s = (1, 0)
@@ -18,7 +18,7 @@ def xgcd(x: int, y: int) -> (int, int, int):
     return old_s, old_t, old_r  # a, b, g
 
 
-# Field elements
+# 체의 원소
 class F:
     def __init__(self, v: int, p: int):
         self.v = v % p
@@ -37,7 +37,7 @@ class F:
         return x
 
     def inv(self) -> F:
-        # if p is prime, use Fermat's Little Theorem
+        # p가 소수이면 페르마의 소정리 사용
         # a^(p - 1) = a * a^(p - 2) = 1 mod p
         # return self.wrap(pow(a, p - 2, p))
         a, _, _ = xgcd(self.v, self.p)
@@ -50,7 +50,7 @@ class F:
 
     # (int | F) + F
     def __radd__(self, x: int | F) -> F:
-        # Addition is commutative
+        # 덧셈은 교환법칙을 만족함
         return self.__add__(x)
 
     # F - (int | F)
@@ -70,7 +70,7 @@ class F:
 
     # (int | F) * F
     def __rmul__(self, x: int | F) -> F:
-        # Multiplication is commutative
+        # 곱셈은 교환법칙을 만족함
         return self.__mul__(x)
 
     # F / (int | F)
@@ -111,19 +111,19 @@ class F:
     def __repr__(self):
         return str(self.v)
 
-    # Used for set keys
+    # 집합의 키로 사용
     def __hash__(self):
         return hash((self.v, self.p))
 
 
 def find_generator(p: int) -> int | None:
-    # Generator g is an element in F[P], finite field mod P, such that
+    # 생성원 g는 mod P 유한체 F[P]의 원소로, 다음을 만족함
     # {g^0, g^1, ..., g^(P-1)} = {1, 2, 3, ..., P - 1}
 
-    # Fast way to find g
-    # g is a generator of F[P], P prime, iff
+    # g를 빠르게 찾는 방법
+    # P가 소수일 때 g가 F[P]의 생성원일 필요충분조건은
     # g^((P-1) / q) != 1 mod P
-    # for all q, prime divisors of P - 1
+    # P - 1의 모든 소인수 q에 대해 위 식이 성립하는 것
 
     prime_divs = find_prime_divisors(p - 1)
     for x in range(1, p):
@@ -134,9 +134,9 @@ def find_generator(p: int) -> int | None:
 
 def generate(g: int, n: int, p: int) -> list[int]:
     """
-    g = generator of F[P, *]
-    n = order of subgroup G to generate
-    p = prime number P
+    g = F[P, *]의 생성원
+    n = 생성할 부분군 G의 위수
+    p = 소수 P
     """
     assert n <= p
 
@@ -146,24 +146,24 @@ def generate(g: int, n: int, p: int) -> list[int]:
         G[i] = (G[i - 1] * g) % p
         assert G[i] != 1, f"g^{i} = 1"
 
-    # Check g^n = 1
+    # g^n = 1인지 확인
     assert (G[-1] * g) % p == 1, f"g^{n} = {(G[-1] * g) % p}"
     assert len(set(G)) == n
 
     return G
 
 
-# Primitive Nth root of unity
+# 1의 원시 N제곱근
 def get_primitive_root(g: int, n: int, p: int) -> int:
     """
-    g = generator of F[P, *]
-    n = nth primitive root of unity
-    p = prime number P
+    g = F[P, *]의 생성원
+    n = 1의 원시 n제곱근
+    p = 소수 P
     """
-    # F[P, *] = Multiplicative subgroup of F[P] = {1, 2, 3, ..., P - 1}
-    # g = generator of F[P, *]
+    # F[P, *] = F[P]의 곱셈 부분군 = {1, 2, 3, ..., P - 1}
+    # g = F[P, *]의 생성원
     # |F[P, *]| = P - 1
-    # If k divides P - 1, then g^k generates a group of size (P - 1) / k
+    # k가 P - 1의 약수이면 g^k는 크기가 (P - 1) / k인 군을 생성함
     # (P - 1) / k = n -> k = (P - 1) / n
     k = (p - 1) // n
     return pow(g, k, p)

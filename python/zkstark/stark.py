@@ -11,62 +11,62 @@ from utils import is_prime, is_pow2, min_pow2_gt, rand_int
 
 class Prover(IStarkProver):
     def __init__(self, **kwargs):
-        # Prime number
+        # 소수
         P: int = kwargs["P"]
-        # generator of F[P, *] = multiplicative subgroup of prime field P
+        # 소체 P의 곱셈 부분군 F[P, *]의 생성원
         g: int = kwargs["g"]
 
-        # TODO: build trace_domain here?
-        # Trace polynomial
+        # TODO: 여기서 trace_domain을 만들까?
+        # 트레이스 다항식
         t: Polynomial = kwargs["trace_poly"]
-        # Trace evaluation domain
+        # 트레이스 평가 영역
         trace_domain: list[int] = kwargs["trace_domain"]
         trace_len = len(trace_domain)
         assert is_pow2(trace_len)
         assert t.degree() < trace_len
 
-        # Expansion factor, exp_factor * trace_len = N = size of eval_domain
+        # 확장 계수, exp_factor * trace_len = N = eval_domain의 크기
         exp_factor: int = kwargs["exp_factor"]
         assert is_pow2(exp_factor)
         N = exp_factor * trace_len
         assert N < P
 
-        # Primitive Nth root of unity
+        # 1의 원시 N제곱근
         w: int = field.get_primitive_root(g, N, P)
         assert pow(w, N, P) == 1
         assert pow(w, N // 2, P) == (-1 % P)
-        # Nth roots of unitys
+        # 1의 N제곱근
         roots: list[int] = field.generate(w, N, P)
         assert len(roots) == N
 
-        # FRI and STARK evaluation domain are shifted by g so that
-        # trace_domain and eval_domain are disjoint
+        # trace_domain과 eval_domain이 서로 겹치지 않도록
+        # FRI와 STARK의 평가 영역을 g만큼 이동
         eval_domain = [(g * wi) % P for wi in roots]
         assert (
             intersec := set(eval_domain) & set(trace_domain)
         ) == set(), f"eval domains not disjoint {intersec}"
 
-        # Let T = trace_domain
-        #     L = Nth roots of unity
-        # T and L are subgroups of F[P, *] -> |T| and |L| divides |F[P, *]| = P - 1
+        # T = trace_domain으로 두고
+        #     L = 1의 N제곱근으로 둠
+        # T와 L은 F[P, *]의 부분군 -> |T|와 |L|은 |F[P, *]| = P - 1의 약수
         assert (P - 1) % trace_len == 0
         assert (P - 1) % N == 0
 
-        # Constraint polynomial c(t(x))
+        # 제약 다항식 c(t(x))
         c: Polynomial = kwargs["constraint_poly"]
-        # Constraint polynomial evaluation domain size
+        # 제약 다항식의 평가 영역 크기
         c_size = min_pow2_gt(c.degree())
         assert trace_len <= c_size <= N
         assert (P - 1) % c_size == 0
-        # Constraint polynomial evaluation domain
+        # 제약 다항식의 평가 영역
         c_eval_domain = field.generate(
             field.get_primitive_root(g, c_size, P), c_size, P
         )
 
-        # z(x) = (x - g^0)(x - g^1)...(x - g^(T-1)) = x^T - 1, where T = trace_len
+        # z(x) = (x - g^0)(x - g^1)...(x - g^(T-1)) = x^T - 1, 여기서 T = trace_len
         z: Polynomial = X(trace_len, lambda x: F(x, P)) - 1
 
-        # Quotient polynomial q(x) = c(t(x)) / z(x)
+        # 몫 다항식 q(x) = c(t(x)) / z(x)
         q = fft_poly.div(c, z, c_eval_domain, P, g)
         max_degree = q.degree()
         assert max_degree < trace_len
@@ -74,7 +74,7 @@ class Prover(IStarkProver):
         self.P: int = P
         self.g: int = g
         self.eval_domain: list[int] = eval_domain
-        # Needed to use FFT on eval_domain
+        # eval_domain에서 FFT를 사용하기 위해 필요
         self.roots: list[int] = roots
         self.trace_len: int = trace_len
 
@@ -82,7 +82,7 @@ class Prover(IStarkProver):
         self.c: Polynomial = c
         self.z: Polynomial = z
         self.q: Polynomial = q
-        # Max degree of quotient polynomial q(x)
+        # 몫 다항식 q(x)의 최대 차수
         self.max_degree: int = max_degree
         self.q_adj: Polynomial | None = None
 
@@ -105,13 +105,13 @@ class Prover(IStarkProver):
         assert self.q_merkle_root is None
         assert self.q_adj is None
 
-        # Degree adjustment
-        # Let max_degree = highest degree of all C[j] where C[j] are constraint polynomials
-        # Let D = 2**k where k is smallest such that D > max_degree
-        # Adjust degree of C[j] to D - 1
-        # Given C[j] with degree of C[j] = D[j]
-        # Degree adjusted polynomial = C[j](x) * (A[j] * x^(D - D[j] - 1) + B[j])
-        # where A[j] and B[j] are random values provided by the verifier
+        # 차수 조정
+        # 제약 다항식 C[j] 전체의 최대 차수를 max_degree로 둠
+        # D > max_degree를 만족하는 가장 작은 k에 대해 D = 2**k로 둠
+        # C[j]의 차수를 D - 1로 조정
+        # C[j]의 차수가 D[j]일 때
+        # 차수를 조정한 다항식 = C[j](x) * (A[j] * x^(D - D[j] - 1) + B[j])
+        # 여기서 A[j]와 B[j]는 검증자가 제공한 무작위 값
         deg_adj = min_pow2_gt(self.max_degree)
         assert deg_adj > self.max_degree
 
@@ -161,43 +161,43 @@ class Prover(IStarkProver):
 
 class Verifier(IStarkVerifier):
     def __init__(self, **kwargs):
-        # Prime number
+        # 소수
         P: int = kwargs["P"]
-        # generator of F[P, *] = multiplicative subgroup of prime field P
+        # 소체 P의 곱셈 부분군 F[P, *]의 생성원
         g: int = kwargs["g"]
 
-        # Trace evaluation domain
+        # 트레이스 평가 영역
         trace_len: int = kwargs["trace_len"]
         assert is_pow2(trace_len)
 
-        # Expansion factor, exp_factor * trace_len = N = size of eval_domain
+        # 확장 계수, exp_factor * trace_len = N = eval_domain의 크기
         exp_factor: int = kwargs["exp_factor"]
         assert is_pow2(exp_factor)
         N = exp_factor * trace_len
         assert N < P
 
-        # Primitive Nth root of unity
+        # 1의 원시 N제곱근
         w: int = field.get_primitive_root(g, N, P)
         assert pow(w, N, P) == 1
         assert pow(w, N // 2, P) == (-1 % P)
-        # Nth roots of unitys
+        # 1의 N제곱근
         roots: list[int] = field.generate(w, N, P)
         assert len(roots) == N
 
-        # FRI and STARK evaluation domain are shifted by g so that
-        # trace_domain and eval_domain are disjoint
+        # trace_domain과 eval_domain이 서로 겹치지 않도록
+        # FRI와 STARK의 평가 영역을 g만큼 이동
         eval_domain = [(g * wi) % P for wi in roots]
 
-        # Let T = trace_domain
-        #     L = Nth roots of unity
-        # T and L are subgroups of F[P, *] -> |T| and |L| divides |F[P, *]| = P - 1
+        # T = trace_domain으로 두고
+        #     L = 1의 N제곱근으로 둠
+        # T와 L은 F[P, *]의 부분군 -> |T|와 |L|은 |F[P, *]| = P - 1의 약수
         assert (P - 1) % trace_len == 0
         assert (P - 1) % N == 0
 
-        # Constraint polynomial given a value y = t(x), c(y) must = 0
+        # 값 y = t(x)에 대한 제약 다항식으로, c(y)는 0이어야 함
         c: Polynomial = kwargs["constraint_poly"]
 
-        # z(x) = (x - g^0)(x - g^1)...(x - g^(T-1)) = x^T - 1, where T = trace_len
+        # z(x) = (x - g^0)(x - g^1)...(x - g^(T-1)) = x^T - 1, 여기서 T = trace_len
         z: Polynomial = X(trace_len, lambda x: F(x, P)) - 1
 
         self.P: int = P
@@ -206,10 +206,10 @@ class Verifier(IStarkVerifier):
 
         self.c: Polynomial = c
         self.z: Polynomial = z
-        # Max degree of the quotient polynomial q(x) = c(x) / z(x)
+        # 몫 다항식 q(x) = c(x) / z(x)의 최대 차수
         self.max_degree: int = 0
         self.adj: Polynomial | None = None
-        # Random challenges sent to prover for adjusting degree on quotient polynomial q(x)
+        # 몫 다항식 q(x)의 차수를 조정하도록 증명자에게 보내는 무작위 챌린지
         self.challenges: (int, int) | None = None
 
         self.t_merkle_root: str | None = None
@@ -237,7 +237,7 @@ class Verifier(IStarkVerifier):
         b = rand_int(1, self.P - 1)
         self.challenges = (a, b)
 
-        # Max degree of q(x)
+        # q(x)의 최대 차수
         deg_adj = min_pow2_gt(max_degree)
         assert deg_adj > max_degree
 
@@ -253,7 +253,7 @@ class Verifier(IStarkVerifier):
         self.t_merkle_root = t_merkle_root
         self.q_merkle_root = q_merkle_root
 
-    # Preliminary checks before queries
+    # 쿼리 전 사전 검사
     def check(self):
         assert self.q_merkle_root == self.fri_verifier.merkle_roots[0]
 

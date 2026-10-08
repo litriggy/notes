@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V2 Liquidity Delta",
+      "fontFamily": 2,
+      "text": "Uniswap V2 유동성 변화량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V2 Liquidity Delta"
+      "originalText": "Uniswap V2 유동성 변화량"
     },
     {
       "type": "line",
@@ -386,13 +386,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity ",
+      "fontFamily": 2,
+      "text": "유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity "
+      "originalText": "유동성"
     },
     {
       "type": "text",
@@ -454,13 +454,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Change in liquidity",
+      "fontFamily": 2,
+      "text": "유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Change in liquidity"
+      "originalText": "유동성 변화량"
     },
     {
       "type": "text",
@@ -2462,13 +2462,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price",
+      "fontFamily": 2,
+      "text": "가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price"
+      "originalText": "가격"
     },
     {
       "type": "text",
@@ -2707,13 +2707,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity",
+      "fontFamily": 2,
+      "text": "유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity"
+      "originalText": "유동성"
     },
     {
       "type": "freedraw",
@@ -3097,14 +3097,14 @@
       "updated": 1659830773518,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "freedraw",
@@ -3557,13 +3557,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of X in Y",
+      "fontFamily": 2,
+      "text": "Y 기준 X 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of X in Y"
+      "originalText": "Y 기준 X 가격"
     },
     {
       "type": "text",
@@ -3591,13 +3591,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "are added",
+      "fontFamily": 2,
+      "text": "추가됨",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "are added"
+      "originalText": "추가됨"
     },
     {
       "type": "text",
@@ -3659,13 +3659,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity before",
+      "fontFamily": 2,
+      "text": "이전 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity before"
+      "originalText": "이전 유동성"
     },
     {
       "type": "text",
@@ -4069,13 +4069,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Definition",
+      "fontFamily": 2,
+      "text": "정의",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Definition"
+      "originalText": "정의"
     },
     {
       "type": "text",
@@ -4205,13 +4205,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity after",
+      "fontFamily": 2,
+      "text": "이후 유동성",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity after"
+      "originalText": "이후 유동성"
     },
     {
       "type": "text",
@@ -8122,14 +8122,14 @@
       "updated": 1659830773521,
       "link": null,
       "locked": false,
-      "text": "Preliminary Math",
+      "text": "기초 수학",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Preliminary Math"
+      "originalText": "기초 수학"
     },
     {
       "id": "CJj5wbbnhcaT_ij2Ba6Gv",
@@ -8299,14 +8299,14 @@
       "updated": 1659830773521,
       "link": null,
       "locked": false,
-      "text": "Price before adding liquidity",
+      "text": "유동성 추가 전 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price before adding liquidity"
+      "originalText": "유동성 추가 전 가격"
     },
     {
       "type": "text",
@@ -8436,13 +8436,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price after adding liquidity",
+      "fontFamily": 2,
+      "text": "유동성 추가 후 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price after adding liquidity"
+      "originalText": "유동성 추가 후 가격"
     },
     {
       "type": "text",
@@ -11879,14 +11879,14 @@
       "updated": 1659830773525,
       "link": null,
       "locked": false,
-      "text": "Adding liquidity does not change price",
+      "text": "유동성을 추가해도 가격은 변하지 않음",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Adding liquidity does not change price"
+      "originalText": "유동성을 추가해도 가격은 변하지 않음"
     },
     {
       "id": "RPhnSp6uHZz6zbWg3F5c1",

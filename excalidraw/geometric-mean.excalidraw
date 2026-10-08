@@ -28,14 +28,14 @@
       "updated": 1650362738045,
       "link": null,
       "locked": false,
-      "text": "Geometric Mean",
+      "text": "기하평균",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Geometric Mean"
+      "originalText": "기하평균"
     },
     {
       "id": "2czUa14lrnQnEROwPCmkw",
@@ -863,14 +863,14 @@
       "updated": 1650362738046,
       "link": null,
       "locked": false,
-      "text": "Geometric mean of a1, a2, ..., aN",
+      "text": "a1, a2, ..., aN의 기하평균",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Geometric mean of a1, a2, ..., aN"
+      "originalText": "a1, a2, ..., aN의 기하평균"
     },
     {
       "id": "Ui0O00GwLnTYVcnOBUJF-",
@@ -897,14 +897,14 @@
       "updated": 1650363083540,
       "link": null,
       "locked": false,
-      "text": "Use it to calculate average % of change",
+      "text": "평균 변동률 (%) 계산에 사용",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Use it to calculate average % of change"
+      "originalText": "평균 변동률 (%) 계산에 사용"
     },
     {
       "id": "PBfRXhsqdlIGjyPssY4ck",
@@ -957,14 +957,14 @@
       "updated": 1650362738046,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "0Y7NqjH4Lq0vo9Mv71PWy",
@@ -991,14 +991,14 @@
       "updated": 1650362738046,
       "link": null,
       "locked": false,
-      "text": "Year",
+      "text": "연도",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Year"
+      "originalText": "연도"
     },
     {
       "id": "0cTDJcrRQe1D52EYw7Mfu",
@@ -1025,14 +1025,14 @@
       "updated": 1650362738046,
       "link": null,
       "locked": false,
-      "text": "% change from previous year",
+      "text": "전년 대비 변동률 (%)",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "% change from previous year"
+      "originalText": "전년 대비 변동률 (%)"
     },
     {
       "id": "4OQuAX8Q1fFZ5KxpM2RPq",
@@ -1059,14 +1059,14 @@
       "updated": 1650362738046,
       "link": null,
       "locked": false,
-      "text": "Price of ETH",
+      "text": "ETH 가격",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Price of ETH"
+      "originalText": "ETH 가격"
     },
     {
       "id": "ya_qPapKWjHb8XjEleD47",
@@ -1747,14 +1747,14 @@
       "updated": 1650363117316,
       "link": null,
       "locked": false,
-      "text": "What is the average % change from year 0 to 1?",
+      "text": "0년부터 1년까지의 평균 변동률은?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What is the average % change from year 0 to 1?"
+      "originalText": "0년부터 1년까지의 평균 변동률은?"
     },
     {
       "id": "74ByD_Ia53jsrPeIIV-k7",
@@ -1876,13 +1876,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is the average % change from year 0 to 2?",
+      "fontFamily": 2,
+      "text": "0년부터 2년까지의 평균 변동률은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is the average % change from year 0 to 2?"
+      "originalText": "0년부터 2년까지의 평균 변동률은?"
     },
     {
       "id": "UaETuhpEaOBt5p50kkE9b",
@@ -1936,13 +1936,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find r such that 3000 x r x r = 3000 x r  = 3960",
+      "fontFamily": 2,
+      "text": "3000 x r x r = 3000 x r = 3960을 만족하는 r 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find r such that 3000 x r x r = 3000 x r  = 3960"
+      "originalText": "3000 x r x r = 3000 x r = 3960을 만족하는 r 구하기"
     },
     {
       "type": "text",
@@ -1970,13 +1970,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find r such that 3000 x r = 3600",
+      "fontFamily": 2,
+      "text": "3000 x r = 3600을 만족하는 r 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find r such that 3000 x r = 3600"
+      "originalText": "3000 x r = 3600을 만족하는 r 구하기"
     },
     {
       "id": "EyK8sNwiADbQSlRijVb9K",
@@ -2688,13 +2688,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is the average % change from 0 to 3?",
+      "fontFamily": 2,
+      "text": "0부터 3까지의 평균 변동률은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is the average % change from 0 to 3?"
+      "originalText": "0부터 3까지의 평균 변동률은?"
     },
     {
       "type": "text",
@@ -2722,13 +2722,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find r such that 3000 x r x r x r = 3000 x r  = 5148",
+      "fontFamily": 2,
+      "text": "3000 x r x r x r = 3000 x r = 5148을 만족하는 r 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find r such that 3000 x r x r x r = 3000 x r  = 5148"
+      "originalText": "3000 x r x r x r = 3000 x r = 5148을 만족하는 r 구하기"
     },
     {
       "id": "L3Qhx71tjOeTCWmjk7Cgp",
@@ -3689,14 +3689,14 @@
       "updated": 1650363557655,
       "link": null,
       "locked": false,
-      "text": "Comparison with Arithmetic Mean",
+      "text": "산술평균과 비교",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Comparison with Arithmetic Mean"
+      "originalText": "산술평균과 비교"
     },
     {
       "id": "UAQWq3ABgnoPBoVDbZ0Y5",
@@ -3765,13 +3765,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is the average % change from 0 to 3?",
+      "fontFamily": 2,
+      "text": "0부터 3까지의 평균 변동률은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is the average % change from 0 to 3?"
+      "originalText": "0부터 3까지의 평균 변동률은?"
     },
     {
       "id": "jNiqcYU4sz-7iaFMYuOnR",
@@ -3798,14 +3798,14 @@
       "updated": 1650363307109,
       "link": null,
       "locked": false,
-      "text": "using arithmetic mean",
+      "text": "산술평균 사용",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "using arithmetic mean"
+      "originalText": "산술평균 사용"
     },
     {
       "type": "text",
@@ -3833,13 +3833,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Find r such that 3000 x r x r x r = 3000 x r  = 5148",
+      "fontFamily": 2,
+      "text": "3000 x r x r x r = 3000 x r = 5148을 만족하는 r 구하기",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find r such that 3000 x r x r x r = 3000 x r  = 5148"
+      "originalText": "3000 x r x r x r = 3000 x r = 5148을 만족하는 r 구하기"
     },
     {
       "type": "text",
@@ -3900,14 +3900,14 @@
       "updated": 1650363365895,
       "link": null,
       "locked": false,
-      "text": "Let's set",
+      "text": "설정:",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Let's set"
+      "originalText": "설정:"
     },
     {
       "id": "bb9TZvzbgBNdUybY6glFc",
@@ -4197,14 +4197,14 @@
       "updated": 1650363649468,
       "link": null,
       "locked": false,
-      "text": "inaccuracy = 5184 - 5148 = 36 ",
+      "text": "오차 = 5184 - 5148 = 36",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "inaccuracy = 5184 - 5148 = 36 "
+      "originalText": "오차 = 5184 - 5148 = 36"
     }
   ],
   "appState": {

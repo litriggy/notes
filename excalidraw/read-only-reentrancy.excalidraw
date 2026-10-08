@@ -55,13 +55,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Hack",
+      "fontFamily": 2,
+      "text": "해킹",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Hack"
+      "originalText": "해킹"
     },
     {
       "type": "text",
@@ -89,13 +89,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Reentrancy",
+      "fontFamily": 2,
+      "text": "재진입",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Reentrancy"
+      "originalText": "재진입"
     },
     {
       "type": "line",
@@ -190,13 +190,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Target",
+      "fontFamily": 2,
+      "text": "목표",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Target"
+      "originalText": "목표"
     },
     {
       "type": "freedraw",
@@ -1194,13 +1194,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Read only reentrancy",
+      "fontFamily": 2,
+      "text": "읽기 전용 재진입",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Read only reentrancy"
+      "originalText": "읽기 전용 재진입"
     },
     {
       "type": "line",
@@ -1295,13 +1295,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Hack",
+      "fontFamily": 2,
+      "text": "해킹",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Hack"
+      "originalText": "해킹"
     },
     {
       "type": "rectangle",
@@ -1381,13 +1381,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Target",
+      "fontFamily": 2,
+      "text": "목표",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Target"
+      "originalText": "목표"
     },
     {
       "type": "text",
@@ -3433,13 +3433,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "read",
+      "fontFamily": 2,
+      "text": "읽기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "read"
+      "originalText": "읽기"
     },
     {
       "type": "text",

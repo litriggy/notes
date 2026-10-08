@@ -54,14 +54,14 @@
       "updated": 1675257496555,
       "link": null,
       "locked": false,
-      "text": "Uniswap V3 Just In Time Liquidity",
+      "text": "Uniswap V3 적시 유동성",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Uniswap V3 Just In Time Liquidity"
+      "originalText": "Uniswap V3 적시 유동성"
     },
     {
       "id": "QKYqBSGQQhxUytS74aSDV",
@@ -420,14 +420,14 @@
       "updated": 1675257496555,
       "link": null,
       "locked": false,
-      "text": "Alice is a liquidity provider",
+      "text": "Alice는 유동성 공급자",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Alice is a liquidity provider"
+      "originalText": "Alice는 유동성 공급자"
     },
     {
       "id": "u3KsASStj1LZjA7GnLIut",
@@ -454,14 +454,14 @@
       "updated": 1675257696366,
       "link": null,
       "locked": false,
-      "text": "Bob swap tokens",
+      "text": "Bob이 토큰 스왑",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Bob swap tokens"
+      "originalText": "Bob이 토큰 스왑"
     },
     {
       "id": "CDO1TsBrkwi90e6re70dE",
@@ -590,14 +590,14 @@
       "updated": 1675257496555,
       "link": null,
       "locked": false,
-      "text": "Her position is in the current price",
+      "text": "현재 가격이 Alice의 포지션 범위 안에 있음",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Her position is in the current price"
+      "originalText": "현재 가격이 Alice의 포지션 범위 안에 있음"
     },
     {
       "id": "e46DXXLiNi5OCwULS7pA-",
@@ -624,14 +624,14 @@
       "updated": 1675257496555,
       "link": null,
       "locked": false,
-      "text": "Price moves from ",
+      "text": "가격 이동 시작점:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price moves from "
+      "originalText": "가격 이동 시작점:"
     },
     {
       "type": "text",
@@ -726,14 +726,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "to",
+      "text": "→",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -828,14 +828,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "Alice earns swap fees",
+      "text": "Alice가 스왑 수수료 획득",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Alice earns swap fees"
+      "originalText": "Alice가 스왑 수수료 획득"
     },
     {
       "type": "text",
@@ -1404,14 +1404,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "Alice earned fees",
+      "text": "Alice가 얻은 수수료",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Alice earned fees"
+      "originalText": "Alice가 얻은 수수료"
     },
     {
       "type": "text",
@@ -1940,13 +1940,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Alice is a liquidity provider",
+      "fontFamily": 2,
+      "text": "Alice는 유동성 공급자",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Alice is a liquidity provider"
+      "originalText": "Alice는 유동성 공급자"
     },
     {
       "type": "text",
@@ -2008,13 +2008,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Her position is in the current price",
+      "fontFamily": 2,
+      "text": "현재 가격이 Alice의 포지션 범위 안에 있음",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Her position is in the current price"
+      "originalText": "현재 가격이 Alice의 포지션 범위 안에 있음"
     },
     {
       "type": "text",
@@ -2042,13 +2042,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Bob submits transaction to \nswaps tokens",
+      "fontFamily": 2,
+      "text": "Bob이 토큰 스왑\n트랜잭션 제출",
       "baseline": 60,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Bob submits transaction to \nswaps tokens"
+      "originalText": "Bob이 토큰 스왑\n트랜잭션 제출"
     },
     {
       "type": "text",
@@ -2110,13 +2110,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price moves from ",
+      "fontFamily": 2,
+      "text": "가격 이동 시작점:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price moves from "
+      "originalText": "가격 이동 시작점:"
     },
     {
       "type": "text",
@@ -2213,12 +2213,12 @@
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
-      "text": "to",
+      "text": "→",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "to"
+      "originalText": "→"
     },
     {
       "type": "text",
@@ -2347,14 +2347,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "Transaction mempool",
+      "text": "트랜잭션 멤풀",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Transaction mempool"
+      "originalText": "트랜잭션 멤풀"
     },
     {
       "id": "E44r17Z1AnF6OMiR2xzI1",
@@ -2407,14 +2407,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "tx",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "거래",
+      "fontSize": 19.653190581881848,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "tx"
+      "originalText": "거래"
     },
     {
       "type": "text",
@@ -2441,14 +2441,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tx",
+      "fontSize": 19.653190581881848,
+      "fontFamily": 2,
+      "text": "거래",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tx"
+      "originalText": "거래"
     },
     {
       "type": "text",
@@ -2475,14 +2475,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tx",
+      "fontSize": 19.653190581881848,
+      "fontFamily": 2,
+      "text": "거래",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tx"
+      "originalText": "거래"
     },
     {
       "type": "text",
@@ -2509,14 +2509,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "tx",
+      "fontSize": 19.653190581881848,
+      "fontFamily": 2,
+      "text": "거래",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "tx"
+      "originalText": "거래"
     },
     {
       "id": "HctxZcWWaxavP-_8Eg456",
@@ -2755,14 +2755,14 @@
       "updated": 1675257496556,
       "link": null,
       "locked": false,
-      "text": "Bob's tx",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "Bob의 트랜잭션",
+      "fontSize": 18.80251071341384,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Bob's tx"
+      "originalText": "Bob의 트랜잭션"
     },
     {
       "id": "jByZxm0H-_xS7fyxP0GFY",
@@ -3492,14 +3492,14 @@
       "updated": 1675257767354,
       "link": null,
       "locked": false,
-      "text": "tx",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "거래",
+      "fontSize": 19.653190581881848,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "tx"
+      "originalText": "거래"
     },
     {
       "id": "YyhJnAd-8y-vUV1BqFbjF",
@@ -3526,14 +3526,14 @@
       "updated": 1675257496557,
       "link": null,
       "locked": false,
-      "text": "add liquidity",
+      "text": "유동성 추가",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "add liquidity"
+      "originalText": "유동성 추가"
     },
     {
       "id": "ex7QanLRpippRAM6TfqTr",
@@ -3628,14 +3628,14 @@
       "updated": 1675257496557,
       "link": null,
       "locked": false,
-      "text": "sees Bob's transaction in",
+      "text": "Bob의 트랜잭션을 발견:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "sees Bob's transaction in"
+      "originalText": "Bob의 트랜잭션을 발견:"
     },
     {
       "id": "T7vsF2NVAj3fLmTRBJuKC",
@@ -3662,14 +3662,14 @@
       "updated": 1675257496557,
       "link": null,
       "locked": false,
-      "text": "mempool",
+      "text": "멤풀",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "mempool"
+      "originalText": "멤풀"
     },
     {
       "id": "d2mzqudodneZIoDVVM0fU",
@@ -3696,14 +3696,14 @@
       "updated": 1675257496557,
       "link": null,
       "locked": false,
-      "text": "Front-runs Bob's transaction to add liquidity",
+      "text": "Bob의 트랜잭션을 선행매매해 유동성 추가",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Front-runs Bob's transaction to add liquidity"
+      "originalText": "Bob의 트랜잭션을 선행매매해 유동성 추가"
     },
     {
       "type": "line",
@@ -4088,14 +4088,14 @@
       "updated": 1675257496557,
       "link": null,
       "locked": false,
-      "text": "Bob's trade is processed",
+      "text": "Bob의 거래 처리",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Bob's trade is processed"
+      "originalText": "Bob의 거래 처리"
     },
     {
       "id": "jtDMcvh_kKk5IZFobeV91",
@@ -4300,13 +4300,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Alice earns very little fees",
+      "fontFamily": 2,
+      "text": "Alice가 얻는 수수료는 매우 적음",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Alice earns very little fees"
+      "originalText": "Alice가 얻는 수수료는 매우 적음"
     },
     {
       "id": "6RY7fGiO0tCC878Sc6fR3",
@@ -4333,14 +4333,14 @@
       "updated": 1675257558604,
       "link": null,
       "locked": false,
-      "text": "Justin earned most fees",
+      "text": "Justin이 대부분의 수수료 획득",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Justin earned most fees"
+      "originalText": "Justin이 대부분의 수수료 획득"
     },
     {
       "id": "9VWvUlG-XYtHfoVCE6oKb",
@@ -4901,14 +4901,14 @@
       "updated": 1675257559887,
       "link": null,
       "locked": false,
-      "text": "Bob got a great price",
+      "text": "Bob이 좋은 가격에 거래함",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Bob got a great price"
+      "originalText": "Bob이 좋은 가격에 거래함"
     },
     {
       "type": "ellipse",
@@ -5610,14 +5610,14 @@
       "updated": 1675257649989,
       "link": null,
       "locked": false,
-      "text": "Why?",
+      "text": "왜?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Why?"
+      "originalText": "왜?"
     },
     {
       "id": "qqCgXxI68sU6K1hjFW6Y-",
@@ -5644,14 +5644,14 @@
       "updated": 1675257673785,
       "link": null,
       "locked": false,
-      "text": "More liquidity, less price change",
+      "text": "유동성이 많을수록 가격 변화 감소",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "More liquidity, less price change"
+      "originalText": "유동성이 많을수록 가격 변화 감소"
     },
     {
       "type": "ellipse",

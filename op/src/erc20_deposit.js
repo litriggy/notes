@@ -5,9 +5,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 const L1_RPC = "https://rpc.ankr.com/eth_sepolia"
 const L2_RPC = "https://sepolia.optimism.io"
-// 11155111 for Sepolia, 1 for Ethereum
+// Sepolia는 11155111, Ethereum은 1
 const L1_CHAIN_ID = 11155111
-// 11155420 for OP Sepolia, 10 for OP Mainnet
+// OP Sepolia는 11155420, OP Mainnet은 10
 const L2_CHAIN_ID = 11155420
 
 const L1_TOKEN = "0x5589BB8228C07c4e15558875fAf2B859f678d129"
@@ -30,20 +30,20 @@ const ERC20_ABI = [
   },
 ]
 
-// deposit tx hash
+// 입금 트랜잭션 해시
 // https://sepolia.otterscan.io/tx/0x075ca7829ed3b30dbdd2fe4cf3b5cd77e83b34134bbbed4a71caa13a4cbd6df2/trace
 // L1StandardBridge.depositERC20
 // -> L1CrossDomainMessenger.sendMessage (L2StandardBridge.finalizeBridgeERC20)
 //    -> OptimismPortal.depositTransaction
 // TODO: OptimisticMintableERC20
 async function main() {
-  // Create RPC providers and wallet
+  // RPC 프로바이더와 지갑 생성
   const l1_provider = new ethers.providers.StaticJsonRpcProvider(L1_RPC)
   const l2_provider = new ethers.providers.StaticJsonRpcProvider(L2_RPC)
   const l1_wallet = new ethers.Wallet(PRIVATE_KEY, l1_provider)
   const l2_wallet = new ethers.Wallet(PRIVATE_KEY, l2_provider)
 
-  // Create CrossChainMessenger instance
+  // CrossChainMessenger 인스턴스 생성
   const messenger = new optimism.CrossChainMessenger({
     l1ChainId: L1_CHAIN_ID,
     l2ChainId: L2_CHAIN_ID,
@@ -55,7 +55,7 @@ async function main() {
   const l2_token = new ethers.Contract(L2_TOKEN, ERC20_ABI, l2_wallet)
 
   {
-    // Get L1 token
+    // L1 토큰 받기
     const tx = await l1_token.faucet()
     await tx.wait()
     console.log(
@@ -68,7 +68,7 @@ async function main() {
 
   {
     console.log("Approval...")
-    // TODO: why l1 and l2 approval?
+    // TODO: 왜 l1과 l2 모두 승인해야 할까?
     const tx = await messenger.approveERC20(l1_token, l2_token, amount)
     await tx.wait()
   }
@@ -79,7 +79,7 @@ async function main() {
 
   console.log("TX", tx.hash)
 
-  // Wait until message is ready to prove
+  // 메시지를 증명할 준비가 될 때까지 대기
   console.log("Wait for message status...")
   await messenger.waitForMessageStatus(tx.hash, optimism.MessageStatus.RELAYED)
 

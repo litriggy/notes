@@ -57,7 +57,7 @@ contract Rebase {
     mapping(address => uint256 shares) public shares;
     // 1e18
     uint256 public totalShares;
-    // Growth accumulator [1e18]
+    // 성장 누적값 [1e18]
     uint256 public acc = 1e18;
 
     function deposit(address usr, uint256 amt) external returns (uint256 s) {

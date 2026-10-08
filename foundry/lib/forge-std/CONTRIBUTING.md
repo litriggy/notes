@@ -1,93 +1,99 @@
-## Contributing to Foundry
+<a id="contributing-to-foundry"></a>
+## Foundry에 기여하기
 
-Thanks for your interest in improving Foundry!
+Foundry를 개선하는 데 관심을 가져주셔서 감사합니다!
 
-There are multiple opportunities to contribute at any level. It doesn't matter if you are just getting started with Rust or are the most weathered expert, we can use your help.
+경험 수준에 관계없이 기여할 기회는 많습니다. Rust를 막 시작했든 오랜 경험을 쌓은 전문가든 여러분의 도움이 필요합니다.
 
-This document will help you get started. **Do not let the document intimidate you**.
-It should be considered as a guide to help you navigate the process.
+이 문서는 기여를 시작하는 데 필요한 안내입니다. **문서를 보고 부담을 느끼지 마세요**.
+기여 절차를 따라가는 데 도움이 되는 길잡이로 생각해 주세요.
 
-The [dev Telegram][dev-tg] is available for any concerns you may have that are not covered in this guide.
+이 안내에 없는 궁금한 점은 [개발 Telegram][dev-tg]에서 물어보세요.
 
-### Code of Conduct
+<a id="code-of-conduct"></a>
+### 행동 강령
 
-The Foundry project adheres to the [Rust Code of Conduct][rust-coc]. This code of conduct describes the _minimum_ behavior expected from all contributors.
+Foundry 프로젝트는 [Rust 행동 강령][rust-coc]을 따릅니다. 이 행동 강령은 모든 기여자가 지켜야 할 _최소한의_ 행동 기준을 정합니다.
 
-Instances of violations of the Code of Conduct can be reported by contacting the team at [me@gakonst.com](mailto:me@gakonst.com).
+행동 강령 위반 사례는 팀 이메일 [me@gakonst.com](mailto:me@gakonst.com)으로 신고할 수 있습니다.
 
-### Ways to contribute
+<a id="ways-to-contribute"></a>
+### 기여 방법
 
-There are fundamentally four ways an individual can contribute:
+개인이 기여하는 기본적인 방법은 네 가지입니다.
 
-1. **By opening an issue:** For example, if you believe that you have uncovered a bug
-   in Foundry, creating a new issue in the issue tracker is the way to report it.
-2. **By adding context:** Providing additional context to existing issues,
-   such as screenshots and code snippets, which help resolve issues.
-3. **By resolving issues:** Typically this is done in the form of either
-   demonstrating that the issue reported is not a problem after all, or more often,
-   by opening a pull request that fixes the underlying problem, in a concrete and
-   reviewable manner.
+1. **이슈 등록:** 예를 들어 Foundry에서 버그를 발견했다고 생각하면
+   이슈 트래커에 새 이슈를 만들어 보고할 수 있습니다.
+2. **맥락 보충:** 기존 이슈에 스크린샷이나 코드 조각 같은 정보를 추가해
+   문제 해결을 돕습니다.
+3. **이슈 해결:** 보고된 문제가 실제로는 문제가 아님을 설명하거나,
+   더 일반적으로는 근본 원인을 해결하는 풀 리퀘스트를 올립니다.
+   변경 사항은 구체적이고 검토할 수 있어야 합니다.
 
-**Anybody can participate in any stage of contribution**. We urge you to participate in the discussion
-around bugs and participate in reviewing PRs.
+**누구나 기여 과정의 어느 단계에든 참여할 수 있습니다**. 버그를 논의하고
+PR을 검토하는 데도 적극적으로 참여해 주세요.
 
-### Contributions Related to Spelling and Grammar
+<a id="contributions-related-to-spelling-and-grammar"></a>
+### 맞춤법과 문법 관련 기여
 
-At this time, we will not be accepting contributions that only fix spelling or grammatical errors in documentation, code or
-elsewhere.
+현재 문서나 코드 등에서 맞춤법이나 문법 오류만 고치는 기여는 받지 않습니다.
 
-### Asking for help
+<a id="asking-for-help"></a>
+### 도움 요청하기
 
-If you have reviewed existing documentation and still have questions, or you are having problems, you can get help in the following ways:
+기존 문서를 읽어도 궁금한 점이 남거나 문제가 생긴다면 다음 방법으로 도움을 받을 수 있습니다.
 
--   **Asking in the support Telegram:** The [Foundry Support Telegram][support-tg] is a fast and easy way to ask questions.
--   **Opening a discussion:** This repository comes with a discussions board where you can also ask for help. Click the "Discussions" tab at the top.
+-   **지원 Telegram에서 질문하기:** [Foundry 지원 Telegram][support-tg]에서 빠르고 간편하게 질문할 수 있습니다.
+-   **토론 열기:** 이 저장소의 토론 게시판에서도 도움을 요청할 수 있습니다. 상단의 "Discussions" 탭을 클릭하세요.
 
-As Foundry is still in heavy development, the documentation can be a bit scattered.
-The [Foundry Book][foundry-book] is our current best-effort attempt at keeping up-to-date information.
+Foundry는 아직 활발히 개발 중이라 문서가 다소 흩어져 있을 수 있습니다.
+[Foundry Book][foundry-book]에 최신 정보를 담기 위해 노력하고 있습니다.
 
-### Submitting a bug report
+<a id="submitting-a-bug-report"></a>
+### 버그 보고하기
 
-When filing a new bug report in the issue tracker, you will be presented with a basic form to fill out.
+이슈 트래커에서 새 버그를 보고하면 기본 양식이 나타납니다.
 
-If you believe that you have uncovered a bug, please fill out the form to the best of your ability. Do not worry if you cannot answer every detail; just fill in what you can. Contributors will ask follow-up questions if something is unclear.
+버그를 발견했다고 생각한다면 아는 범위에서 양식을 자세히 작성해 주세요. 모든 항목에 답하지 못해도 괜찮습니다. 아는 내용만 작성하면 불분명한 부분은 기여자들이 추가로 질문할 것입니다.
 
-The most important pieces of information we need in a bug report are:
+버그 보고에 꼭 필요한 정보는 다음과 같습니다.
 
--   The Foundry version you are on (and that it is up to date)
--   The platform you are on (Windows, macOS, an M1 Mac or Linux)
--   Code snippets if this is happening in relation to testing or building code
--   Concrete steps to reproduce the bug
+-   사용 중인 Foundry 버전과 최신 버전 여부
+-   사용 중인 플랫폼(Windows, macOS, M1 Mac 또는 Linux)
+-   테스트나 빌드 중 발생한 문제라면 관련 코드 조각
+-   버그를 재현하는 구체적인 절차
 
-In order to rule out the possibility of the bug being in your project, the code snippets should be as minimal
-as possible. It is better if you can reproduce the bug with a small snippet as opposed to an entire project!
+프로젝트 자체의 버그일 가능성을 배제할 수 있도록 코드 조각은 최대한 간단하게 작성해 주세요.
+프로젝트 전체보다 짧은 코드 조각으로 버그를 재현할 수 있으면 더 좋습니다!
 
-See [this guide][mcve] on how to create a minimal, complete, and verifiable example.
+최소한의 코드로 완전하고 검증 가능한 예제를 만드는 방법은 [이 안내][mcve]를 참고하세요.
 
-### Submitting a feature request
+<a id="submitting-a-feature-request"></a>
+### 기능 요청하기
 
-When adding a feature request in the issue tracker, you will be presented with a basic form to fill out.
+이슈 트래커에 기능 요청을 등록하면 기본 양식이 나타납니다.
 
-Please include as detailed of an explanation as possible of the feature you would like, adding additional context if necessary.
+원하는 기능을 최대한 자세히 설명하고 필요하면 배경 정보도 덧붙여 주세요.
 
-If you have examples of other tools that have the feature you are requesting, please include them as well.
+요청하는 기능을 제공하는 다른 도구가 있다면 그 예시도 함께 알려 주세요.
 
-### Resolving an issue
+<a id="resolving-an-issue"></a>
+### 이슈 해결하기
 
-Pull requests are the way concrete changes are made to the code, documentation, and dependencies of Foundry.
+Foundry의 코드, 문서, 의존성은 풀 리퀘스트로 변경합니다.
 
-Even minor pull requests, such as those fixing wording, are greatly appreciated. Before making a large change, it is usually
-a good idea to first open an issue describing the change to solicit feedback and guidance. This will increase
-the likelihood of the PR getting merged.
+표현을 고치는 작은 풀 리퀘스트도 환영합니다. 큰 변경을 시작하기 전에는
+보통 이슈를 먼저 열어 변경 내용을 설명하고 의견과 조언을 받는 것이 좋습니다.
+이렇게 하면 PR이 병합될 가능성도 높아집니다.
 
-Please make sure that the following commands pass if you have changed the code:
+코드를 변경했다면 다음 명령이 성공하는지 확인해 주세요.
 
 ```sh
 forge fmt --check
 forge test -vvv
 ```
 
-To make sure your changes are compatible with all compiler version targets, run the following commands:
+변경 사항이 지원하는 모든 컴파일러 버전과 호환되는지 확인하려면 다음 명령을 실행하세요.
 
 ```sh
 forge build --skip test --use solc:0.6.2
@@ -97,93 +103,102 @@ forge build --skip test --use solc:0.7.6
 forge build --skip test --use solc:0.8.0
 ```
 
-The CI will also ensure that the code is formatted correctly and that the tests are passing across all compiler version targets.
+CI에서도 코드 형식이 올바른지, 지원하는 모든 컴파일러 버전에서 테스트가 통과하는지 확인합니다.
 
-#### Adding cheatcodes
+<a id="adding-cheatcodes"></a>
+#### 치트코드 추가하기
 
-Please follow the guide outlined in the [cheatcodes](https://github.com/foundry-rs/foundry/blob/master/docs/dev/cheatcodes.md#adding-a-new-cheatcode) documentation of Foundry.
+Foundry의 [치트코드 문서](https://github.com/foundry-rs/foundry/blob/master/docs/dev/cheatcodes.md#adding-a-new-cheatcode)에 있는 안내를 따라 주세요.
 
-When making modifications to the native cheatcodes or adding new ones, please make sure to run [`./scripts/vm.py`](./scripts/vm.py) to update the cheatcodes in the [`src/Vm.sol`](./src/Vm.sol) file.
+네이티브 치트코드를 수정하거나 새로 추가할 때는 반드시 [`./scripts/vm.py`](./scripts/vm.py)를 실행해 [`src/Vm.sol`](./src/Vm.sol)의 치트코드를 갱신해 주세요.
 
-By default the script will automatically generate the cheatcodes from the [`cheatcodes.json`](https://raw.githubusercontent.com/foundry-rs/foundry/master/crates/cheatcodes/assets/cheatcodes.json) file but alternatively you can provide a path to a JSON file containing the Vm interface, as generated by Foundry, with the `--from` flag.
+스크립트는 기본적으로 [`cheatcodes.json`](https://raw.githubusercontent.com/foundry-rs/foundry/master/crates/cheatcodes/assets/cheatcodes.json) 파일에서 치트코드를 자동 생성합니다. `--from` 플래그로 Foundry가 생성한 Vm 인터페이스를 담은 JSON 파일의 경로를 지정할 수도 있습니다.
 
 ```sh
 ./scripts/vm.py --from path/to/cheatcodes.json
 ```
 
-It is possible that the resulting [`src/Vm.sol`](./src/Vm.sol) file will have some changes that are not directly related to your changes, this is not a problem.
+생성된 [`src/Vm.sol`](./src/Vm.sol)에 작업 내용과 직접 관련 없는 변경이 포함되어도 문제없습니다.
 
-#### Commits
+<a id="commits"></a>
+#### 커밋
 
-It is a recommended best practice to keep your changes as logically grouped as possible within individual commits. There is no limit to the number of commits any single pull request may have, and many contributors find it easier to review changes that are split across multiple commits.
+각 커밋에는 논리적으로 관련된 변경 사항을 최대한 묶는 것을 권장합니다. 풀 리퀘스트 하나에 포함할 수 있는 커밋 수에는 제한이 없으며, 여러 커밋으로 나눈 변경 사항을 더 쉽게 검토하는 기여자도 많습니다.
 
-That said, if you have a number of commits that are "checkpoints" and don't represent a single logical change, please squash those together.
+다만 하나의 논리적인 변경을 나타내지 않고 중간 저장용으로 만든 커밋이 여러 개라면 하나로 합쳐 주세요.
 
-#### Opening the pull request
+<a id="opening-the-pull-request"></a>
+#### 풀 리퀘스트 열기
 
-From within GitHub, opening a new pull request will present you with a template that should be filled out. Please try your best at filling out the details, but feel free to skip parts if you're not sure what to put.
+GitHub에서 새 풀 리퀘스트를 열면 작성할 템플릿이 나타납니다. 내용을 최대한 자세히 적되, 무엇을 적어야 할지 모르겠는 부분은 건너뛰어도 괜찮습니다.
 
-#### Discuss and update
+<a id="discuss-and-update"></a>
+#### 논의하고 수정하기
 
-You will probably get feedback or requests for changes to your pull request.
-This is a big part of the submission process, so don't be discouraged! Some contributors may sign off on the pull request right away, others may have more detailed comments or feedback.
-This is a necessary part of the process in order to evaluate whether the changes are correct and necessary.
+풀 리퀘스트에 의견이나 수정 요청이 달릴 수 있습니다.
+기여 과정에서 큰 비중을 차지하는 절차이니 낙담하지 마세요! 곧바로 승인하는 기여자도 있고, 자세한 의견이나 피드백을 남기는 기여자도 있습니다.
+변경 사항이 올바르고 필요한지 판단하려면 꼭 거쳐야 하는 과정입니다.
 
-**Any community member can review a PR, so you might get conflicting feedback**.
-Keep an eye out for comments from code owners to provide guidance on conflicting feedback.
+**커뮤니티 구성원 누구나 PR을 검토할 수 있으므로 서로 다른 의견을 받을 수 있습니다**.
+의견이 엇갈릴 때는 코드 소유자의 설명을 참고해 방향을 잡으세요.
 
-#### Reviewing pull requests
+<a id="reviewing-pull-requests"></a>
+#### 풀 리퀘스트 검토하기
 
-**Any Foundry community member is welcome to review any pull request**.
+**Foundry 커뮤니티 구성원 누구나 어떤 풀 리퀘스트든 검토할 수 있습니다**.
 
-All contributors who choose to review and provide feedback on pull requests have a responsibility to both the project and individual making the contribution. Reviews and feedback must be helpful, insightful, and geared towards improving the contribution as opposed to simply blocking it. If there are reasons why you feel the PR should not be merged, explain what those are. Do not expect to be able to block a PR from advancing simply because you say "no" without giving an explanation. Be open to having your mind changed. Be open to working _with_ the contributor to make the pull request better.
+풀 리퀘스트를 검토하고 의견을 남기는 기여자는 프로젝트와 기여자 모두에게 책임이 있습니다. 검토와 피드백은 도움이 되고 통찰을 담아야 하며, 기여를 가로막는 데 그치지 않고 더 나아지도록 이끌어야 합니다. PR을 병합하면 안 된다고 생각한다면 이유를 설명하세요. 설명 없이 "안 됩니다"라는 말만으로 PR 진행을 막을 수 있다고 생각하지 마세요. 자신의 생각이 바뀔 가능성을 열어 두세요. 기여자와 _함께_ 풀 리퀘스트를 개선할 마음으로 참여해 주세요.
 
-Reviews that are dismissive or disrespectful of the contributor or any other reviewers are strictly counter to the Code of Conduct.
+기여자나 다른 검토자를 무시하거나 존중하지 않는 검토는 행동 강령에 명백히 어긋납니다.
 
-When reviewing a pull request, the primary goals are for the codebase to improve and for the person submitting the request to succeed. **Even if a pull request is not merged, the submitter should come away from the experience feeling like their effort was not unappreciated**. Every PR from a new contributor is an opportunity to grow the community.
+풀 리퀘스트 검토의 주된 목표는 코드베이스를 개선하고 작성자가 기여에 성공하도록 돕는 것입니다. **풀 리퀘스트가 병합되지 않더라도 작성자는 자신의 노력을 인정받았다고 느낄 수 있어야 합니다**. 새 기여자가 올리는 PR 하나하나는 커뮤니티가 성장할 기회입니다.
 
-##### Review a bit at a time
+<a id="review-a-bit-at-a-time"></a>
+##### 조금씩 검토하기
 
-Do not overwhelm new contributors.
+새 기여자에게 너무 많은 부담을 주지 마세요.
 
-It is tempting to micro-optimize and make everything about relative performance, perfect grammar, or exact style matches. Do not succumb to that temptation..
+미세한 최적화, 상대적인 성능 차이, 완벽한 문법, 정확한 스타일 일치에만 집중하고 싶어질 수 있습니다. 그런 유혹에 빠지지 마세요.
 
-Focus first on the most significant aspects of the change:
+우선 변경 사항에서 가장 중요한 부분을 살펴보세요.
 
-1. Does this change make sense for Foundry?
-2. Does this change make Foundry better, even if only incrementally?
-3. Are there clear bugs or larger scale issues that need attending?
-4. Are the commit messages readable and correct? If it contains a breaking change, is it clear enough?
+1. Foundry에 적합한 변경인가요?
+2. 조금이라도 Foundry를 더 낫게 만드나요?
+3. 명백한 버그나 더 큰 범위의 문제가 있어 조치가 필요한가요?
+4. 커밋 메시지는 읽기 쉽고 정확한가요? 호환성을 깨뜨리는 변경이 있다면 명확하게 드러나나요?
 
-Note that only **incremental** improvement is needed to land a PR. This means that the PR does not need to be perfect, only better than the status quo. Follow-up PRs may be opened to continue iterating.
+PR을 병합하려면 **점진적인** 개선만으로도 충분합니다. 완벽할 필요 없이 현재보다 나아지면 됩니다. 후속 PR을 열어 계속 개선할 수 있습니다.
 
-When changes are necessary, _request_ them, do not _demand_ them, and **do not assume that the submitter already knows how to add a test or run a benchmark**.
+수정이 필요할 때는 _요청_하되 _강요_하지 마세요. **작성자가 테스트를 추가하거나 벤치마크를 실행하는 방법을 이미 안다고 가정하지 마세요**.
 
-Specific performance optimization techniques, coding styles and conventions change over time. The first impression you give to a new contributor never does.
+성능 최적화 기법, 코딩 스타일, 관례는 시간이 지나면 바뀝니다. 하지만 새 기여자에게 남기는 첫인상은 바뀌지 않습니다.
 
-Nits (requests for small changes that are not essential) are fine, but try to avoid stalling the pull request. Most nits can typically be fixed by the Foundry maintainers merging the pull request, but they can also be an opportunity for the contributor to learn a bit more about the project.
+사소한 수정 요청(nit), 즉 필수적이지 않은 작은 변경을 요청해도 괜찮지만 풀 리퀘스트가 멈춰 서지 않도록 해 주세요. 대부분은 풀 리퀘스트를 병합하는 Foundry 유지관리자가 고칠 수 있습니다. 기여자가 프로젝트를 조금 더 배울 기회가 될 수도 있습니다.
 
-It is always good to clearly indicate nits when you comment, e.g.: `Nit: change foo() to bar(). But this is not blocking`.
+사소한 수정 요청임을 댓글에 명확히 밝히면 좋습니다. 예: `Nit: foo()를 bar()로 바꿔 주세요. 병합을 막을 정도의 문제는 아닙니다`.
 
-If your comments were addressed but were not folded after new commits, or if they proved to be mistaken, please, [hide them][hiding-a-comment] with the appropriate reason to keep the conversation flow concise and relevant.
+새 커밋에서 의견이 반영되었는데 댓글이 접히지 않았거나 잘못된 의견으로 밝혀졌다면, 적절한 사유를 골라 [댓글을 숨겨][hiding-a-comment] 대화를 간결하고 주제에 맞게 유지해 주세요.
 
-##### Be aware of the person behind the code
+<a id="be-aware-of-the-person-behind-the-code"></a>
+##### 코드를 작성한 사람을 생각하기
 
-Be aware that _how_ you communicate requests and reviews in your feedback can have a significant impact on the success of the pull request. Yes, we may merge a particular change that makes Foundry better, but the individual might just not want to have anything to do with Foundry ever again. The goal is not just having good code.
+피드백에서 요청과 검토 의견을 _어떻게_ 전달하느냐가 풀 리퀘스트의 성공에 큰 영향을 줄 수 있습니다. Foundry를 개선하는 변경을 병합하더라도, 작성자는 다시는 Foundry에 참여하고 싶지 않을 수 있습니다. 좋은 코드만 얻는 것이 목표는 아닙니다.
 
-##### Abandoned or stale pull requests
+<a id="abandoned-or-stale-pull-requests"></a>
+##### 중단되거나 오래 멈춰 있는 풀 리퀘스트
 
-If a pull request appears to be abandoned or stalled, it is polite to first check with the contributor to see if they intend to continue the work before checking if they would mind if you took it over (especially if it just has nits left). When doing so, it is courteous to give the original contributor credit for the work they started, either by preserving their name and e-mail address in the commit log, or by using the `Author: ` or `Co-authored-by: ` metadata tag in the commits.
+풀 리퀘스트가 중단되었거나 멈춰 있는 듯하다면, 먼저 기여자에게 계속 작업할 의사가 있는지 확인한 뒤 자신이 이어받아도 괜찮은지 물어보는 것이 예의입니다. 특히 사소한 수정만 남았다면 더 그렇습니다. 작업을 이어받을 때는 커밋 로그에 원래 기여자의 이름과 이메일 주소를 남기거나 커밋에 `Author: ` 또는 `Co-authored-by: ` 메타데이터 태그를 사용해 처음 시작한 기여자의 공을 인정해 주세요.
 
-_Adapted from the [ethers-rs contributing guide](https://github.com/gakonst/ethers-rs/blob/master/CONTRIBUTING.md)_.
+_[ethers-rs 기여 안내](https://github.com/gakonst/ethers-rs/blob/master/CONTRIBUTING.md)를 바탕으로 작성했습니다_.
 
-### Releasing
+<a id="releasing"></a>
+### 릴리스
 
-Releases are automatically done by the release workflow when a tag is pushed, however, these steps still need to be taken:
+태그를 푸시하면 릴리스 워크플로가 자동으로 릴리스합니다. 다만 다음 작업은 직접 해야 합니다.
 
-1. Ensure that the versions in the relevant `Cargo.toml` files are up-to-date.
-2. Update documentation links
-3. Perform a final audit for breaking changes.
+1. 관련 `Cargo.toml` 파일의 버전이 최신인지 확인합니다.
+2. 문서 링크를 갱신합니다.
+3. 호환성을 깨뜨리는 변경이 있는지 마지막으로 점검합니다.
 
 [rust-coc]: https://github.com/rust-lang/rust/blob/master/CODE_OF_CONDUCT.md
 [dev-tg]: https://t.me/foundry_rs

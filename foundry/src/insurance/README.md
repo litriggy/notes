@@ -1,19 +1,19 @@
-# Insurance
+# 보험
 
-A staking protocol where stakers earn yield in exchange for providing collateral coverage to an insuree.
+스테이킹 참여자가 피보험자에게 보상 담보를 제공하고 그 대가로 수익을 얻는 프로토콜이다.
 
-## Overview
+## 개요
 
-- **Insuree** deposits reward tokens and sets an emission rate for the duration
-- **Stakers** deposit tokens to earn a share of those rewards
-- The stakers' deposits act as collateral — if a claim is made, staked tokens can be transferred to the insuree
-- **WithdrawDelay** wraps staking withdrawals with a time lock so collateral remains available when needed
+- **피보험자**는 보상 토큰을 예치하고 보상 기간의 지급 속도를 설정한다.
+- **스테이킹 참여자**는 토큰을 예치하고 지분에 따라 보상을 받는다.
+- 참여자의 예치금은 담보로 쓰인다. 보험금 청구가 발생하면 스테이킹한 토큰을 피보험자에게 이전할 수 있다.
+- **WithdrawDelay**는 스테이킹 출금에 시간 잠금을 적용해 필요할 때 담보를 사용할 수 있도록 한다.
 
-## Contracts
+## 컨트랙트
 
 ### Factory
 
-Deploys a matched `Stake` + `WithdrawDelay` pair and wires them together. The caller becomes the initial auth on both contracts.
+`Stake`와 `WithdrawDelay`를 한 쌍으로 배포하고 서로 연결한다. 호출자는 두 컨트랙트의 최초 권한 보유자(auth)가 된다.
 
 ```
 Factory.create(token, insuree, dur, dust, cov, epoch)
@@ -23,11 +23,11 @@ Factory.create(token, insuree, dur, dust, cov, epoch)
 
 ### Stake
 
-Stakers deposit tokens and earn rewards proportional to their share. The insuree funds the reward pool via `inc()` and may extend it with `roll()`.
+참여자는 토큰을 예치하고 지분에 비례해 보상을 받는다. 피보험자는 `inc()`로 보상 풀에 자금을 넣고 `roll()`로 보상을 연장할 수 있다.
 
-**Reward cap** — rewards paid to stakers over a duration are capped at `total_staked / cov`. Excess accumulates in `keep` and is reclaimed by the insuree via `refund()`.
+**보상 상한**: 한 기간에 참여자에게 지급하는 보상의 상한은 `total_staked / cov`다. 초과분은 `keep`에 쌓이며 피보험자가 `refund()`로 회수한다.
 
-**State machine:**
+**상태 전이:**
 
 ```
         stop()
@@ -40,35 +40,35 @@ Live ──────────► Stopped
          Cover             Exit
 ```
 
-| State   | Description                                     |
+| 상태   | 설명                                     |
 | ------- | ----------------------------------------------- |
-| Live    | Normal operation — deposit, earn, withdraw      |
-| Stopped | Emissions halted, settlement pending            |
-| Cover   | Claim paid — staked tokens sent to insuree      |
-| Exit    | No claim — stakers withdraw principal + rewards |
+| Live    | 정상 운영: 예치, 보상 적립, 출금      |
+| Stopped | 보상 지급 중단, 정산 대기            |
+| Cover   | 보험금 지급: 스테이킹 토큰을 피보험자에게 이전      |
+| Exit    | 보험금 청구 없음: 참여자가 원금과 보상을 출금 |
 
-**Key functions:**
+**주요 함수:**
 
-| Function          | Caller  | Description                                          |
+| 함수          | 호출자  | 설명                                          |
 | ----------------- | ------- | ---------------------------------------------------- |
-| `inc(amt)`        | anyone  | Add tokens to the reward pool, increase rate         |
-| `roll(r)`         | insuree | Schedule next-period rate in the last half of `dur`  |
-| `deposit(amt)`    | staker  | Stake tokens                                         |
-| `take()`          | staker  | Claim accrued rewards                                |
-| `restake()`       | staker  | Compound rewards back into stake                     |
-| `stop()`          | auth    | Halt emissions, snapshot keep                        |
-| `settle(s)`       | auth    | Transition to Cover or Exit                          |
-| `cover(dst, amt)` | auth    | Transfer staked collateral to insuree                |
-| `exit()`          | staker  | Withdraw principal + rewards (Exit state or expired) |
-| `refund()`        | insuree | Reclaim uncapped rewards and keep                    |
+| `inc(amt)`        | 누구나  | 보상 풀에 토큰 추가, 지급 속도 증가         |
+| `roll(r)`         | 피보험자 | `dur`의 후반부에 다음 기간의 지급 속도 예약  |
+| `deposit(amt)`    | 참여자  | 토큰 스테이킹                                         |
+| `take()`          | 참여자  | 적립된 보상 수령                                |
+| `restake()`       | 참여자  | 보상을 다시 스테이킹해 복리로 운용                     |
+| `stop()`          | auth    | 보상 지급 중단, keep 스냅샷 저장                        |
+| `settle(s)`       | auth    | Cover 또는 Exit 상태로 전환                          |
+| `cover(dst, amt)` | auth    | 스테이킹 담보를 피보험자에게 이전                |
+| `exit()`          | 참여자  | 원금과 보상 출금(Exit 상태 또는 만기 후) |
+| `refund()`        | 피보험자 | 상한이 적용되지 않은 보상과 keep 회수                    |
 
 ### WithdrawDelay
 
-Wraps `Stake.withdraw()` with a two-epoch delay. Queued tokens remain in scope for a claim until the delay expires.
+`Stake.withdraw()`에 2 에포크의 지연을 적용한다. 출금 대기 중인 토큰은 지연 기간이 끝날 때까지 보험금 지급 대상 담보로 남는다.
 
-**Epoch buckets** — `stop()` snapshots `dumped`: the total queued within the most recent two epochs. These tokens are exposed to a claim because they were withdrawn while cover was still active.
+**에포크별 집계**: `stop()`은 최근 2 에포크에 출금 대기열에 들어온 총량인 `dumped`의 스냅샷을 저장한다. 보장이 유효할 때 출금한 토큰이므로 보험금 지급에 쓰일 수 있다.
 
-**State machine:**
+**상태 전이:**
 
 ```
         stop()
@@ -81,79 +81,79 @@ Live ──────────► Stopped
         Covered           Refilled
 ```
 
-| State    | `unlock()` behaviour                                          |
+| 상태    | `unlock()` 동작                                          |
 | -------- | ------------------------------------------------------------- |
-| Live     | Unlockable after lock expiry (`curr + 2 * EPOCH`)             |
-| Stopped  | Unlockable if lock predates stop epoch, or nothing was dumped |
-| Covered  | Only pre-stop locks unlockable (`lock.exp <= last`)           |
-| Refilled | All locks immediately unlockable                              |
+| Live     | 잠금 만료 후 해제 가능(`curr + 2 * EPOCH`)             |
+| Stopped  | 잠금이 중단 에포크보다 앞서거나 dumped 토큰이 없으면 해제 가능 |
+| Covered  | 중단 이전 잠금만 해제 가능(`lock.exp <= last`)           |
+| Refilled | 모든 잠금 즉시 해제 가능                              |
 
-**Key functions:**
+**주요 함수:**
 
-| Function     | Caller | Description                                         |
+| 함수     | 호출자 | 설명                                         |
 | ------------ | ------ | --------------------------------------------------- |
-| `queue(amt)` | staker | Withdraw from Stake into a time-locked position     |
-| `unlock(i)`  | staker | Claim a matured lock                                |
-| `stop()`     | auth   | Freeze queuing, snapshot dumped amount              |
-| `cover(dst)` | auth   | Forward `dumped` tokens to Stake for the insuree    |
-| `refill()`   | auth   | Clear dump, allow all stakers to unlock immediately |
+| `queue(amt)` | 참여자 | Stake에서 출금해 시간 잠금 포지션으로 이동     |
+| `unlock(i)`  | 참여자 | 잠금이 만료된 토큰 수령                                |
+| `stop()`     | auth   | 대기열 추가 중단, dumped 수량 스냅샷 저장              |
+| `cover(dst)` | auth   | 피보험자에게 지급할 `dumped` 토큰을 Stake로 전달    |
+| `refill()`   | auth   | dump를 비우고 모든 참여자의 잠금을 즉시 해제할 수 있게 처리 |
 
-## Lifecycle
+## 운영 흐름
 
-### Normal expiry
+### 정상 만기
 
 ```
-Insuree   inc() ──────────────────────────────────── refund()
+피보험자  inc() ──────────────────────────────────── refund()
                                                           ▲
-Stakers   deposit() ──► take()/restake() ──► exit() ─────┘
+참여자    deposit() ──► take()/restake() ──► exit() ─────┘
 ```
 
-The insuree funds rewards over `dur`. At expiry stakers call `exit()`. The insuree reclaims uncapped excess via `refund()`.
+피보험자는 `dur` 동안 지급할 보상을 마련한다. 만기가 되면 참여자는 `exit()`을 호출하고 피보험자는 `refund()`로 상한이 적용되지 않은 잔여 보상을 회수한다.
 
-### Claim (Cover path)
+### 보험금 청구(Cover 경로)
 
 ```
-Insuree   inc() ──────────────────────────── (claim event)
+피보험자  inc() ──────────────────────────── (보험금 청구)
                                                     │
-Auth      Stake.stop()                              │
+auth      Stake.stop()                              │
           Stake.settle(Cover)                       │
           WithdrawDelay.stop()                      │
-          WithdrawDelay.cover(dst) ────────────────►┘  dumped tokens → insuree
+          WithdrawDelay.cover(dst) ────────────────►┘  dumped 토큰 → 피보험자
 
-Stakers   deposit() ──► queue() ──► unlock()  (pre-stop locks only)
+참여자    deposit() ──► queue() ──► unlock()  (중단 이전 잠금만)
 ```
 
-1. Auth halts emissions: `Stake.stop()` + `WithdrawDelay.stop()` — `dumped` is snapshotted
-2. Auth settles: `Stake.settle(Cover)` + `WithdrawDelay.cover(dst)` — dumped tokens flow through `Stake.cover()` to the insuree
-3. Stakers with locks older than the stop epoch can `unlock()`; recent locks (within the two-epoch window) cannot
+1. auth가 `Stake.stop()`과 `WithdrawDelay.stop()`으로 보상 지급을 중단한다. 이때 `dumped`의 스냅샷을 저장한다.
+2. auth가 `Stake.settle(Cover)`와 `WithdrawDelay.cover(dst)`로 정산한다. dumped 토큰은 `Stake.cover()`를 거쳐 피보험자에게 전달된다.
+3. 중단 에포크보다 오래된 잠금은 `unlock()`으로 해제할 수 있지만 최근 2 에포크 안의 잠금은 해제할 수 없다.
 
-### No-claim (Exit / Refill path)
-
-```
-Auth      Stake.stop() ──► Stake.settle(Exit) ──► WithdrawDelay.refill()
-
-Stakers   exit()    (principal + rewards)
-          unlock()  (all queued positions)
-```
-
-No claim. All stakers recover principal and earned rewards. All WithdrawDelay locks become immediately unlockable.
-
-## Reward accounting
+### 보험금 청구 없음(Exit / Refill 경로)
 
 ```
-topped  total tokens deposited as rewards (inc + roll)
-paid    rewards transferred out (take, restake, exit, refund)
-keep    cap savings + pot captured at stop
+auth      Stake.stop() ──► Stake.settle(Exit) ──► WithdrawDelay.refill()
 
-invariants:
+참여자    exit()    (원금 + 보상)
+          unlock()  (대기 중인 모든 포지션)
+```
+
+보험금 청구가 없으면 모든 참여자가 원금과 적립된 보상을 돌려받는다. WithdrawDelay의 모든 잠금을 즉시 해제할 수 있다.
+
+## 보상 회계
+
+```
+topped  보상으로 예치된 토큰 총량(inc + roll)
+paid    외부로 지급한 보상(take, restake, exit, refund)
+keep    상한 적용으로 남은 보상 + 중단 시점에 확보한 pot
+
+불변 조건:
   topped >= paid
   bal(Stake) >= total + topped - paid
   bal(Stake) >= total + pot + calc(all stakers)
 ```
 
-The reward cap ensures `rewards_to_stakers <= total_staked / cov` over any duration, guaranteeing the insuree minimum coverage relative to rewards paid out.
+보상 상한은 어느 기간에나 `rewards_to_stakers <= total_staked / cov`를 유지해 피보험자에게 지급 보상 대비 최소 보장액을 보장한다.
 
-## Deployed contracts
+## 배포된 컨트랙트
 
 ```
 address constant TOKEN =0xb45d2DA802eD4848A1A25755802c26303f0334e2
@@ -162,7 +162,7 @@ address constant STAKE = 0x072090976ba290695c9871910317AC1B7d924Bb0
 address constant WITHDRAW_DELAY = 0x935CF6E1854539D81ac4350eA8EBe3B7ED65d1CB
 ```
 
-## Improvements
+## 개선 사항
 
-- Continuous (expires after last `inc` + `dur`)
-- Insuree vault
+- 지속 운영(마지막 `inc` 시점 + `dur` 후 만료)
+- 피보험자 볼트

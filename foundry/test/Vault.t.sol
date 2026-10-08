@@ -27,10 +27,10 @@ contract VaultTest is Test {
     }
 
     function test_inflation_attack() public {
-        // 1. Attacker deposits 1 token -> receives 1 share
-        // 2. Attacker donates X tokens
-        // 3. User deposits X tokens -> receives X * 1 / (X + 1) = 0 shares
-        // 4. Attacker withdraws 1 share -> receives X + (X + 1) tokens
+        // 1. 공격자가 토큰 1개 예치 -> 지분 1개 수령
+        // 2. 공격자가 토큰 X개 기부
+        // 3. 사용자가 토큰 X개 예치 -> 지분 X * 1 / (X + 1) = 0개 수령
+        // 4. 공격자가 지분 1개 인출 -> 토큰 X + (X + 1)개 수령
 
         // 1
         vm.prank(users[0]);

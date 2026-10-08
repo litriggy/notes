@@ -29,12 +29,12 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Exponential Moving Average",
+      "fontFamily": 2,
+      "text": "지수이동평균",
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Exponential Moving Average"
+      "originalText": "지수이동평균"
     },
     {
       "type": "line",
@@ -268,12 +268,12 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "EMA at time t",
+      "fontFamily": 2,
+      "text": "시점 t의 EMA",
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "EMA at time t"
+      "originalText": "시점 t의 EMA"
     },
     {
       "type": "text",
@@ -400,12 +400,12 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price at time t",
+      "fontFamily": 2,
+      "text": "시점 t의 가격",
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price at time t"
+      "originalText": "시점 t의 가격"
     },
     {
       "type": "text",
@@ -3746,13 +3746,13 @@
       "updated": 1679015563390,
       "link": null,
       "locked": false,
-      "text": "How is it exponential?",
+      "text": "왜 지수함수일까?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "How is it exponential?"
+      "originalText": "왜 지수함수일까?"
     },
     {
       "id": "dgQ537BQ_MCZeTshqg_mg",
@@ -4268,13 +4268,13 @@
       "updated": 1679016249765,
       "link": null,
       "locked": false,
-      "text": "Weighted average of the past\nand present prices",
+      "text": "과거와 현재 가격의\n가중평균",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Weighted average of the past\nand present prices"
+      "originalText": "과거와 현재 가격의\n가중평균"
     },
     {
       "type": "text",
@@ -10903,13 +10903,13 @@
       "updated": 1679015481420,
       "link": null,
       "locked": false,
-      "text": "Algorithm",
+      "text": "알고리즘",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm"
+      "originalText": "알고리즘"
     },
     {
       "id": "w0ZrUXpSpBsWPDXBNl9Db",
@@ -10936,13 +10936,13 @@
       "updated": 1679015623260,
       "link": null,
       "locked": false,
-      "text": "Expand",
+      "text": "전개",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Expand"
+      "originalText": "전개"
     },
     {
       "type": "text",

@@ -28,14 +28,14 @@
       "updated": 1651729964715,
       "link": null,
       "locked": false,
-      "text": "Uniswap V3 TWAP Inverse Price",
+      "text": "Uniswap V3 TWAP 역수 가격",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Uniswap V3 TWAP Inverse Price"
+      "originalText": "Uniswap V3 TWAP 역수 가격"
     },
     {
       "id": "bnOEclPQatURYuNto6zjC",
@@ -205,14 +205,14 @@
       "updated": 1651729964715,
       "link": null,
       "locked": false,
-      "text": "Price of token X in terms of Y",
+      "text": "Y 기준 토큰 X 가격",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "Price of token X in terms of Y"
+      "originalText": "Y 기준 토큰 X 가격"
     },
     {
       "type": "text",
@@ -342,13 +342,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "Price of token Y in terms of X",
+      "fontFamily": 2,
+      "text": "X 기준 토큰 Y 가격",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of token Y in terms of X"
+      "originalText": "X 기준 토큰 Y 가격"
     },
     {
       "id": "ZajBi_FcHeNbe3Dtmbzr9",
@@ -443,14 +443,14 @@
       "updated": 1651729964715,
       "link": null,
       "locked": false,
-      "text": "avg",
+      "text": "평균",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "rvEVvaweDoj1TZsrxXIDC",
@@ -655,13 +655,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "lAKorjrNfzHTNRo_UIXdZ",
@@ -2155,14 +2155,14 @@
       "updated": 1651729964716,
       "link": null,
       "locked": false,
-      "text": "= Tick for X",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "= X에 해당하는 틱",
+      "fontSize": 17.183384807974836,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "= Tick for X"
+      "originalText": "= X에 해당하는 틱"
     },
     {
       "type": "text",
@@ -2257,14 +2257,14 @@
       "updated": 1651729964716,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "= Tick for Y",
+      "fontSize": 16.90845065104724,
+      "fontFamily": 2,
+      "text": "= Y에 해당하는 틱",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "= Tick for Y"
+      "originalText": "= Y에 해당하는 틱"
     },
     {
       "id": "6EPg520nX-H7TWvSjIQO1",
@@ -2642,13 +2642,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "b5rqeJEXvSFxaOK8Nuo_7",
@@ -2777,14 +2777,14 @@
       "updated": 1651729964717,
       "link": null,
       "locked": false,
-      "text": "avg",
+      "text": "평균",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "5-DNiXnKbKYFE-XQGSDqF",
@@ -3921,13 +3921,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -5024,13 +5024,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -5160,13 +5160,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -6014,13 +6014,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "uRLuWSUilDCiqGrwYE63m",
@@ -6150,13 +6150,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "jKGNLhgY4KkP2j8NGVFAf",
@@ -6320,13 +6320,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -6714,13 +6714,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "4cJuV6epjP8vD6lauS4VB",
@@ -7398,13 +7398,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "YgAoYbK0us-OGEy_jN-kL",
@@ -7586,13 +7586,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -7763,13 +7763,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "s_wHkhK2VyV-_g2GKhyau",
@@ -7924,14 +7924,14 @@
       "updated": 1651730018766,
       "link": null,
       "locked": false,
-      "text": "in",
+      "text": "@",
       "fontSize": 36,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "in"
+      "originalText": "@"
     },
     {
       "id": "3Wq9C_w42jFKPN0LDZ2St",
@@ -8068,13 +8068,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "-thSLTBG31q9ll_KUm1Y8",
@@ -9239,13 +9239,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "id": "Nz04tb59CkSiYeqmsH9kr",
@@ -10537,13 +10537,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",
@@ -11605,14 +11605,14 @@
       "updated": 1651730312265,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "TrsrcadnXhFtgC9y-_gev",
@@ -12242,13 +12242,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "line",
@@ -12528,13 +12528,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "avg",
+      "fontFamily": 2,
+      "text": "평균",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "avg"
+      "originalText": "평균"
     },
     {
       "type": "text",

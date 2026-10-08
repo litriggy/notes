@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Algorithm to Approximate Decimal with Binary",
+      "fontFamily": 2,
+      "text": "십진수를 이진수로 근사하는 알고리즘",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm to Approximate Decimal with Binary"
+      "originalText": "십진수를 이진수로 근사하는 알고리즘"
     },
     {
       "type": "line",
@@ -171,14 +171,14 @@
       "updated": 1670136616428,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Find",
+      "fontSize": 20.423903938034076,
+      "fontFamily": 2,
+      "text": "구하기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Find"
+      "originalText": "구하기"
     },
     {
       "type": "text",
@@ -1438,14 +1438,14 @@
       "updated": 1670245333388,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "0 or 1",
+      "fontSize": 24.720658419212683,
+      "fontFamily": 2,
+      "text": "0 또는 1",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "0 or 1"
+      "originalText": "0 또는 1"
     },
     {
       "type": "text",
@@ -1473,13 +1473,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "where",
+      "fontFamily": 2,
+      "text": "여기서",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "where"
+      "originalText": "여기서"
     },
     {
       "type": "text",
@@ -1609,13 +1609,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Algorithm",
+      "fontFamily": 2,
+      "text": "알고리즘",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Algorithm"
+      "originalText": "알고리즘"
     },
     {
       "type": "line",
@@ -3830,13 +3830,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Geometric series with sum < 1",
+      "fontFamily": 2,
+      "text": "합이 1 미만인 등비급수",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Geometric series with sum < 1"
+      "originalText": "합이 1 미만인 등비급수"
     },
     {
       "type": "freedraw",
@@ -4774,14 +4774,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "for",
+      "fontSize": 24.855505735909396,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "for"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -4910,14 +4910,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.716770376511784,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -5046,14 +5046,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "then",
+      "fontSize": 23.12140068456688,
+      "fontFamily": 2,
+      "text": "그러면",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "then"
+      "originalText": "그러면"
     },
     {
       "type": "text",
@@ -5318,14 +5318,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "then",
+      "fontSize": 23.12140068456688,
+      "fontFamily": 2,
+      "text": "그러면",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "then"
+      "originalText": "그러면"
     },
     {
       "type": "text",
@@ -6474,14 +6474,14 @@
       "updated": 1670245333388,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "if",
+      "fontSize": 12.716770376511784,
+      "fontFamily": 2,
+      "text": "조건",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "if"
+      "originalText": "조건"
     },
     {
       "type": "text",
@@ -7111,7 +7111,7 @@
       "y": 15156.97133372179,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 1426365665,
       "groupIds": [],
@@ -7120,14 +7120,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -7145,7 +7145,7 @@
       "y": 15208.971333721793,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 50,
+      "width": 50.00000000000001,
       "height": 35,
       "seed": 2008306657,
       "groupIds": [],
@@ -7154,14 +7154,14 @@
       "updated": 1670159756821,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 19.267833903805734,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -7189,13 +7189,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Important insights",
+      "fontFamily": 2,
+      "text": "주요 통찰",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Important insights"
+      "originalText": "주요 통찰"
     },
     {
       "type": "line",
@@ -7290,13 +7290,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Multiply by 2 again to find",
+      "fontFamily": 2,
+      "text": "다시 2를 곱해 구하기:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Multiply by 2 again to find"
+      "originalText": "다시 2를 곱해 구하기:"
     },
     {
       "type": "text",
@@ -7418,13 +7418,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Example",
+      "fontFamily": 2,
+      "text": "예시",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "type": "line",

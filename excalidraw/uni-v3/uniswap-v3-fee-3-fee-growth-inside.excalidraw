@@ -289,13 +289,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Fee - Fee Growth Inside Ticks",
+      "fontFamily": 2,
+      "text": "Uniswap V3 수수료 - 틱 내부 수수료 증가량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Fee - Fee Growth Inside Ticks"
+      "originalText": "Uniswap V3 수수료 - 틱 내부 수수료 증가량"
     },
     {
       "type": "line",
@@ -670,14 +670,14 @@
       "updated": 1673150261872,
       "link": null,
       "locked": false,
-      "text": "lower",
+      "text": "하한",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "id": "_EPG0I4JyWQUCWdgKzFAb",
@@ -738,14 +738,14 @@
       "updated": 1673150261872,
       "link": null,
       "locked": false,
-      "text": "upper",
+      "text": "상한",
       "fontSize": 20,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "id": "-hsVU8rObJAPoE-wTzThn",
@@ -902,14 +902,14 @@
       "updated": 1673149395654,
       "link": null,
       "locked": false,
-      "text": "What is fee growth inside",
+      "text": "내부 수수료 증가량은?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What is fee growth inside"
+      "originalText": "내부 수수료 증가량은?"
     },
     {
       "type": "text",
@@ -971,13 +971,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "id": "H7xWsmVs5HBq_5CVaodrx",
@@ -1004,14 +1004,14 @@
       "updated": 1673149395654,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -1073,13 +1073,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "id": "61V4dxdXdbY1HqzCgfhbE",
@@ -1140,14 +1140,14 @@
       "updated": 1673150356892,
       "link": null,
       "locked": false,
-      "text": "fee growth inside ",
+      "text": "내부 수수료 증가량",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "fee growth inside "
+      "originalText": "내부 수수료 증가량"
     },
     {
       "type": "text",
@@ -1209,13 +1209,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -1242,14 +1242,14 @@
       "updated": 1673150353050,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -1311,13 +1311,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "id": "huq7QC9tNstuCuG9Nnm3L",
@@ -1447,13 +1447,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -1515,13 +1515,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "id": "jA5LUKDcygpzyBDPLjcrK",
@@ -1752,14 +1752,14 @@
       "updated": 1673150374415,
       "link": null,
       "locked": false,
-      "text": "below",
-      "fontSize": 20,
-      "fontFamily": 1,
+      "text": "아래쪽",
+      "fontSize": 19.65319305821629,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 18,
       "containerId": null,
-      "originalText": "below"
+      "originalText": "아래쪽"
     },
     {
       "type": "text",
@@ -1821,13 +1821,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "id": "ni5RKrnccufQyOxxNxvjo",
@@ -1991,13 +1991,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "above",
+      "fontFamily": 2,
+      "text": "위쪽",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "above"
+      "originalText": "위쪽"
     },
     {
       "type": "text",
@@ -2059,13 +2059,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -2220,14 +2220,14 @@
       "updated": 1673150294354,
       "link": null,
       "locked": false,
-      "fontSize": 20,
-      "fontFamily": 1,
-      "text": "below",
+      "fontSize": 19.65319305821629,
+      "fontFamily": 2,
+      "text": "아래쪽",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "below"
+      "originalText": "아래쪽"
     },
     {
       "type": "text",
@@ -2390,14 +2390,14 @@
       "updated": 1673150318668,
       "link": null,
       "locked": false,
-      "text": "Fee growth below i",
+      "text": "i 아래쪽 수수료 증가량",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Fee growth below i"
+      "originalText": "i 아래쪽 수수료 증가량"
     },
     {
       "type": "text",
@@ -2459,13 +2459,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "above",
+      "fontFamily": 2,
+      "text": "위쪽",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "above"
+      "originalText": "위쪽"
     },
     {
       "type": "text",
@@ -2629,13 +2629,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth above i",
+      "fontFamily": 2,
+      "text": "i 위쪽 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth above i"
+      "originalText": "i 위쪽 수수료 증가량"
     },
     {
       "id": "uJ02bWA7bOkqlZjNuuEas",
@@ -3119,13 +3119,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -3187,13 +3187,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -3581,13 +3581,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -3649,13 +3649,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -3819,13 +3819,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is fee growth inside",
+      "fontFamily": 2,
+      "text": "내부 수수료 증가량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is fee growth inside"
+      "originalText": "내부 수수료 증가량은?"
     },
     {
       "type": "text",
@@ -3887,13 +3887,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -3920,14 +3920,14 @@
       "updated": 1673149418544,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -3989,13 +3989,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -4220,14 +4220,14 @@
       "updated": 1673149418544,
       "link": null,
       "locked": false,
-      "text": "fee growth inside",
+      "text": "내부 수수료 증가량",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "fee growth inside"
+      "originalText": "내부 수수료 증가량"
     },
     {
       "id": "Ey6DZpIpvbeid4WOtKf3F",
@@ -4863,13 +4863,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -4931,13 +4931,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -5033,13 +5033,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is fee growth inside",
+      "fontFamily": 2,
+      "text": "내부 수수료 증가량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is fee growth inside"
+      "originalText": "내부 수수료 증가량은?"
     },
     {
       "type": "text",
@@ -5101,13 +5101,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -5134,14 +5134,14 @@
       "updated": 1673149436947,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -5203,13 +5203,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -5869,13 +5869,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "fee growth inside",
+      "fontFamily": 2,
+      "text": "내부 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "fee growth inside"
+      "originalText": "내부 수수료 증가량"
     },
     {
       "type": "text",
@@ -6235,13 +6235,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is fee growth inside",
+      "fontFamily": 2,
+      "text": "내부 수수료 증가량은?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is fee growth inside"
+      "originalText": "내부 수수료 증가량은?"
     },
     {
       "type": "text",
@@ -6303,13 +6303,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "lower",
+      "fontFamily": 2,
+      "text": "하한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "lower"
+      "originalText": "하한"
     },
     {
       "type": "text",
@@ -6336,14 +6336,14 @@
       "updated": 1673150261872,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "and",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
+      "text": "그리고",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -6405,13 +6405,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "upper",
+      "fontFamily": 2,
+      "text": "상한",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "upper"
+      "originalText": "상한"
     },
     {
       "type": "text",
@@ -7224,13 +7224,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "fee growth inside",
+      "fontFamily": 2,
+      "text": "내부 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "fee growth inside"
+      "originalText": "내부 수수료 증가량"
     },
     {
       "type": "text",
@@ -7589,14 +7589,14 @@
       "updated": 1673150261872,
       "link": null,
       "locked": false,
-      "text": "Equations",
+      "text": "방정식",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Equations"
+      "originalText": "방정식"
     }
   ],
   "appState": {

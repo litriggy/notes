@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Price of ETH from sqrtPriceX96",
+      "fontFamily": 2,
+      "text": "Uniswap V3 sqrtPriceX96으로 ETH 가격 구하기",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Price of ETH from sqrtPriceX96"
+      "originalText": "Uniswap V3 sqrtPriceX96으로 ETH 가격 구하기"
     },
     {
       "type": "line",
@@ -104,13 +104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "USDC / WETH pool",
+      "fontFamily": 2,
+      "text": "USDC / WETH 풀",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "USDC / WETH pool"
+      "originalText": "USDC / WETH 풀"
     },
     {
       "type": "text",
@@ -172,13 +172,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Current price on coingecko ",
+      "fontFamily": 2,
+      "text": "CoinGecko의 현재 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Current price on coingecko "
+      "originalText": "CoinGecko의 현재 가격"
     },
     {
       "type": "text",
@@ -306,13 +306,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of USDC in terms of ETH",
+      "fontFamily": 2,
+      "text": "ETH 기준 USDC 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of USDC in terms of ETH"
+      "originalText": "ETH 기준 USDC 가격"
     },
     {
       "type": "text",
@@ -340,13 +340,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of ETH in terms of USDC",
+      "fontFamily": 2,
+      "text": "USDC 기준 ETH 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of ETH in terms of USDC"
+      "originalText": "USDC 기준 ETH 가격"
     },
     {
       "id": "xTgodTvP3iHa8hQJJPHdu",
@@ -373,14 +373,14 @@
       "updated": 1665809729756,
       "link": null,
       "locked": false,
-      "text": "Price of ETH from",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음으로 구한 ETH 가격:",
+      "fontSize": 25.4203729337294,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of ETH from"
+      "originalText": "다음으로 구한 ETH 가격:"
     },
     {
       "id": "TaMIB-Mqp-hVIjq6wA004",
@@ -1010,14 +1010,14 @@
       "updated": 1665809729758,
       "link": null,
       "locked": false,
-      "text": "Find price of ETH from sqrtPriceX96",
+      "text": "sqrtPriceX96으로 ETH 가격 구하기",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Find price of ETH from sqrtPriceX96"
+      "originalText": "sqrtPriceX96으로 ETH 가격 구하기"
     },
     {
       "id": "rpLV5KG2lIRFr6LrdBf6T",
@@ -3612,14 +3612,14 @@
       "updated": 1665809729760,
       "link": null,
       "locked": false,
-      "text": "Price of ETH in terms of USDC",
+      "text": "USDC 기준 ETH 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of ETH in terms of USDC"
+      "originalText": "USDC 기준 ETH 가격"
     },
     {
       "type": "text",
@@ -3951,14 +3951,14 @@
       "updated": 1665809729760,
       "link": null,
       "locked": false,
-      "text": "What is",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "무엇인가?",
+      "fontSize": 26.64242893981113,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What is"
+      "originalText": "무엇인가?"
     },
     {
       "id": "He_-5J4CqVrovK6MIGIvN",
@@ -4162,14 +4162,14 @@
       "updated": 1665809729761,
       "link": null,
       "locked": false,
-      "text": "X = token 0",
+      "text": "X = 토큰 0",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "X = token 0"
+      "originalText": "X = 토큰 0"
     },
     {
       "id": "wlA02DLUYPaRWEwCKy7XM",
@@ -4196,14 +4196,14 @@
       "updated": 1665809729761,
       "link": null,
       "locked": false,
-      "text": "Y = token 1",
+      "text": "Y = 토큰 1",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Y = token 1"
+      "originalText": "Y = 토큰 1"
     },
     {
       "id": "YMGOMSBXmxCPsS7QQdFxD",
@@ -4230,14 +4230,14 @@
       "updated": 1665809729761,
       "link": null,
       "locked": false,
-      "text": "Price of X in terms of Y",
+      "text": "Y 기준 X 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of X in terms of Y"
+      "originalText": "Y 기준 X 가격"
     },
     {
       "id": "AXo6l2v806zJD0BpQXnHO",
@@ -4290,14 +4290,14 @@
       "updated": 1665809729761,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "MtAlKEImetf2zShdsAIfU",
@@ -5243,14 +5243,14 @@
       "updated": 1665809729762,
       "link": null,
       "locked": false,
-      "text": "ETH has 18 decimals",
+      "text": "ETH는 소수점 18자리",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "ETH has 18 decimals"
+      "originalText": "ETH는 소수점 18자리"
     },
     {
       "id": "H2t7pfrLrGRZzRhd1zx9V",
@@ -5277,14 +5277,14 @@
       "updated": 1665809729762,
       "link": null,
       "locked": false,
-      "text": "USDC has 6 decimals",
+      "text": "USDC는 소수점 6자리",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "USDC has 6 decimals"
+      "originalText": "USDC는 소수점 6자리"
     },
     {
       "type": "text",
@@ -8879,14 +8879,14 @@
       "updated": 1665809729767,
       "link": null,
       "locked": false,
-      "text": "What does this mean?",
+      "text": "무슨 뜻일까?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What does this mean?"
+      "originalText": "무슨 뜻일까?"
     },
     {
       "id": "ctJqxRzmkqDe8jt2nybOI",
@@ -9545,14 +9545,14 @@
       "updated": 1665809729767,
       "link": null,
       "locked": false,
-      "text": "1 unit of USDC = ",
+      "text": "USDC 1단위 =",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "1 unit of USDC = "
+      "originalText": "USDC 1단위 ="
     },
     {
       "type": "text",
@@ -9716,13 +9716,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "units of ETH",
+      "fontFamily": 2,
+      "text": "ETH 단위",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "units of ETH"
+      "originalText": "ETH 단위"
     },
     {
       "type": "text",
@@ -10054,14 +10054,14 @@
       "updated": 1665809729768,
       "link": null,
       "locked": false,
-      "text": "1 unit of ETH",
+      "text": "ETH 1단위",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "1 unit of ETH"
+      "originalText": "ETH 1단위"
     },
     {
       "id": "OEb9_c-ltG0IZKdniE4w8",
@@ -10258,14 +10258,14 @@
       "updated": 1665810132982,
       "link": null,
       "locked": false,
-      "text": "units of USDC",
+      "text": "USDC 단위",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "units of USDC"
+      "originalText": "USDC 단위"
     },
     {
       "id": "VcUje2JxE63cKwKMKZMWl",
@@ -13126,14 +13126,14 @@
       "updated": 1665809729769,
       "link": null,
       "locked": false,
-      "text": "What is ",
+      "text": "무엇인가?",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",
@@ -13228,14 +13228,14 @@
       "updated": 1665809729769,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "NUzs-ahS46ehpgZcQe42N",
@@ -13303,14 +13303,14 @@
       "updated": 1665809729769,
       "link": null,
       "locked": false,
-      "text": "Price of ETH",
+      "text": "ETH 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of ETH"
+      "originalText": "ETH 가격"
     },
     {
       "id": "dVTJTbn2Nn5QdWOFaK4jX",
@@ -14098,14 +14098,14 @@
       "updated": 1665810263179,
       "link": null,
       "locked": false,
-      "text": "Price of",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "다음의 가격:",
+      "fontSize": 22.742818516147683,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of"
+      "originalText": "다음의 가격:"
     },
     {
       "id": "WsEPlIvAs6sbC0ji1qxjY",
@@ -14309,14 +14309,14 @@
       "updated": 1665810354005,
       "link": null,
       "locked": false,
-      "text": "Price of 1 ETH",
+      "text": "1 ETH 가격",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Price of 1 ETH"
+      "originalText": "1 ETH 가격"
     },
     {
       "id": "eGKD6J--8hvETfjT4Anec",
@@ -14377,14 +14377,14 @@
       "updated": 1665810366431,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Price of",
+      "fontSize": 22.742818516147683,
+      "fontFamily": 2,
+      "text": "다음의 가격:",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Price of"
+      "originalText": "다음의 가격:"
     },
     {
       "type": "text",

@@ -107,13 +107,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Uniswap V3 Fee - Fee Growth Below",
+      "fontFamily": 2,
+      "text": "Uniswap V3 수수료 - 아래쪽 수수료 증가량",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Uniswap V3 Fee - Fee Growth Below"
+      "originalText": "Uniswap V3 수수료 - 아래쪽 수수료 증가량"
     },
     {
       "type": "line",
@@ -318,13 +318,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth at time t",
+      "fontFamily": 2,
+      "text": "시점 t의 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth at time t"
+      "originalText": "시점 t의 수수료 증가량"
     },
     {
       "type": "line",
@@ -775,13 +775,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Fee growth below tick i",
+      "fontFamily": 2,
+      "text": "틱 i 아래쪽 수수료 증가량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fee growth below tick i"
+      "originalText": "틱 i 아래쪽 수수료 증가량"
     },
     {
       "type": "text",
@@ -3168,13 +3168,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",
@@ -3345,13 +3345,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",
@@ -4617,13 +4617,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",
@@ -6241,13 +6241,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",
@@ -8284,13 +8284,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "What is ",
+      "fontFamily": 2,
+      "text": "무엇인가?",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "What is "
+      "originalText": "무엇인가?"
     },
     {
       "type": "text",

@@ -29,13 +29,13 @@
       "link": null,
       "locked": false,
       "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Constant Product Spot Price",
+      "fontFamily": 2,
+      "text": "상수곱 현물 가격",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Constant Product Spot Price"
+      "originalText": "상수곱 현물 가격"
     },
     {
       "type": "line",
@@ -104,13 +104,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "X = amount of token A in pool",
+      "fontFamily": 2,
+      "text": "X = 풀의 토큰 A 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "X = amount of token A in pool"
+      "originalText": "X = 풀의 토큰 A 수량"
     },
     {
       "type": "text",
@@ -138,13 +138,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Y = amount of token B in pool",
+      "fontFamily": 2,
+      "text": "Y = 풀의 토큰 B 수량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Y = amount of token B in pool"
+      "originalText": "Y = 풀의 토큰 B 수량"
     },
     {
       "type": "text",
@@ -172,13 +172,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "P = spot price of token A in terms of token B",
+      "fontFamily": 2,
+      "text": "P = 토큰 B 기준 토큰 A 현물 가격",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "P = spot price of token A in terms of token B"
+      "originalText": "P = 토큰 B 기준 토큰 A 현물 가격"
     },
     {
       "type": "text",
@@ -1465,13 +1465,13 @@
       "link": null,
       "locked": false,
       "fontSize": 20,
-      "fontFamily": 1,
-      "text": "slope =",
+      "fontFamily": 2,
+      "text": "기울기 =",
       "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "slope ="
+      "originalText": "기울기 ="
     },
     {
       "type": "line",
@@ -2092,13 +2092,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Swap equation",
+      "fontFamily": 2,
+      "text": "스왑 방정식",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Swap equation"
+      "originalText": "스왑 방정식"
     },
     {
       "type": "line",
@@ -2595,14 +2595,14 @@
       "updated": 1648895891240,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "slope",
+      "fontSize": 26.204254109175796,
+      "fontFamily": 2,
+      "text": "기울기",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "slope"
+      "originalText": "기울기"
     },
     {
       "type": "text",
@@ -3126,13 +3126,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "derivative of f, f'",
+      "fontFamily": 2,
+      "text": "f의 도함수 f'",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "derivative of f, f'"
+      "originalText": "f의 도함수 f'"
     },
     {
       "type": "text",
@@ -3390,13 +3390,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "P = Y / X from Calculus",
+      "fontFamily": 2,
+      "text": "미적분으로 구한 P = Y / X",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "P = Y / X from Calculus"
+      "originalText": "미적분으로 구한 P = Y / X"
     },
     {
       "type": "line",
@@ -3465,13 +3465,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "P = Y / X from geometry",
+      "fontFamily": 2,
+      "text": "기하학으로 구한 P = Y / X",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "P = Y / X from geometry"
+      "originalText": "기하학으로 구한 P = Y / X"
     },
     {
       "type": "line",
@@ -3540,13 +3540,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "-Y since Y is token out",
+      "fontFamily": 2,
+      "text": "Y는 출력 토큰이므로 -Y",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "-Y since Y is token out"
+      "originalText": "Y는 출력 토큰이므로 -Y"
     },
     {
       "type": "text",
@@ -3574,13 +3574,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "token A",
+      "fontFamily": 2,
+      "text": "토큰 A",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "token A"
+      "originalText": "토큰 A"
     },
     {
       "type": "text",
@@ -3608,13 +3608,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "token B",
+      "fontFamily": 2,
+      "text": "토큰 B",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "token B"
+      "originalText": "토큰 B"
     },
     {
       "type": "rectangle",

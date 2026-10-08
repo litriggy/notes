@@ -28,14 +28,14 @@
       "updated": 1674272848893,
       "link": null,
       "locked": false,
-      "text": "Uniswap V3 Capital Efficiency",
+      "text": "Uniswap V3 자본 효율성",
       "fontSize": 36,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 32,
       "containerId": null,
-      "originalText": "Uniswap V3 Capital Efficiency"
+      "originalText": "Uniswap V3 자본 효율성"
     },
     {
       "id": "d_DRJkR0khUfb7gV69_-H",
@@ -365,13 +365,13 @@
       "link": null,
       "locked": false,
       "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Liquidity delta in Uniswap V3",
+      "fontFamily": 2,
+      "text": "Uniswap V3의 유동성 변화량",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Liquidity delta in Uniswap V3"
+      "originalText": "Uniswap V3의 유동성 변화량"
     },
     {
       "type": "text",
@@ -3416,14 +3416,14 @@
       "updated": 1674272848893,
       "link": null,
       "locked": false,
-      "text": "Liquidity delta in Uniswap V2",
+      "text": "Uniswap V2의 유동성 변화량",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Liquidity delta in Uniswap V2"
+      "originalText": "Uniswap V2의 유동성 변화량"
     },
     {
       "type": "text",
@@ -3484,14 +3484,14 @@
       "updated": 1674272848893,
       "link": null,
       "locked": false,
-      "text": "Capital Efficiency",
+      "text": "자본 효율성",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Capital Efficiency"
+      "originalText": "자본 효율성"
     },
     {
       "type": "text",
@@ -4984,14 +4984,14 @@
       "updated": 1674272848894,
       "link": null,
       "locked": false,
-      "text": "Derivation",
+      "text": "유도",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Derivation"
+      "originalText": "유도"
     },
     {
       "id": "UdxHMe3UGlYELFLBg_Lqh",
@@ -5361,14 +5361,14 @@
       "updated": 1674272848894,
       "link": null,
       "locked": false,
-      "fontSize": 28,
-      "fontFamily": 1,
-      "text": "Big idea",
+      "fontSize": 20.48344956052269,
+      "fontFamily": 2,
+      "text": "핵심 아이디어",
       "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Big idea"
+      "originalText": "핵심 아이디어"
     },
     {
       "type": "line",
@@ -5436,14 +5436,14 @@
       "updated": 1674272848894,
       "link": null,
       "locked": false,
-      "text": "Compare change in liquidity between V2 and V3\nfor the same amount of tokens",
+      "text": "같은 토큰 수량에 대한\nV2와 V3의 유동성 변화량 비교",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 60,
       "containerId": null,
-      "originalText": "Compare change in liquidity between V2 and V3\nfor the same amount of tokens"
+      "originalText": "같은 토큰 수량에 대한\nV2와 V3의 유동성 변화량 비교"
     },
     {
       "type": "freedraw",
@@ -5697,14 +5697,14 @@
       "updated": 1674272848894,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "freedraw",
@@ -11743,14 +11743,14 @@
       "updated": 1674272848895,
       "link": null,
       "locked": false,
-      "text": "Set",
+      "text": "설정",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Set"
+      "originalText": "설정"
     },
     {
       "type": "text",
@@ -12157,14 +12157,14 @@
       "updated": 1674272848895,
       "link": null,
       "locked": false,
-      "text": "Geometric mean of",
+      "text": "다음의 기하평균:",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Geometric mean of"
+      "originalText": "다음의 기하평균:"
     },
     {
       "type": "text",
@@ -12259,14 +12259,14 @@
       "updated": 1674272848895,
       "link": null,
       "locked": false,
-      "text": "and",
-      "fontSize": 28,
-      "fontFamily": 1,
+      "text": "그리고",
+      "fontSize": 18.882477225729616,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "and"
+      "originalText": "그리고"
     },
     {
       "type": "text",
@@ -19984,14 +19984,14 @@
       "updated": 1674272848897,
       "link": null,
       "locked": false,
-      "text": "Example",
+      "text": "예시",
       "fontSize": 28,
-      "fontFamily": 1,
+      "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "Example"
+      "originalText": "예시"
     },
     {
       "id": "2dmMnJvd_-qTm1rWqn3S1",
@@ -20120,14 +20120,14 @@
       "updated": 1674272848897,
       "link": null,
       "locked": false,
-      "text": "of",
+      "text": "×",
       "fontSize": 28,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "of"
+      "originalText": "×"
     },
     {
       "type": "text",

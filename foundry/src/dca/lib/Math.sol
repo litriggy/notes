@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity 0.8.33;
 
-// T[i] = total deposit at time i                  (128 bits)
-// Q[i] = deposit deducted at time i               (128 bits)
-// D[i] = user's deposit after deduction at time i (128 bits)
+// T[i] = 시점 i의 총예치금                       (128 bits)
+// Q[i] = 시점 i에 차감한 예치금                   (128 bits)
+// D[i] = 시점 i에 차감한 뒤 사용자의 예치금        (128 bits)
 //      = D[i - 1] - Q[i] * D[i - 1] / T[i - 1]
 
-// User deposits at time K < N
+// 사용자가 시점 K < N에 예치
 // D[N] = D[K] * P[N] / P[K]
 
 // P[0] = 1
-// P[N] = prod(1 - Q[i] / T[i - 1]) for 1 <= i <= N (128 bits)
-// P[N] <= 1 for all N
+// P[N] = prod(1 - Q[i] / T[i - 1]), 범위: 1 <= i <= N (128 bits)
+// 모든 N에 대해 P[N] <= 1
 
-// B[i] = token bought at time i [128 bits]
-// V[N] = user's claim on token bought up to time N
+// B[i] = 시점 i에 매수한 토큰 [128 bits]
+// V[N] = 시점 N까지 매수한 토큰 중 사용자가 청구할 수 있는 수량
 //      = B[K + 1] * D[K] / T[K] + ... + B[N] * D[N - 1] / T[N - 1]
 //      = D[K] * (S[N] - S[K]) / P[K] [128 bits]
 
 // S[0] = 0
-// S[N] = sum(B[i] / T[i - 1] * P[i - 1]) for 1 <= i <= N (128 bits)
+// S[N] = sum(B[i] / T[i - 1] * P[i - 1]), 범위: 1 <= i <= N (128 bits)
 
-// M = u128 max
-// R[N] = reduction factor at time N (128 bits)
+// M = u128 최댓값
+// R[N] = 시점 N의 감소 계수 (128 bits)
 // R[0] = 0
 // R[N] = M - (M - R[N - 1]) * (1 - Q[N] / T[N - 1]) (128 bits)
 //             128 bits        128 bits
@@ -31,7 +31,7 @@ pragma solidity 0.8.33;
 // M - R[N] = M * P[N]
 
 // M - R[N] <= 128 bits
-// M * S[N] = sum(B[i] / T[i - 1] * (M - R[i - 1])) for 1 <= i <= N
+// M * S[N] = sum(B[i] / T[i - 1] * (M - R[i - 1])), 범위: 1 <= i <= N
 // M * S[N] <= 256 bits
 
 // D[N] = D[K] * P[N] / P[K]
@@ -42,12 +42,12 @@ pragma solidity 0.8.33;
 //      = D[K] * M * (S[N] - S[K]) / (M - R[K])
 //      <= 128 + 256 bits
 //
-// Y[i] = yield gain at time i
-// Same math as S[N], M * S[N] and V[N]
+// Y[i] = 시점 i의 수익
+// S[N], M * S[N], V[N]과 같은 계산
 // G[0] = 0
-// G[N] = sum(Y[i] / T[i - 1] * P[i - 1]) for 1 <= i <= N
-// M * G[N] = sum(Y[i] / T[i - 1] * (M - R[i - 1])) for 1 <= i <= N
-// W[N] = user's claim on yield gains up to time N
+// G[N] = sum(Y[i] / T[i - 1] * P[i - 1]), 범위: 1 <= i <= N
+// M * G[N] = sum(Y[i] / T[i - 1] * (M - R[i - 1])), 범위: 1 <= i <= N
+// W[N] = 시점 N까지 발생한 수익 중 사용자가 청구할 수 있는 금액
 //      = D[K] * M * (G[N] - G[K]) / (M - R[K])
 
 uint256 constant M = type(uint128).max;
@@ -186,4 +186,3 @@ library Math {
         return u128(muldiv(dk, mgn - mgk, M - rk));
     }
 }
-
